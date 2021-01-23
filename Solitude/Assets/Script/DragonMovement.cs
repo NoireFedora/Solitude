@@ -15,7 +15,7 @@ public class DragonMovement : MonoBehaviour
     private bool _moving = true;
 
     private float max_speed = 8f;
-    private float max_height = 20f;
+    // private float max_height = 20f;
 
     // private Animator _animator;
         
