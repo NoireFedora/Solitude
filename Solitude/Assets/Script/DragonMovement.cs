@@ -10,11 +10,12 @@ public class DragonMovement : MonoBehaviour
 
     private Rigidbody2D _rigidbody;
     private Transform _transform;
+    Animator animator;
 
     public bool _grounded = false;
     private bool _moving = true;
 
-    private float max_speed = 8f;
+    //private float max_speed = 8f;
     // private float max_height = 20f;
 
     // private Animator _animator;
@@ -24,6 +25,8 @@ public class DragonMovement : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody2D>();
         _transform = GetComponent<Transform>();
+        animator = GetComponent<Animator>();
+        animator.SetFloat("Horizontal", 0);
     }
 
     // Update is called once per frame
@@ -39,12 +42,14 @@ public class DragonMovement : MonoBehaviour
         if (!_moving)
             return;
 
-        if (_rigidbody.velocity.magnitude < max_speed)
-        {
-            _rigidbody.velocity += new Vector2(_playerInput * 0.5f, 0);
-        }
+        // if (_rigidbody.velocity.magnitude < max_speed)
+        //{
+        //    _rigidbody.velocity += new Vector2(_playerInput * 0.5f, 0);
+        //}
+        _rigidbody.velocity = new Vector2(_playerInput * 1f, _rigidbody.velocity.y);
 
         //_grounded = Physics2D.Raycast(transform.position, Vector3.down, 10);
+        animator.SetFloat("Horizontal", _playerInput);
 
         if (_userJumped)
         {   

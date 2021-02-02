@@ -7,27 +7,35 @@ public class MagicCube : MonoBehaviour
 
     private Animator _animator;
     private bool isClicked = false;
-    public playAudio gameAudio;
+    private bool isShowLog = false;
+    private playAudio _gameAudio;
     public AudioSource myAudioSource;
+
+    public GameObject SampleText;
 
     void Start()
     {
         _animator = GetComponent<Animator>();
-        gameAudio = GameObject.FindObjectOfType<playAudio>();
+        _gameAudio = GameObject.FindObjectOfType<playAudio>();
         myAudioSource = GetComponent<AudioSource>();
+        
+        SampleText = GameObject.Find("SampleText");
     }
 
     void OnMouseDown()
     {   
         isClicked = !(isClicked);
+        isShowLog = !(isShowLog);
 
         if (isClicked) {
-            gameAudio.togglePlay();
+            _gameAudio.togglePlay();
             myAudioSource.Play();
+            SampleText.SetActive(true);
         }
         else {
             myAudioSource.Stop();
-            gameAudio.togglePlay();
+            _gameAudio.togglePlay();
+            SampleText.SetActive(false);
         }
 
         _animator.SetBool("isClicked", isClicked);
