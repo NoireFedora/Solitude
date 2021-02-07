@@ -16,9 +16,14 @@ public class CharControl : MonoBehaviour
 
     public bool _grounded = false;
     private bool _moving = true;
+    public bool _talking = false;
+    public bool _thinking= false;
 
     public float handDistance;
     public bool inAction;
+
+    public GameObject speechGUI;
+    public GameObject thoughtGUI;
 
     //private float max_speed = 8f;
     // private float max_height = 20f;
@@ -32,6 +37,7 @@ public class CharControl : MonoBehaviour
         _transform = GetComponent<Transform>();
         animator = GetComponent<Animator>();
         animator.SetFloat("Horizontal", 0);
+        animator.SetFloat("Vertical", 0);
     }
 
     // Update is called once per frame
@@ -44,6 +50,26 @@ public class CharControl : MonoBehaviour
         if (Input.GetButtonDown("Interact") && _selectedObject)
         {
             _selectedObject.GetComponent<InteractController>().interact();
+        }
+        if (_talking)
+        {   
+            speechGUI.SetActive(true);
+            SetMovement(false);
+        }
+        if (_thinking)
+        {   
+            thoughtGUI.SetActive(true);
+            SetMovement(false);
+        }
+        if (!_talking)
+        {
+            speechGUI.SetActive(false);
+            SetMovement(true);
+        }
+        if (!_thinking)
+        {
+            thoughtGUI.SetActive(false);
+            SetMovement(true);
         }
     }
 
@@ -62,6 +88,7 @@ public class CharControl : MonoBehaviour
 
             //_grounded = Physics2D.Raycast(transform.position, Vector3.down, 10);
             animator.SetFloat("Horizontal", _playerInputH);
+            animator.SetFloat("Vertical", _playerInputV);
 
             if (_userJumped)
             {
@@ -109,9 +136,16 @@ public class CharControl : MonoBehaviour
     public void SetMovement(bool moveEnabled)
     {
         _moving = moveEnabled;
-        if (!moveEnabled)
+
+        if (moveEnabled)
         {
+            _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
+        }
+
+        if (!moveEnabled)
+        {   
             _rigidbody.velocity = Vector3.zero;
+            _rigidbody.constraints = RigidbodyConstraints.FreezeAll;
         }
     }
 
