@@ -25,6 +25,15 @@ public class LevelLoader : MonoBehaviour
                 LoadNextLevel();
             }
         }
+
+        if (SceneManager.GetActiveScene().buildIndex == 2)
+        {
+            GameObject mainChar = GameObject.Find("MainChar 3D");
+            if (mainChar.transform.position.y < -10)
+            {
+                LoadNextLevel();
+            }
+        }
     }
 
     public void LoadNextLevel() {

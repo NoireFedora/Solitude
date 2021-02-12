@@ -28,13 +28,13 @@ public class BedController : MonoBehaviour, ISInteractable
 
     void ISInteractable.interact()
     {   
-        if (!mainChar.GetComponent<CharControl>()._talking)
+        if (!mainChar.GetComponent<CharControl>().talking)
         {
-            mainChar.GetComponent<CharControl>()._talking = true;
+            mainChar.GetComponent<CharControl>().startTalking();
         }
         else
         {
-            mainChar.GetComponent<CharControl>()._talking = false;
+            mainChar.GetComponent<CharControl>().endTalking();
         }
     }
 

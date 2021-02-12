@@ -1,19 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
-public class SpeechBalloon : MonoBehaviour
-{   
+public class Scene1Controller : MonoBehaviour
+{
     // Start is called before the first frame update
     void Start()
     {
-        gameObject.SetActive(false);
+        CharControl mainChar = GameObject.Find("MainChar 3D").GetComponent<CharControl>();
+        mainChar.weakingUp = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
     }
 }
