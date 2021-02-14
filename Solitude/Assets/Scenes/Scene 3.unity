@@ -379,7 +379,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 417387349cb89e342a7f721250fae590, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -589,7 +589,7 @@ MonoBehaviour:
   bridge: {fileID: 1410670950}
   otherLever: {fileID: 1129417750}
   bridgeSpeed: -0.01
-  bridgeDistance: -2
+  bridgeDistance: -1.5
   isFix: 0
 --- !u!1 &899615539
 GameObject:
@@ -618,8 +618,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899615539}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -21.214085, y: 0.1500001, z: 13.543093}
-  m_LocalScale: {x: 6, y: 1, z: 10}
+  m_LocalPosition: {x: -20, y: 0, z: 13.5}
+  m_LocalScale: {x: 10, y: 0.1, z: 10}
   m_Children: []
   m_Father: {fileID: 970155011}
   m_RootOrder: 0
@@ -655,7 +655,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3f628a1cfd6735f42819f7ecc11fa24b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -916,7 +916,7 @@ MonoBehaviour:
   bridge: {fileID: 1537107532}
   otherLever: {fileID: 575154527}
   bridgeSpeed: 0.01
-  bridgeDistance: 2
+  bridgeDistance: 1.5
   isFix: 0
 --- !u!1 &1410670950
 GameObject:
@@ -945,7 +945,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1410670950}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.964085, y: 0.5999999, z: 13.543093}
+  m_LocalPosition: {x: -23.75, y: 0, z: 13.543093}
   m_LocalScale: {x: 2.5, y: 0.1, z: 1}
   m_Children: []
   m_Father: {fileID: 970155011}
@@ -1038,8 +1038,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430041849}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.214085, y: 0.1500001, z: 13.543093}
-  m_LocalScale: {x: 2, y: 1, z: 10}
+  m_LocalPosition: {x: -33, y: 0, z: 13.543093}
+  m_LocalScale: {x: 10, y: 0.1, z: 10}
   m_Children: []
   m_Father: {fileID: 970155011}
   m_RootOrder: 2
@@ -1075,7 +1075,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 3f628a1cfd6735f42819f7ecc11fa24b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1131,7 +1131,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1537107532}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -29.464085, y: 0.5999999, z: 13.543093}
+  m_LocalPosition: {x: -29.25, y: 0, z: 13.543093}
   m_LocalScale: {x: 2.5, y: 0.1, z: 1}
   m_Children: []
   m_Father: {fileID: 970155011}
@@ -1293,7 +1293,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1646722042}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -23.714085, y: -5.3499994, z: 13.543093}
+  m_LocalPosition: {x: -24.5, y: -5.01, z: 13.543093}
   m_LocalScale: {x: 1, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 970155011}
@@ -1497,7 +1497,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 417387349cb89e342a7f721250fae590, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1590,7 +1590,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 417387349cb89e342a7f721250fae590, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1745,7 +1745,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036453373}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -28.714085, y: -5.3499994, z: 13.543093}
+  m_LocalPosition: {x: -28.5, y: -5.01, z: 13.543093}
   m_LocalScale: {x: 1, y: 10, z: 10}
   m_Children: []
   m_Father: {fileID: 970155011}

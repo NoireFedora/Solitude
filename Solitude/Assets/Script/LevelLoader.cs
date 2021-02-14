@@ -5,9 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-    private LaptopController _laptopController;
     public Animator transition;
     public float transitionTime = 3f;
+
+    private LaptopController _laptopController;
+    private Scene2Controller _scene2Controller;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +25,15 @@ public class LevelLoader : MonoBehaviour
             bool isOpen = _laptopController.InteractedWithLaptop();
             
             if (isOpen) {
+                LoadNextLevel();
+            }
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 1) {
+            _scene2Controller = GameObject.FindObjectOfType<Scene2Controller>();
+            bool goNext = _scene2Controller.CanGoNext();
+            
+            if (goNext) {
                 LoadNextLevel();
             }
         }

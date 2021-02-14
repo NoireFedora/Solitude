@@ -14,19 +14,21 @@ public class CharControl : MonoBehaviour
     private GameObject _holdingObject;
     Animator animator;
 
-    public bool _jumped = false;
-    public bool _grounded = true;
-    public bool _moving = true;
-    private bool _talking = false;
+    public bool _jumped;
+    public bool _grounded;
+    public bool _moving;
+    private bool _talking;
     public bool talking { get {return _talking; } }
-    private bool _thinking= false;
+    private bool _thinking;
     public bool thinking { get { return _thinking; } }
     public bool inAction;
     public bool inAnimation;
-    public bool can_interact = false;
+    public bool can_interact;
     public bool weakingUp;
+    public float direction;
 
     public float handDistance;
+    public float speedMultiplier = 1f;
 
     public GameObject speechGUI;
     public GameObject thoughtGUI;
@@ -40,7 +42,14 @@ public class CharControl : MonoBehaviour
         animator = GetComponent<Animator>();
         animator.SetFloat("Horizontal", 0);
         animator.SetFloat("Vertical", 0);
+        _jumped = false;
+        _grounded = true;
+        _moving = true;
+        _talking = false;
+        _thinking= false;
         inAction = false;
+        can_interact = false;
+        direction = 0;
     }
 
     // Update is called once per frame
@@ -101,10 +110,30 @@ public class CharControl : MonoBehaviour
 
         if (!inAction && !inAnimation)
         {
-            _rigidbody.velocity = new Vector3(_playerInputH * 1f, _rigidbody.velocity.y, _playerInputV * 1f);
+            _rigidbody.velocity = new Vector3(_playerInputH * speedMultiplier, _rigidbody.velocity.y, _playerInputV * speedMultiplier);
             _transform.position += new Vector3(0, 0.001f, 0); // make player wont stuck on small gap
             animator.SetFloat("Horizontal", _playerInputH);
             animator.SetFloat("Vertical", _playerInputV);
+
+            // If you find a better way to record the last direction, feel free to edit
+            if (_playerInputH < 0)
+            {
+                if (_playerInputV < 0) direction = 1f;
+                else if (_playerInputV == 0) direction = 2f;
+                else if (_playerInputV > 0) direction = 3f;
+            }
+            else if (_playerInputH == 0)
+            {   
+                if (_playerInputV < 0) direction = 0f;
+                else if (_playerInputV > 0) direction = 4f;
+            }
+            else if (_playerInputH > 0)
+            {   
+                if (_playerInputV < 0) direction = 7f;
+                else if (_playerInputV == 0) direction = 6f;
+                else if (_playerInputV > 0) direction = 5f;
+            }
+            animator.SetFloat("LastKey", direction);
 
             // Currently Jump is disabled. Uncomment to enable
             //if (_jumped)
@@ -141,10 +170,7 @@ public class CharControl : MonoBehaviour
                 _selectedObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("selected");
                 interactUI.SetActive(true);
             }
-            else
-            {
-                interactUI.SetActive(false);
-            }
+            else interactUI.SetActive(false);
         }
         else
         {   
@@ -164,10 +190,7 @@ public class CharControl : MonoBehaviour
     {
         _moving = moveEnabled;
 
-        if (moveEnabled)
-        {
-            _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
-        }
+        if (moveEnabled) _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
 
         if (!moveEnabled)
         {   

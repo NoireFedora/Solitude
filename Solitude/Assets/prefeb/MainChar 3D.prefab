@@ -111,7 +111,6 @@ GameObject:
   - component: {fileID: 8228945697611527294}
   - component: {fileID: 5896824326624365838}
   - component: {fileID: 1278542811116286820}
-  - component: {fileID: 6542960236415934017}
   m_Layer: 5
   m_Name: SpeechGUI
   m_TagString: Untagged
@@ -199,25 +198,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!95 &6542960236415934017
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 535875721775715845}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 71c9818eefda31142b73e1a0411de2b2, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1295109859867627619
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,14 +585,16 @@ MonoBehaviour:
   _jumped: 0
   _grounded: 0
   _moving: 1
-  _talking: 0
-  _thinking: 0
   inAction: 0
   inAnimation: 0
+  can_interact: 0
   weakingUp: 0
+  direction: 0
   handDistance: 0.1
+  speedMultiplier: 1
   speechGUI: {fileID: 535875721775715845}
   thoughtGUI: {fileID: 84181006955087702}
+  interactUI: {fileID: 0}
 --- !u!54 &4216690873137974509
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -653,7 +635,6 @@ GameObject:
   - component: {fileID: 3847249319045237578}
   - component: {fileID: 8305425413396690327}
   - component: {fileID: 548409931469973341}
-  - component: {fileID: 3590706097943422411}
   m_Layer: 5
   m_Name: SpeechBalloon
   m_TagString: Untagged
@@ -719,28 +700,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &3590706097943422411
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6634148914085896124}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8c700ae450510e644b687f80d88cb16e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sprites:
-  - {fileID: -435370054483237967, guid: a57fcefeae0b7ea41811261607d16801, type: 3}
-  - {fileID: 3208782807759446207, guid: a57fcefeae0b7ea41811261607d16801, type: 3}
-  - {fileID: -5479436491413384549, guid: a57fcefeae0b7ea41811261607d16801, type: 3}
-  - {fileID: 8165424808707509261, guid: a57fcefeae0b7ea41811261607d16801, type: 3}
-  - {fileID: -600992292514918584, guid: a57fcefeae0b7ea41811261607d16801, type: 3}
-  - {fileID: -2991330755081376022, guid: a57fcefeae0b7ea41811261607d16801, type: 3}
-  spritePerFrame: 1
-  loop: 1
-  destroyOnEnd: 0
 --- !u!1 &6670528888186434948
 GameObject:
   m_ObjectHideFlags: 0
