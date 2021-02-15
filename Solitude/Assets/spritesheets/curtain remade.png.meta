@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: 6dda9824e94d03c48a0bd3c74904a217
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3967219177601241298
+    second: curtain remade_0
+  - first:
+      213: -8856750531730012695
+    second: curtain remade_1
+  - first:
+      213: 6574822004731510040
+    second: curtain remade_2
+  - first:
+      213: -4309543089092316956
+    second: curtain remade_3
+  - first:
+      213: -2596800747911187266
+    second: curtain remade_4
+  - first:
+      213: -8200652886619835361
+    second: curtain remade_5
+  - first:
+      213: 1681576827823871494
+    second: curtain remade_6
+  - first:
+      213: -4832453600056312556
+    second: curtain remade_7
+  - first:
+      213: -7186201853611185526
+    second: curtain remade_8
+  - first:
+      213: -4304565135039473369
+    second: curtain remade_9
+  - first:
+      213: -5900559736190146901
+    second: curtain remade_10
+  - first:
+      213: 4807611254899314700
+    second: curtain remade_11
+  - first:
+      213: -8198388694747762042
+    second: curtain remade_12
+  - first:
+      213: 5669877579729356197
+    second: curtain remade_13
+  - first:
+      213: -4723574698885729384
+    second: curtain remade_14
+  - first:
+      213: 5161175605274334893
+    second: curtain remade_15
+  - first:
+      213: -3979600842690924651
+    second: curtain remade_16
+  - first:
+      213: 2030741194541252342
+    second: curtain remade_17
+  - first:
+      213: 360067621752695844
+    second: curtain remade_18
+  - first:
+      213: 6224010064801062140
+    second: curtain remade_19
+  - first:
+      213: 6528655312867105325
+    second: curtain remade_20
+  - first:
+      213: 876965065525707580
+    second: curtain remade_21
+  - first:
+      213: 1186876358388913429
+    second: curtain remade_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: curtain remade_0
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 2189
+        width: 426
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fe5fc5d2b91f8c0800000000000000
+      internalID: -3967219177601241298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_1
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 2179
+        width: 426
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e50bf30150861580800000000000000
+      internalID: -8856750531730012695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_2
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 2179
+        width: 426
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81d717547c57e3b50800000000000000
+      internalID: 6574822004731510040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_3
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 2177
+        width: 436
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e0b966b46d6134c0800000000000000
+      internalID: -4309543089092316956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_4
+      rect:
+        serializedVersion: 2
+        x: 2823
+        y: 2179
+        width: 455
+        height: 391
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4f84c6a7f46fbd0800000000000000
+      internalID: -2596800747911187266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_5
+      rect:
+        serializedVersion: 2
+        x: 3491
+        y: 2183
+        width: 466
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f143eb606ad613e80800000000000000
+      internalID: -8200652886619835361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_6
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 1500
+        width: 478
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60658fc2739265710800000000000000
+      internalID: 1681576827823871494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_7
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 1503
+        width: 488
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41df51fdd0dafecb0800000000000000
+      internalID: -4832453600056312556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_8
+      rect:
+        serializedVersion: 2
+        x: 1411
+        y: 1515
+        width: 506
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a604ffc7b754c90800000000000000
+      internalID: -7186201853611185526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_9
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 1513
+        width: 500
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729d075f0dc1344c0800000000000000
+      internalID: -4304565135039473369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_10
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 1515
+        width: 500
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6e964be200d1ea0800000000000000
+      internalID: -5900559736190146901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_11
+      rect:
+        serializedVersion: 2
+        x: 3461
+        y: 1517
+        width: 496
+        height: 373
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00917ae6f018b240800000000000000
+      internalID: 4807611254899314700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_12
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 852
+        width: 494
+        height: 359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6823bf64be8793e80800000000000000
+      internalID: -8198388694747762042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_13
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 850
+        width: 498
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a548b35e937fae40800000000000000
+      internalID: 5669877579729356197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_14
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 850
+        width: 517
+        height: 361
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 893b4e286dd727eb0800000000000000
+      internalID: -4723574698885729384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_15
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 848
+        width: 506
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da6d9cf2edd20a740800000000000000
+      internalID: 5161175605274334893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_16
+      rect:
+        serializedVersion: 2
+        x: 2776
+        y: 840
+        width: 502
+        height: 371
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fef8f4e1e95c8c0800000000000000
+      internalID: -3979600842690924651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_17
+      rect:
+        serializedVersion: 2
+        x: 3477
+        y: 836
+        width: 480
+        height: 375
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe326b6b54ae2c10800000000000000
+      internalID: 2030741194541252342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_18
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 152
+        width: 448
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42c60b128973ff400800000000000000
+      internalID: 360067621752695844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_19
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 152
+        width: 446
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc5cee7d20206650800000000000000
+      internalID: 6224010064801062140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_20
+      rect:
+        serializedVersion: 2
+        x: 1491
+        y: 150
+        width: 426
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2a1960ba617a9a50800000000000000
+      internalID: 6528655312867105325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_21
+      rect:
+        serializedVersion: 2
+        x: 2171
+        y: 150
+        width: 426
+        height: 381
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c33461ba41b9b2c00800000000000000
+      internalID: 876965065525707580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: curtain remade_22
+      rect:
+        serializedVersion: 2
+        x: 2852
+        y: 152
+        width: 426
+        height: 379
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515941672c1a87010800000000000000
+      internalID: 1186876358388913429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5d6575c0a7b48054183602d8a29ccf2d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 2ec1ed9656abb83428176fcddec485ba
+guid: 0abed4dd8a09bd74c9cf2ef2f86668c3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7509860518518112746
-    second: torch_0
+      213: 4167022022352024123
+    second: Dooropen_0
   - first:
-      213: 6717470441782034276
-    second: torch_1
+      213: -5579798481095146991
+    second: Dooropen_1
   - first:
-      213: 5030290666744600015
-    second: torch_2
+      213: 1572236218940469517
+    second: Dooropen_2
   - first:
-      213: 6557094435153962602
-    second: torch_3
+      213: 7481640497227136704
+    second: Dooropen_3
   - first:
-      213: 8954718260495684846
-    second: torch_4
-  - first:
-      213: 55424227239665773
-    second: torch_5
+      213: 4933685074472465446
+    second: Dooropen_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -50,7 +47,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
@@ -117,13 +114,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: torch_0
+      name: Dooropen_0
       rect:
         serializedVersion: 2
-        x: 475
-        y: 278
-        width: 7
-        height: 19
+        x: 18
+        y: 59
+        width: 165
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +128,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae1c0074a52683860800000000000000
-      internalID: 7509860518518112746
+      spriteID: b32b585937c34d930800000000000000
+      internalID: 4167022022352024123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torch_1
+      name: Dooropen_1
       rect:
         serializedVersion: 2
-        x: 664
-        y: 294
-        width: 5
-        height: 9
+        x: 209
+        y: 59
+        width: 165
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 46fba9fa6cf393d50800000000000000
-      internalID: 6717470441782034276
+      spriteID: 1124f0038d29092b0800000000000000
+      internalID: -5579798481095146991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torch_2
+      name: Dooropen_2
       rect:
         serializedVersion: 2
-        x: 60
-        y: 130
-        width: 58
-        height: 147
+        x: 400
+        y: 59
+        width: 165
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc55644b5be2fc540800000000000000
-      internalID: 5030290666744600015
+      spriteID: d0133f4d284b1d510800000000000000
+      internalID: 1572236218940469517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torch_3
+      name: Dooropen_3
       rect:
         serializedVersion: 2
-        x: 251
-        y: 130
-        width: 58
-        height: 155
+        x: 591
+        y: 59
+        width: 165
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a66ea06d5aa7ffa50800000000000000
-      internalID: 6557094435153962602
+      spriteID: 0ce766e846024d760800000000000000
+      internalID: 7481640497227136704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torch_4
+      name: Dooropen_4
       rect:
         serializedVersion: 2
-        x: 443
-        y: 130
-        width: 57
-        height: 139
+        x: 782
+        y: 59
+        width: 165
+        height: 255
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,29 +212,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee49c8450dc854c70800000000000000
-      internalID: 8954718260495684846
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torch_5
-      rect:
-        serializedVersion: 2
-        x: 631
-        y: 130
-        width: 60
-        height: 147
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6022908a08e4c000800000000000000
-      internalID: 55424227239665773
+      spriteID: 624f3997f68f77440800000000000000
+      internalID: 4933685074472465446
       vertices: []
       indices: 
       edges: []
@@ -245,7 +221,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 234e7329d2ee1e044ad3f7d0ca1a6937
     internalID: 0
     vertices: []
     indices: 
