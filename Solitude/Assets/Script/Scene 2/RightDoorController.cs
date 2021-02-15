@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RightDoorController : MonoBehaviour, ISInteractable
 {   
-    public GameObject leftDoor;
+    private LeftDoorController _leftDoorController;
     public SceneFade _sceneFade;
     private Material _charLight;
     private Material _wallLight;
@@ -12,6 +12,7 @@ public class RightDoorController : MonoBehaviour, ISInteractable
     private float _charThreshold;
     private float _wallThreshold;
     private float _floorThreshold;
+    private bool canOpen;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,9 @@ public class RightDoorController : MonoBehaviour, ISInteractable
         _floorThreshold = _floorLight.GetFloat("_Threshold");
         _floorThreshold = 0.0f;
         _floorLight.SetFloat("_Threshold", _floorThreshold);
+
+        _leftDoorController = GameObject.FindObjectOfType<LeftDoorController>();
+        canOpen = true;
     }
 
     // Update is called once per frame
@@ -41,15 +45,19 @@ public class RightDoorController : MonoBehaviour, ISInteractable
 
     void ISInteractable.interact()
     {   
-        StartCoroutine(Transition());
+        if (canOpen) {
+            StartCoroutine(Transition());
+        }
     }
 
     IEnumerator Transition()
     {   
         _sceneFade.BackGroundControl(true);
         yield return new WaitForSeconds(2.0f);
-        leftDoor.SetActive(true);
-        gameObject.SetActive(false);
+        // leftDoor.SetActive(true);
+        // gameObject.SetActive(false);
+        _leftDoorController.SetOpen();
+        canOpen = false;
 
         _charThreshold = 1.0f;
         _charLight.SetFloat("_Threshold", _charThreshold);
