@@ -40,10 +40,11 @@ public class LightController : MonoBehaviour, ISInteractable
         {
             _interactCounter--;
         }
+
     }
 
     void ISInteractable.interact()
-    {
+    {   
         if (_interactCounter <= 0)
         {   
             if (isOpen) {
@@ -52,15 +53,16 @@ public class LightController : MonoBehaviour, ISInteractable
                 _lightsOffMusic.Stop(); 
                 _gameAudio.togglePlay();
                 isOpen = !isOpen;
-                _interactUI.color = new Color32(0, 0, 0, 255);
+                _interactUI.color = Color.black;
+                _interactUI.faceColor = Color.black;
             } else {
                 _threshold = 1.0f;
                 _objectLight.SetFloat("_Threshold", _threshold);
                 _gameAudio.togglePlay();
                 _lightsOffMusic.Play();  
                 isOpen = !isOpen;
-                TextMeshPro temp2 = _interactUI.GetComponent<TextMeshPro>();
-                _interactUI.color = new Color32(255, 255, 255, 255);
+                _interactUI.color = Color.red;
+                _interactUI.faceColor = Color.red; 
             }
             _interactCounter = _interactCD;
         }

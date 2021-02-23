@@ -1,0 +1,1868 @@
+fileFormatVersion: 2
+guid: 8f9177a3f264d564db07e41f70928fbf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4721072101625578675
+    second: outofbed_0
+  - first:
+      213: 95310003550499193
+    second: outofbed_1
+  - first:
+      213: 3308923050220476456
+    second: outofbed_2
+  - first:
+      213: 4428991206791024265
+    second: outofbed_3
+  - first:
+      213: 8439554701702434278
+    second: outofbed_4
+  - first:
+      213: -68031178299528575
+    second: outofbed_5
+  - first:
+      213: 2451362964768988115
+    second: outofbed_6
+  - first:
+      213: -5874728233398749864
+    second: outofbed_7
+  - first:
+      213: -4911850838758843529
+    second: outofbed_8
+  - first:
+      213: -2821358701013873631
+    second: outofbed_9
+  - first:
+      213: 2683012165647510407
+    second: outofbed_10
+  - first:
+      213: 2467396532909299256
+    second: outofbed_11
+  - first:
+      213: 6410051365492536803
+    second: outofbed_12
+  - first:
+      213: -8867621273540070191
+    second: outofbed_13
+  - first:
+      213: -6605966099286742804
+    second: outofbed_14
+  - first:
+      213: -6305127317407495224
+    second: outofbed_15
+  - first:
+      213: 6668905371773768603
+    second: outofbed_16
+  - first:
+      213: 138377855155996832
+    second: outofbed_17
+  - first:
+      213: 5623766771279799215
+    second: outofbed_18
+  - first:
+      213: -1417598464407016278
+    second: outofbed_19
+  - first:
+      213: 8334459644725365672
+    second: outofbed_20
+  - first:
+      213: -3855175252014371544
+    second: outofbed_21
+  - first:
+      213: -9036757434547499901
+    second: outofbed_22
+  - first:
+      213: -8137944304813452767
+    second: outofbed_23
+  - first:
+      213: -4034797636450687818
+    second: outofbed_24
+  - first:
+      213: 686149956697389320
+    second: outofbed_25
+  - first:
+      213: -3281756920960604623
+    second: outofbed_26
+  - first:
+      213: 1515002051664011295
+    second: outofbed_27
+  - first:
+      213: 114046802211938753
+    second: outofbed_28
+  - first:
+      213: -8086538861801049733
+    second: outofbed_29
+  - first:
+      213: 7806727421473687795
+    second: outofbed_30
+  - first:
+      213: -5369427122755694512
+    second: outofbed_31
+  - first:
+      213: -8547269483514398620
+    second: outofbed_32
+  - first:
+      213: -6927113439609731881
+    second: outofbed_33
+  - first:
+      213: 5851506141281475952
+    second: outofbed_34
+  - first:
+      213: -2545355060772698861
+    second: outofbed_35
+  - first:
+      213: 8868990342287008469
+    second: outofbed_36
+  - first:
+      213: -6227346136279091172
+    second: outofbed_37
+  - first:
+      213: 4673055258080332740
+    second: outofbed_38
+  - first:
+      213: -557848753804447313
+    second: outofbed_39
+  - first:
+      213: 411242090072054131
+    second: outofbed_40
+  - first:
+      213: 732154729825806867
+    second: outofbed_41
+  - first:
+      213: 953124715616321016
+    second: outofbed_42
+  - first:
+      213: -6800177504399213119
+    second: outofbed_43
+  - first:
+      213: 230407527128611163
+    second: outofbed_44
+  - first:
+      213: -4270295112845374964
+    second: outofbed_45
+  - first:
+      213: 2997249007806422730
+    second: outofbed_46
+  - first:
+      213: -6661624314631876526
+    second: outofbed_47
+  - first:
+      213: -6050399471875183665
+    second: outofbed_48
+  - first:
+      213: -2942578796517023058
+    second: outofbed_49
+  - first:
+      213: -3337043964528734812
+    second: outofbed_50
+  - first:
+      213: -6214415403969503610
+    second: outofbed_51
+  - first:
+      213: 7671907036101523651
+    second: outofbed_52
+  - first:
+      213: -3229890918399888017
+    second: outofbed_53
+  - first:
+      213: 3373846407949051269
+    second: outofbed_54
+  - first:
+      213: 7672436219984468874
+    second: outofbed_55
+  - first:
+      213: 6214920925598244042
+    second: outofbed_56
+  - first:
+      213: 7450364435777245157
+    second: outofbed_57
+  - first:
+      213: 1991526613085878193
+    second: outofbed_58
+  - first:
+      213: 1707283394099202897
+    second: outofbed_59
+  - first:
+      213: 5371339189424496333
+    second: outofbed_60
+  - first:
+      213: 594242385651195332
+    second: outofbed_61
+  - first:
+      213: -1256970113543410113
+    second: outofbed_62
+  - first:
+      213: -5660386756488995036
+    second: outofbed_63
+  - first:
+      213: -799105415681432752
+    second: outofbed_64
+  - first:
+      213: 4425878996163131599
+    second: outofbed_65
+  - first:
+      213: -1144887635688525859
+    second: outofbed_66
+  - first:
+      213: 7189020866517480747
+    second: outofbed_67
+  - first:
+      213: -2441053969776017920
+    second: outofbed_68
+  - first:
+      213: 7542510372703861114
+    second: outofbed_69
+  - first:
+      213: 5485729583300008582
+    second: outofbed_70
+  - first:
+      213: -2694068425185248734
+    second: outofbed_71
+  - first:
+      213: -1920783075425657020
+    second: outofbed_72
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: outofbed_0
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 7596
+        width: 1398
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bb997dfe16b7eb0800000000000000
+      internalID: -4721072101625578675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_1
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 7596
+        width: 1395
+        height: 707
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9713b2971fb925100800000000000000
+      internalID: 95310003550499193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_2
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 7592
+        width: 1395
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8285e759bf7abed20800000000000000
+      internalID: 3308923050220476456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_3
+      rect:
+        serializedVersion: 2
+        x: 5568
+        y: 7592
+        width: 1395
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98e8b1a6900f67d30800000000000000
+      internalID: 4428991206791024265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_4
+      rect:
+        serializedVersion: 2
+        x: 7366
+        y: 7588
+        width: 1399
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed837959425f1570800000000000000
+      internalID: 8439554701702434278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_5
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 7574
+        width: 1399
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18a2ec7f00e4e0ff0800000000000000
+      internalID: -68031178299528575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_6
+      rect:
+        serializedVersion: 2
+        x: 10963
+        y: 7577
+        width: 1400
+        height: 726
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db9a9ae0adf40220800000000000000
+      internalID: 2451362964768988115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_7
+      rect:
+        serializedVersion: 2
+        x: 12762
+        y: 7572
+        width: 1399
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8553f402cc5c87ea0800000000000000
+      internalID: -5874728233398749864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_8
+      rect:
+        serializedVersion: 2
+        x: 14561
+        y: 7568
+        width: 1399
+        height: 735
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b131eafa995dbb0800000000000000
+      internalID: -4911850838758843529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_9
+      rect:
+        serializedVersion: 2
+        x: 4590
+        y: 7573
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12c4c1aa53588d8d0800000000000000
+      internalID: -2821358701013873631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_10
+      rect:
+        serializedVersion: 2
+        x: 6388
+        y: 7573
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ba8757959fb3520800000000000000
+      internalID: 2683012165647510407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_11
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 6517
+        width: 1398
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836d618e214fd3220800000000000000
+      internalID: 2467396532909299256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_12
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 6521
+        width: 1395
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5b03841c315f850800000000000000
+      internalID: 6410051365492536803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_13
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 6517
+        width: 1395
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d472f33f61efe480800000000000000
+      internalID: -8867621273540070191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_14
+      rect:
+        serializedVersion: 2
+        x: 5568
+        y: 6517
+        width: 1395
+        height: 734
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8adb525d4e254a0800000000000000
+      internalID: -6605966099286742804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_15
+      rect:
+        serializedVersion: 2
+        x: 7366
+        y: 6521
+        width: 1399
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb805e5c10bf78a0800000000000000
+      internalID: -6305127317407495224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_16
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 6521
+        width: 1399
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93154d2a16bc8c50800000000000000
+      internalID: 6668905371773768603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_17
+      rect:
+        serializedVersion: 2
+        x: 10963
+        y: 6521
+        width: 1400
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a88a551ded9be100800000000000000
+      internalID: 138377855155996832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_18
+      rect:
+        serializedVersion: 2
+        x: 12762
+        y: 6521
+        width: 1399
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa327cd1512ab0e40800000000000000
+      internalID: 5623766771279799215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_19
+      rect:
+        serializedVersion: 2
+        x: 14561
+        y: 6521
+        width: 1399
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac61e615bda35ce0800000000000000
+      internalID: -1417598464407016278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_20
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 5469
+        width: 1398
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab0fa693e2f9a370800000000000000
+      internalID: 8334459644725365672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_21
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 5469
+        width: 1395
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d6ecca88aaf7ac0800000000000000
+      internalID: -3855175252014371544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_22
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 5469
+        width: 1395
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c0d68fdfcf69280800000000000000
+      internalID: -9036757434547499901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_23
+      rect:
+        serializedVersion: 2
+        x: 5568
+        y: 5469
+        width: 1395
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1225ead75c6301f80800000000000000
+      internalID: -8137944304813452767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_24
+      rect:
+        serializedVersion: 2
+        x: 7366
+        y: 5469
+        width: 1399
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b465ca4de48108c0800000000000000
+      internalID: -4034797636450687818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_25
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 5469
+        width: 1399
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 809f89f00c1b58900800000000000000
+      internalID: 686149956697389320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_26
+      rect:
+        serializedVersion: 2
+        x: 10963
+        y: 5469
+        width: 1400
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 136a6f6c77bd472d0800000000000000
+      internalID: -3281756920960604623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_27
+      rect:
+        serializedVersion: 2
+        x: 12762
+        y: 5469
+        width: 1399
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10eb63d65e560510800000000000000
+      internalID: 1515002051664011295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_28
+      rect:
+        serializedVersion: 2
+        x: 14561
+        y: 5469
+        width: 1399
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c1ac9d56fc259100800000000000000
+      internalID: 114046802211938753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_29
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 4415
+        width: 1398
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71f4ffdfb7d6cf80800000000000000
+      internalID: -8086538861801049733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_30
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 4415
+        width: 1395
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f88d3f5a31175c60800000000000000
+      internalID: 7806727421473687795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_31
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 4415
+        width: 1395
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0509cc4fa76fb75b0800000000000000
+      internalID: -5369427122755694512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_32
+      rect:
+        serializedVersion: 2
+        x: 5568
+        y: 4415
+        width: 1395
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 468769ba0bff16980800000000000000
+      internalID: -8547269483514398620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_33
+      rect:
+        serializedVersion: 2
+        x: 7366
+        y: 4415
+        width: 1399
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d44a313703fddf90800000000000000
+      internalID: -6927113439609731881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_34
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 4415
+        width: 1399
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d591835d9b43150800000000000000
+      internalID: 5851506141281475952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_35
+      rect:
+        serializedVersion: 2
+        x: 10963
+        y: 4415
+        width: 1400
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 315866fde051dacd0800000000000000
+      internalID: -2545355060772698861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_36
+      rect:
+        serializedVersion: 2
+        x: 12762
+        y: 4416
+        width: 1399
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d22364f9bbf41b70800000000000000
+      internalID: 8868990342287008469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_37
+      rect:
+        serializedVersion: 2
+        x: 14561
+        y: 4415
+        width: 1399
+        height: 730
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c18fea5dea50499a0800000000000000
+      internalID: -6227346136279091172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_38
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 3362
+        width: 1398
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb46a19ff60ad040800000000000000
+      internalID: 4673055258080332740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_39
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 3362
+        width: 1395
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa17717938f1248f0800000000000000
+      internalID: -557848753804447313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_40
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 3362
+        width: 1395
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3791f67808605b500800000000000000
+      internalID: 411242090072054131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_41
+      rect:
+        serializedVersion: 2
+        x: 5568
+        y: 3362
+        width: 1395
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31aa3eff8d2292a00800000000000000
+      internalID: 732154729825806867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_42
+      rect:
+        serializedVersion: 2
+        x: 7366
+        y: 3362
+        width: 1399
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fdb4f401ed2a3d00800000000000000
+      internalID: 953124715616321016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_43
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 3362
+        width: 1399
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdbea0b69ae0a1a0800000000000000
+      internalID: -6800177504399213119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_44
+      rect:
+        serializedVersion: 2
+        x: 10963
+        y: 3319
+        width: 1400
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59b318dc62923300800000000000000
+      internalID: 230407527128611163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_45
+      rect:
+        serializedVersion: 2
+        x: 12762
+        y: 3319
+        width: 1399
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ac3c8483ddcb4c0800000000000000
+      internalID: -4270295112845374964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_46
+      rect:
+        serializedVersion: 2
+        x: 14561
+        y: 3319
+        width: 1399
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace91bda71e589920800000000000000
+      internalID: 2997249007806422730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_47
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 2267
+        width: 1398
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250134b0bf72d83a0800000000000000
+      internalID: -6661624314631876526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_48
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 2263
+        width: 1395
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb2ba99cb9a80ca0800000000000000
+      internalID: -6050399471875183665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_49
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 2263
+        width: 1395
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2a10ecc2cd927d0800000000000000
+      internalID: -2942578796517023058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_50
+      rect:
+        serializedVersion: 2
+        x: 5568
+        y: 2263
+        width: 1395
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad4766d13070b1d0800000000000000
+      internalID: -3337043964528734812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_51
+      rect:
+        serializedVersion: 2
+        x: 7366
+        y: 2263
+        width: 1399
+        height: 779
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e9eaf8d16f1c9a0800000000000000
+      internalID: -6214415403969503610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_52
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 2260
+        width: 1399
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8b6a44dc6187a60800000000000000
+      internalID: 7671907036101523651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_53
+      rect:
+        serializedVersion: 2
+        x: 10963
+        y: 2260
+        width: 1400
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f65b389825f1d23d0800000000000000
+      internalID: -3229890918399888017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_54
+      rect:
+        serializedVersion: 2
+        x: 12762
+        y: 2259
+        width: 1399
+        height: 783
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 585e780ce6f42de20800000000000000
+      internalID: 3373846407949051269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_55
+      rect:
+        serializedVersion: 2
+        x: 14561
+        y: 2267
+        width: 1399
+        height: 775
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bd30e7718f97a60800000000000000
+      internalID: 7672436219984468874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_56
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 1243
+        width: 1398
+        height: 747
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: accdc6d57a5df3650800000000000000
+      internalID: 6214920925598244042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_57
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 1235
+        width: 1395
+        height: 755
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5efc4b90bf2056760800000000000000
+      internalID: 7450364435777245157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_58
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 1208
+        width: 1395
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b778bd27e253ab10800000000000000
+      internalID: 1991526613085878193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_59
+      rect:
+        serializedVersion: 2
+        x: 5568
+        y: 1208
+        width: 1395
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bc43c833d71b710800000000000000
+      internalID: 1707283394099202897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_60
+      rect:
+        serializedVersion: 2
+        x: 7366
+        y: 1208
+        width: 1399
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce18c1c884da8a40800000000000000
+      internalID: 5371339189424496333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_61
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 1208
+        width: 1399
+        height: 782
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd58332d4c2f3800800000000000000
+      internalID: 594242385651195332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_62
+      rect:
+        serializedVersion: 2
+        x: 10963
+        y: 1212
+        width: 1400
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e66f867585e8ee0800000000000000
+      internalID: -1256970113543410113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_63
+      rect:
+        serializedVersion: 2
+        x: 12762
+        y: 1212
+        width: 1399
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fd5282c344271b0800000000000000
+      internalID: -5660386756488995036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_64
+      rect:
+        serializedVersion: 2
+        x: 14561
+        y: 1229
+        width: 1399
+        height: 761
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053a738bbd109e4f0800000000000000
+      internalID: -799105415681432752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_65
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 208
+        width: 1398
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc87a296f71eb6d30800000000000000
+      internalID: 4425878996163131599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_66
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 208
+        width: 1395
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf6c0fd2ca8c10f0800000000000000
+      internalID: -1144887635688525859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_67
+      rect:
+        serializedVersion: 2
+        x: 3769
+        y: 208
+        width: 1395
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2535a7936884c360800000000000000
+      internalID: 7189020866517480747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_68
+      rect:
+        serializedVersion: 2
+        x: 5568
+        y: 208
+        width: 1395
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e71f50952af1ed0800000000000000
+      internalID: -2441053969776017920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_69
+      rect:
+        serializedVersion: 2
+        x: 7366
+        y: 208
+        width: 1399
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7976b7d8316ca860800000000000000
+      internalID: 7542510372703861114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_70
+      rect:
+        serializedVersion: 2
+        x: 9165
+        y: 208
+        width: 1399
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ad27acdf9312c40800000000000000
+      internalID: 5485729583300008582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_71
+      rect:
+        serializedVersion: 2
+        x: 10963
+        y: 208
+        width: 1400
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22abc348a0fbc9ad0800000000000000
+      internalID: -2694068425185248734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: outofbed_72
+      rect:
+        serializedVersion: 2
+        x: 12762
+        y: 208
+        width: 1399
+        height: 731
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44fdbaa38f10855e0800000000000000
+      internalID: -1920783075425657020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: f26b057ffc855e84d8cbe31b068f5cab
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

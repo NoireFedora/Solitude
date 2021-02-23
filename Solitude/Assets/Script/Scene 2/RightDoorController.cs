@@ -1,10 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class RightDoorController : MonoBehaviour, ISInteractable
 {   
     private LeftDoorController _leftDoorController;
+    public TextMeshProUGUI _interactUI;
+    public GameObject _interactable;
+    public Animator _animator;
     public SceneFade _sceneFade;
     private Material _charLight;
     private Material _wallLight;
@@ -46,14 +50,16 @@ public class RightDoorController : MonoBehaviour, ISInteractable
     void ISInteractable.interact()
     {   
         if (canOpen) {
+            _animator.SetBool("CanOpen", true);
             StartCoroutine(Transition());
+            _interactable.SetActive(false);
         }
     }
 
     IEnumerator Transition()
     {   
         _sceneFade.BackGroundControl(true);
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(3.0f);
         // leftDoor.SetActive(true);
         // gameObject.SetActive(false);
         _leftDoorController.SetOpen();
@@ -68,7 +74,13 @@ public class RightDoorController : MonoBehaviour, ISInteractable
         _floorThreshold = 1.0f;
         _floorLight.SetFloat("_Threshold", _floorThreshold);
 
+        _interactUI.color = Color.white;
+        _interactUI.faceColor = Color.red;
+
         _sceneFade.BackGroundControl(false);
+
+        _animator.SetBool("CanClose", true);
+
     }
 
 }

@@ -12,7 +12,8 @@ public class CharControl : MonoBehaviour
     private Transform _transform;
     private GameObject _selectedObject;
     private GameObject _holdingObject;
-    Animator animator;
+    private Animator _animator;
+    private AudioSource _footstep;
 
     public bool _jumped;
     public bool _grounded;
@@ -39,9 +40,10 @@ public class CharControl : MonoBehaviour
     {
         _rigidbody = GetComponent<Rigidbody>();
         _transform = GetComponent<Transform>();
-        animator = GetComponent<Animator>();
-        animator.SetFloat("Horizontal", 0);
-        animator.SetFloat("Vertical", 0);
+        _animator = GetComponent<Animator>();
+        _footstep = GetComponent<AudioSource>();
+        _animator.SetFloat("Horizontal", 0);
+        _animator.SetFloat("Vertical", 0);
         _jumped = false;
         _grounded = true;
         _moving = true;
@@ -99,7 +101,7 @@ public class CharControl : MonoBehaviour
                 _holdingObject = null;
             }
         }
-        animator.SetBool("WakeUp", weakingUp);
+        _animator.SetBool("WakeUp", weakingUp);
         
     }
 
@@ -112,8 +114,17 @@ public class CharControl : MonoBehaviour
         {
             _rigidbody.velocity = new Vector3(_playerInputH * speedMultiplier, _rigidbody.velocity.y, _playerInputV * speedMultiplier);
             _transform.position += new Vector3(0, 0.001f, 0); // make player wont stuck on small gap
-            animator.SetFloat("Horizontal", _playerInputH);
-            animator.SetFloat("Vertical", _playerInputV);
+            _animator.SetFloat("Horizontal", _playerInputH);
+            _animator.SetFloat("Vertical", _playerInputV);
+
+            if (_playerInputH != 0f || _playerInputV != 0f)
+            {
+                _footstep.UnPause();
+            }
+            else
+            {
+                _footstep.Pause();
+            }
 
             // If you find a better way to record the last direction, feel free to edit
             if (_playerInputH < 0)
@@ -133,7 +144,7 @@ public class CharControl : MonoBehaviour
                 else if (_playerInputV == 0) direction = 6f;
                 else if (_playerInputV > 0) direction = 5f;
             }
-            animator.SetFloat("LastKey", direction);
+            _animator.SetFloat("LastKey", direction);
 
             // Currently Jump is disabled. Uncomment to enable
             //if (_jumped)
@@ -174,8 +185,8 @@ public class CharControl : MonoBehaviour
         }
         else
         {   
-            animator.SetFloat("Horizontal", 0);
-            animator.SetFloat("Vertical", 0);
+            _animator.SetFloat("Horizontal", 0);
+            _animator.SetFloat("Vertical", 0);
             interactUI.SetActive(false);
         }
         
@@ -196,8 +207,8 @@ public class CharControl : MonoBehaviour
         {   
             _rigidbody.velocity = Vector3.zero;
             _rigidbody.constraints = RigidbodyConstraints.FreezeAll;
-            animator.SetFloat("Horizontal", 0);
-            animator.SetFloat("Vertical", 0);
+            _animator.SetFloat("Horizontal", 0);
+            _animator.SetFloat("Vertical", 0);
         }
     }
 
