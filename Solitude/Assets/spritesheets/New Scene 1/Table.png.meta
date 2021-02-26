@@ -1,25 +1,16 @@
 fileFormatVersion: 2
-guid: d72528ad7f1a0204e83b831bebff0afd
+guid: e28f309e59fd13942aaff068dd113728
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2122107185238573207
-    second: bed_0
+      213: 497600754102043572
+    second: Table_0
   - first:
-      213: 6539804971861213079
-    second: bed_1
+      213: 8832363126130176641
+    second: Table_1
   - first:
-      213: 9015965631283994615
-    second: bed_2
-  - first:
-      213: 7480158835041174596
-    second: New Bed_0
-  - first:
-      213: -4326245667181565743
-    second: New Bed_1
-  - first:
-      213: 8285481969945588884
-    second: New Bed_2
+      213: -2036681344805705447
+    second: Table_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -49,12 +40,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -63,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 485
+  spritePixelsToUnits: 1000
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,12 +108,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: New Bed_0
+      name: Table_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 677
+        width: 680
         height: 680
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -131,19 +122,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 444012234dcdec760800000000000000
-      internalID: 7480158835041174596
+      spriteID: 4b3083cdf35d7e600800000000000000
+      internalID: 497600754102043572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Bed_1
+      name: Table_1
       rect:
         serializedVersion: 2
-        x: 677
+        x: 680
         y: 0
-        width: 677
+        width: 680
         height: 680
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -152,19 +143,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d8e194bc7616f3c0800000000000000
-      internalID: -4326245667181565743
+      spriteID: 1827f34a77bd29a70800000000000000
+      internalID: 8832363126130176641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: New Bed_2
+      name: Table_2
       rect:
         serializedVersion: 2
-        x: 1354
+        x: 1360
         y: 0
-        width: 677
+        width: 680
         height: 680
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -173,8 +164,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 494b28b04f1fbf270800000000000000
-      internalID: 8285481969945588884
+      spriteID: 919e0329b114cb3e0800000000000000
+      internalID: -2036681344805705447
       vertices: []
       indices: 
       edges: []
@@ -182,7 +173,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 3a4ed416ed46e614dbbadae122ad5e5d
+    spriteID: af4b2b1ecc7ef8147b95ac71880f1634
     internalID: 0
     vertices: []
     indices: 

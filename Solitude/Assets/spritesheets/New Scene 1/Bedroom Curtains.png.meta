@@ -1,0 +1,668 @@
+fileFormatVersion: 2
+guid: bbd6c6af8adb1f24582a97044fa2ba09
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8183912577003189486
+    second: Bedroom Curtains_0
+  - first:
+      213: 492820961505133438
+    second: Bedroom Curtains_1
+  - first:
+      213: 4777063354984907636
+    second: Bedroom Curtains_2
+  - first:
+      213: 5550579356106866281
+    second: Bedroom Curtains_3
+  - first:
+      213: 2583156924315336874
+    second: Bedroom Curtains_4
+  - first:
+      213: -7775319115555536235
+    second: Bedroom Curtains_5
+  - first:
+      213: -2082150243209506783
+    second: Bedroom Curtains_6
+  - first:
+      213: 3162856824314726056
+    second: Bedroom Curtains_7
+  - first:
+      213: -3172927939854185471
+    second: Bedroom Curtains_8
+  - first:
+      213: -879798563987645641
+    second: Bedroom Curtains_9
+  - first:
+      213: -3554629038797282873
+    second: Bedroom Curtains_10
+  - first:
+      213: -5455041365077835663
+    second: Bedroom Curtains_11
+  - first:
+      213: -6643908605706145546
+    second: Bedroom Curtains_12
+  - first:
+      213: -7588580028879141590
+    second: Bedroom Curtains_13
+  - first:
+      213: -7033344972796903640
+    second: Bedroom Curtains_14
+  - first:
+      213: -7128467173249439086
+    second: Bedroom Curtains_15
+  - first:
+      213: 4893064431846263184
+    second: Bedroom Curtains_16
+  - first:
+      213: -5692159050821152233
+    second: Bedroom Curtains_17
+  - first:
+      213: -7111703974355124185
+    second: Bedroom Curtains_18
+  - first:
+      213: -4090620068618514033
+    second: Bedroom Curtains_19
+  - first:
+      213: -4211521657122381698
+    second: Bedroom Curtains_20
+  - first:
+      213: 2458520199829540807
+    second: Bedroom Curtains_21
+  - first:
+      213: 4505779312167338307
+    second: Bedroom Curtains_22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 450
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bedroom Curtains_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2040
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee47029e029139170800000000000000
+      internalID: 8183912577003189486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_1
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 2040
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e73416cad0ad6d600800000000000000
+      internalID: 492820961505133438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_2
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 2040
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4734967bfc98b4240800000000000000
+      internalID: 4777063354984907636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_3
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 2040
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ebd52248e970d40800000000000000
+      internalID: 5550579356106866281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_4
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 2040
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa008e8598739d320800000000000000
+      internalID: 2583156924315336874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_5
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 2040
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5920206b574881490800000000000000
+      internalID: -7775319115555536235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1201180b267ba13e0800000000000000
+      internalID: -2082150243209506783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_7
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 1360
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a603b03689b4eb20800000000000000
+      internalID: 3162856824314726056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_8
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 1360
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10c441f79de77f3d0800000000000000
+      internalID: -3172927939854185471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_9
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 1360
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73b1e9f0ed35ac3f0800000000000000
+      internalID: -879798563987645641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_10
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1360
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c12332f8bb6baec0800000000000000
+      internalID: -3554629038797282873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_11
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 1360
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 170497fc7cccb44b0800000000000000
+      internalID: -5455041365077835663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f079b4f2581cc3a0800000000000000
+      internalID: -6643908605706145546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_13
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 680
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2509057ba2ffa690800000000000000
+      internalID: -7588580028879141590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_14
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 680
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f39a1f20a846e90800000000000000
+      internalID: -7033344972796903640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_15
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 680
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a2f69cfd8921d90800000000000000
+      internalID: -7128467173249439086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_16
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 680
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0998b4b1d28a7e340800000000000000
+      internalID: 4893064431846263184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_17
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 680
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712d7ca60836101b0800000000000000
+      internalID: -5692159050821152233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72044dc2ae62e4d90800000000000000
+      internalID: -7111703974355124185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_19
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 0
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81d8ea78b23b37c0800000000000000
+      internalID: -4090620068618514033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_20
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e702b5fcd5bad85c0800000000000000
+      internalID: -4211521657122381698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_21
+      rect:
+        serializedVersion: 2
+        x: 2040
+        y: 0
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf46ff881b6e1220800000000000000
+      internalID: 2458520199829540807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedroom Curtains_22
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 0
+        width: 680
+        height: 680
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 341c90a696eb78e30800000000000000
+      internalID: 4505779312167338307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ebf0331df71251140bf31c00f093257b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

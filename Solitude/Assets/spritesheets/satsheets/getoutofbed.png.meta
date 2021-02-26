@@ -1,0 +1,1889 @@
+fileFormatVersion: 2
+guid: 6ed0289ed4774c04386fc3c8c5d1321b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1523169494064747528
+    second: getoutofbed_0
+  - first:
+      213: -6632415133712225676
+    second: getoutofbed_1
+  - first:
+      213: -4045189540572354145
+    second: getoutofbed_2
+  - first:
+      213: -6193995502914930559
+    second: getoutofbed_3
+  - first:
+      213: -3080129126369995978
+    second: getoutofbed_4
+  - first:
+      213: -3008674163238826659
+    second: getoutofbed_5
+  - first:
+      213: 570193004958324369
+    second: getoutofbed_6
+  - first:
+      213: 5328123070702089664
+    second: getoutofbed_7
+  - first:
+      213: -577604362539604117
+    second: getoutofbed_8
+  - first:
+      213: -8198548156012825184
+    second: getoutofbed_9
+  - first:
+      213: 4556641173056048079
+    second: getoutofbed_10
+  - first:
+      213: -5006414361625224625
+    second: getoutofbed_11
+  - first:
+      213: -2561968917740816357
+    second: getoutofbed_12
+  - first:
+      213: 5730839939319646062
+    second: getoutofbed_13
+  - first:
+      213: 9025583509483821836
+    second: getoutofbed_14
+  - first:
+      213: 351657498080699570
+    second: getoutofbed_15
+  - first:
+      213: -1559373055556935508
+    second: getoutofbed_16
+  - first:
+      213: -919888085814318064
+    second: getoutofbed_17
+  - first:
+      213: -3077595849635141899
+    second: getoutofbed_18
+  - first:
+      213: -4626719389544622412
+    second: getoutofbed_19
+  - first:
+      213: -983678281101699518
+    second: getoutofbed_20
+  - first:
+      213: -6487529391928450576
+    second: getoutofbed_21
+  - first:
+      213: -3901305391537287586
+    second: getoutofbed_22
+  - first:
+      213: -354387910393016969
+    second: getoutofbed_23
+  - first:
+      213: 4715221128944287274
+    second: getoutofbed_24
+  - first:
+      213: -3132012213759260657
+    second: getoutofbed_25
+  - first:
+      213: 6183061408414872441
+    second: getoutofbed_26
+  - first:
+      213: 3552150423681793947
+    second: getoutofbed_27
+  - first:
+      213: -7866124425219677042
+    second: getoutofbed_28
+  - first:
+      213: 3778705228965032912
+    second: getoutofbed_29
+  - first:
+      213: -8842466350636581508
+    second: getoutofbed_30
+  - first:
+      213: 4235842318557834085
+    second: getoutofbed_31
+  - first:
+      213: 3605255546736179562
+    second: getoutofbed_32
+  - first:
+      213: -811566925520725199
+    second: getoutofbed_33
+  - first:
+      213: -4308693263258860526
+    second: getoutofbed_34
+  - first:
+      213: 596969168258167146
+    second: getoutofbed_35
+  - first:
+      213: -160394544648855096
+    second: getoutofbed_36
+  - first:
+      213: 8957368819593887159
+    second: getoutofbed_37
+  - first:
+      213: -7641101605974342402
+    second: getoutofbed_38
+  - first:
+      213: 2505649962935167121
+    second: getoutofbed_39
+  - first:
+      213: -7890285302069944989
+    second: getoutofbed_40
+  - first:
+      213: 4529306466910336948
+    second: getoutofbed_41
+  - first:
+      213: 6808605344010166576
+    second: getoutofbed_42
+  - first:
+      213: 4468255091643166187
+    second: getoutofbed_43
+  - first:
+      213: 2580298204723501565
+    second: getoutofbed_44
+  - first:
+      213: -6384726010465082118
+    second: getoutofbed_45
+  - first:
+      213: 573143139595422957
+    second: getoutofbed_46
+  - first:
+      213: 7825504827216846991
+    second: getoutofbed_47
+  - first:
+      213: 7693518533641831216
+    second: getoutofbed_48
+  - first:
+      213: 8225646271863697222
+    second: getoutofbed_49
+  - first:
+      213: 5082937615777504215
+    second: getoutofbed_50
+  - first:
+      213: 5511488924609298806
+    second: getoutofbed_51
+  - first:
+      213: 3988645623738808813
+    second: getoutofbed_52
+  - first:
+      213: 8082227201932139629
+    second: getoutofbed_53
+  - first:
+      213: 6587801257249440816
+    second: getoutofbed_54
+  - first:
+      213: 8753856218318027678
+    second: getoutofbed_55
+  - first:
+      213: -6072533359859476674
+    second: getoutofbed_56
+  - first:
+      213: 3370213767447004459
+    second: getoutofbed_57
+  - first:
+      213: -439263968451908178
+    second: getoutofbed_58
+  - first:
+      213: 3534407635298719211
+    second: getoutofbed_59
+  - first:
+      213: 8151233993078943528
+    second: getoutofbed_60
+  - first:
+      213: -9052346924461065439
+    second: getoutofbed_61
+  - first:
+      213: 5903556449485309880
+    second: getoutofbed_62
+  - first:
+      213: -1064015781863739391
+    second: getoutofbed_63
+  - first:
+      213: -3186998713323854389
+    second: getoutofbed_64
+  - first:
+      213: 3364718451878744268
+    second: getoutofbed_65
+  - first:
+      213: -3905560590837130411
+    second: getoutofbed_66
+  - first:
+      213: -8179463511559086562
+    second: getoutofbed_67
+  - first:
+      213: -7708524709757056204
+    second: getoutofbed_68
+  - first:
+      213: 4955780318784140783
+    second: getoutofbed_69
+  - first:
+      213: -4238305835915663734
+    second: getoutofbed_70
+  - first:
+      213: 5289073617909589926
+    second: getoutofbed_71
+  - first:
+      213: 4434214988576000252
+    second: getoutofbed_72
+  - first:
+      213: 182312248858807424
+    second: getoutofbed_73
+  - first:
+      213: 5928029974310211477
+    second: getoutofbed_74
+  - first:
+      213: -2766885376248017428
+    second: getoutofbed_75
+  - first:
+      213: 6473099905050344215
+    second: getoutofbed_76
+  - first:
+      213: -4046728831945857546
+    second: getoutofbed_77
+  - first:
+      213: 4600733577685395278
+    second: getoutofbed_78
+  - first:
+      213: 6608410054295196083
+    second: getoutofbed_79
+  - first:
+      213: -5991726430844988206
+    second: getoutofbed_80
+  - first:
+      213: 7690742359980025063
+    second: getoutofbed_81
+  - first:
+      213: 7882207952423163750
+    second: getoutofbed_82
+  - first:
+      213: -8510437238855789617
+    second: getoutofbed_83
+  - first:
+      213: 8153530237443421900
+    second: getoutofbed_84
+  - first:
+      213: 530662855794544321
+    second: getoutofbed_85
+  - first:
+      213: 2233632022251566822
+    second: getoutofbed_86
+  - first:
+      213: -7926111413572896939
+    second: getoutofbed_87
+  - first:
+      213: -8599258820016665176
+    second: getoutofbed_88
+  - first:
+      213: -3423753363425425111
+    second: getoutofbed_89
+  - first:
+      213: -1980726651641483046
+    second: getoutofbed_90
+  - first:
+      213: -4039287735092336704
+    second: getoutofbed_91
+  - first:
+      213: -5688438935984113272
+    second: getoutofbed_92
+  - first:
+      213: 2729591245727645836
+    second: getoutofbed_93
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: getoutofbed_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804d072b592632510800000000000000
+      internalID: 1523169494064747528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_1
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47a6820739de4f3a0800000000000000
+      internalID: -6632415133712225676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_2
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f992f019b899cd7c0800000000000000
+      internalID: -4045189540572354145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_3
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188736448e18a0aa0800000000000000
+      internalID: -6193995502914930559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_4
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633d168f0ee2145d0800000000000000
+      internalID: -3080129126369995978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_5
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5d01470aca0f36d0800000000000000
+      internalID: -3008674163238826659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_6
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19614f9548bb9e700800000000000000
+      internalID: 570193004958324369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_7
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5f2c404bb41f940800000000000000
+      internalID: 5328123070702089664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_8
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b676c1e74efebf7f0800000000000000
+      internalID: -577604362539604117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5fbeec3e7e83e80800000000000000
+      internalID: -8198548156012825184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_10
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcbcce831017c3f30800000000000000
+      internalID: 4556641173056048079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_11
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a1ae8c9a4a58ab0800000000000000
+      internalID: -5006414361625224625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_12
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18777cd7de027cd0800000000000000
+      internalID: -2561968917740816357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_13
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67c4cfbf88088f40800000000000000
+      internalID: 5730839939319646062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_14
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b186dd160514d70800000000000000
+      internalID: 9025583509483821836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_15
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b4e3bf91a651e400800000000000000
+      internalID: 351657498080699570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_16
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0a637c77efb5ae0800000000000000
+      internalID: -1559373055556935508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_17
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01c6ce3e8a6eb33f0800000000000000
+      internalID: -919888085814318064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6e74c61ee2a45d0800000000000000
+      internalID: -3077595849635141899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_19
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6d7c68a379acfb0800000000000000
+      internalID: -4626719389544622412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_20
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2469aa9a0d54952f0800000000000000
+      internalID: -983678281101699518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_21
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1e234f36aa7f5a0800000000000000
+      internalID: -6487529391928450576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_22
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e8a199a67cbd9c0800000000000000
+      internalID: -3901305391537287586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_23
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dc458b216f41bf0800000000000000
+      internalID: -354387910393016969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_24
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2ef32c62a4df6140800000000000000
+      internalID: 4715221128944287274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_25
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f08c1b65c7bd884d0800000000000000
+      internalID: -3132012213759260657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_26
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973bef87795aec550800000000000000
+      internalID: 6183061408414872441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9f7e408df5cb4130800000000000000
+      internalID: 3552150423681793947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_28
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e84e1c30389e5d290800000000000000
+      internalID: -7866124425219677042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_29
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d33f53a268a07430800000000000000
+      internalID: 3778705228965032912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_30
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7d36f714bf394580800000000000000
+      internalID: -8842466350636581508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_31
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56be432752cb8ca30800000000000000
+      internalID: 4235842318557834085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_32
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6977bb71d0780230800000000000000
+      internalID: 3605255546736179562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_33
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13b91ec5e2cbcb4f0800000000000000
+      internalID: -811566925520725199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_34
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21446553e427434c0800000000000000
+      internalID: -4308693263258860526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_35
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6173efab4cd84800800000000000000
+      internalID: 596969168258167146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c16b4ee20a26cdf0800000000000000
+      internalID: -160394544648855096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_37
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdbd06bb77fe4c70800000000000000
+      internalID: 8957368819593887159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_38
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef48b3bd29a55f590800000000000000
+      internalID: -7641101605974342402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_39
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198a834ad5bd5c220800000000000000
+      internalID: 2505649962935167121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_40
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36d92a18253108290800000000000000
+      internalID: -7890285302069944989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_41
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7f11ffb345bde30800000000000000
+      internalID: 4529306466910336948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_42
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0316d81ac760d7e50800000000000000
+      internalID: 6808605344010166576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_43
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beda83ff45e620e30800000000000000
+      internalID: 4468255091643166187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_44
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df95f13db8f0fc320800000000000000
+      internalID: 2580298204723501565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4280e6585e467a0800000000000000
+      internalID: -6384726010465082118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_46
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec890916a634f700800000000000000
+      internalID: 573143139595422957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_47
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f806d56dd27c99c60800000000000000
+      internalID: 7825504827216846991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_48
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0330b96285ed4ca60800000000000000
+      internalID: 7693518533641831216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_49
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64fa372f3bd572270800000000000000
+      internalID: 8225646271863697222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_50
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7db93ebb4d83a8640800000000000000
+      internalID: 5082937615777504215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_51
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67146dec9fdbc7c40800000000000000
+      internalID: 5511488924609298806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_52
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de93ed1ef048a5730800000000000000
+      internalID: 3988645623738808813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_53
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c1a2591d6d92070800000000000000
+      internalID: 8082227201932139629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034893df6529c6b50800000000000000
+      internalID: 6587801257249440816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_55
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9bb0b3c9d1fb7970800000000000000
+      internalID: 8753856218318027678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_56
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e37ddd635170abba0800000000000000
+      internalID: -6072533359859476674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_57
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b254fc9b09765ce20800000000000000
+      internalID: 3370213767447004459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_58
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eadabcd7fbb67e9f0800000000000000
+      internalID: -439263968451908178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_59
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be59869a40dbc0130800000000000000
+      internalID: 3534407635298719211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_60
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f2f8e21200f1170800000000000000
+      internalID: 8151233993078943528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_61
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12bf5effe6a9f5280800000000000000
+      internalID: -9052346924461065439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_62
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b7c90bff45ade150800000000000000
+      internalID: 5903556449485309880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1003a96a84bdb31f0800000000000000
+      internalID: -1064015781863739391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_64
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc564b04e8185c3d0800000000000000
+      internalID: -3186998713323854389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_65
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc05f6dda91e1be20800000000000000
+      internalID: 3364718451878744268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_66
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55b536ec559acc9c0800000000000000
+      internalID: -3905560590837130411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_67
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e504cd545bc7e80800000000000000
+      internalID: -8179463511559086562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_68
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b0c943e91d50590800000000000000
+      internalID: -7708524709757056204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_69
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5300e61f776c440800000000000000
+      internalID: 4955780318784140783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: getoutofbed_70
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8628c83c438e25c0800000000000000
+      internalID: -4238305835915663734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

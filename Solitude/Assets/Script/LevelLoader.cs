@@ -41,7 +41,7 @@ public class LevelLoader : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex == 2)
         {
             GameObject mainChar = GameObject.Find("MainChar 3D");
-            if (mainChar.transform.position.y < -10)
+            if (mainChar.transform.position.y < -8)
             {
                 LoadNextLevel();
             }

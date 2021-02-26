@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4839542829451396697}
   m_Layer: 0
-  m_Name: House Section
+  m_Name: Left House Section
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63,7 +63,7 @@ PrefabInstance:
     - target: {fileID: 8196894484883695430, guid: 07703c76c0edd3e48bb56774520f7d6f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.1
+      value: -5.1
       objectReference: {fileID: 0}
     - target: {fileID: 8196894484883695430, guid: 07703c76c0edd3e48bb56774520f7d6f,
         type: 3}
@@ -133,7 +133,7 @@ PrefabInstance:
     - target: {fileID: 774304227879964610, guid: e3d19fd32aa6dbe4ba37368ab6a26647,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.100782394
+      value: -0.8992176
       objectReference: {fileID: 0}
     - target: {fileID: 774304227879964610, guid: e3d19fd32aa6dbe4ba37368ab6a26647,
         type: 3}

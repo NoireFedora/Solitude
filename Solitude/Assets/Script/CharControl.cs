@@ -35,6 +35,7 @@ public class CharControl : MonoBehaviour
     public GameObject thoughtGUI;
     public GameObject interactUI;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -60,6 +61,7 @@ public class CharControl : MonoBehaviour
         _playerInputH = Input.GetAxis("Horizontal");
         _playerInputV = Input.GetAxis("Vertical");
         _jumped = Input.GetButton("Jump");
+
 
         if (Input.GetButtonDown("Interact") && _selectedObject)
         {
@@ -101,7 +103,7 @@ public class CharControl : MonoBehaviour
                 _holdingObject = null;
             }
         }
-        _animator.SetBool("WakeUp", weakingUp);
+        // _animator.SetBool("WakeUp", weakingUp);
         
     }
 
