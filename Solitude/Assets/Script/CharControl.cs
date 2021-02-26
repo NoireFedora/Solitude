@@ -35,7 +35,6 @@ public class CharControl : MonoBehaviour
     public GameObject thoughtGUI;
     public GameObject interactUI;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -62,6 +61,12 @@ public class CharControl : MonoBehaviour
         _playerInputV = Input.GetAxis("Vertical");
         _jumped = Input.GetButton("Jump");
 
+        if (!GetComponent<SpriteRenderer>().isVisible) {
+            _footstep.Pause();
+            inAnimation = true;
+        } else {
+            inAnimation = false;
+        }
 
         if (Input.GetButtonDown("Interact") && _selectedObject)
         {
@@ -109,8 +114,9 @@ public class CharControl : MonoBehaviour
 
     private void FixedUpdate()
     {   
-        if (!_moving)
+        if (!_moving) {
             return;
+        }
 
         if (!inAction && !inAnimation)
         {

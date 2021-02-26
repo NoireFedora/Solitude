@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
-    public float transitionTime = 3f;
+    private const int _TRANSITIONTIME = 6;
 
     private LaptopController _laptopController;
     private Scene2Controller _scene2Controller;
@@ -23,6 +23,7 @@ public class LevelLoader : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex == 0) {
             _laptopController = GameObject.FindObjectOfType<LaptopController>();
             bool isOpen = _laptopController.InteractedWithLaptop();
+            // float laptopSFX = _laptopController.getLaptopSFXTime();
             
             if (isOpen) {
                 LoadNextLevel();
@@ -40,7 +41,7 @@ public class LevelLoader : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 2)
         {
-            GameObject mainChar = GameObject.Find("MainChar 3D");
+            GameObject mainChar = GameObject.Find("GameChar");
             if (mainChar.transform.position.y < -8)
             {
                 LoadNextLevel();
@@ -49,12 +50,12 @@ public class LevelLoader : MonoBehaviour
     }
 
     public void LoadNextLevel() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
     IEnumerator LoadLevel(int levelIndex) {
         transition.SetTrigger("Start");
-        yield return new WaitForSeconds(transitionTime);
+        yield return new WaitForSeconds(_TRANSITIONTIME);
         SceneManager.LoadScene(levelIndex);
     }
 }
