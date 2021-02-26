@@ -9,14 +9,14 @@ public class LaptopController : MonoBehaviour, ISInteractable
     private int _interactCD = 0;
     private int _interactCounter;
     private playAudio _gameAudio;
-    private AudioSource _laptopMusic;
+    private AudioSource _laptopSFX;
     
     // Start is called before the first frame update
     void Start()
     {
         isOpen = false;
-        _laptopMusic = GetComponent<AudioSource>();
-        _gameAudio = GameObject.FindObjectOfType<playAudio>();
+        _laptopSFX = GetComponent<AudioSource>();
+        // _gameAudio = GameObject.FindObjectOfType<playAudio>();
 
     }
 
@@ -28,11 +28,11 @@ public class LaptopController : MonoBehaviour, ISInteractable
             _interactCounter--;
         }
 
-        if(_laptopMusic.time > 5.0f) {
-            _laptopMusic.time = 0.0f;
-            _laptopMusic.Stop();
-            _gameAudio.togglePlay();
-         }
+        // if(_laptopMusic.time > 5.0f) {
+        //     _laptopMusic.time = 0.0f;
+        //     _laptopMusic.Stop();
+        //     _gameAudio.togglePlay();
+        //  }
     }
 
     void ISInteractable.interact()
@@ -40,13 +40,16 @@ public class LaptopController : MonoBehaviour, ISInteractable
         if (_interactCounter <= 0)
         {
             isOpen = !isOpen;
-            _gameAudio.togglePlay();
-            _laptopMusic.Play();
+            _laptopSFX.Play();
             _interactCounter = _interactCD;
         }
     }
 
     public bool InteractedWithLaptop() {
         return isOpen;
+    }
+
+    public float getLaptopSFXTime() {
+        return _laptopSFX.time;
     }
 }

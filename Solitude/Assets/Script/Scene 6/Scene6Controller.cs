@@ -12,7 +12,7 @@ public class Scene6Controller : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        mainChar = GameObject.Find("MainChar 3D").transform;
+        mainChar = GameObject.Find("GameChar").transform;
         sweat = GameObject.Find("Sweat");
         dialogCounter = 0;
         dialogueTrigger = gameObject.GetComponent<DialogueTrigger>();

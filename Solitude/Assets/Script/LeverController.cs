@@ -17,12 +17,14 @@ public class LeverController : MonoBehaviour, ISHoldable
     // Start is called before the first frame update
     void Start()
     {
+        
         _holding = false;
         _holdcounter = 0;
         _holdMax = (int)(Math.Ceiling(bridgeDistance / bridgeSpeed));
         isFix = false;
         animator = GetComponent<Animator>();
         animator.SetBool("IsDown", false);
+
     }
 
     // Update is called once per frame
