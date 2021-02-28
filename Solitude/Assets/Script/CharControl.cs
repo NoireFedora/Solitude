@@ -25,7 +25,6 @@ public class CharControl : MonoBehaviour
     public bool inAction;
     public bool inAnimation;
     public bool can_interact;
-    public bool weakingUp;
     public float direction;
 
     public float handDistance;
@@ -108,7 +107,6 @@ public class CharControl : MonoBehaviour
                 _holdingObject = null;
             }
         }
-        // _animator.SetBool("WakeUp", weakingUp);
         
     }
 
