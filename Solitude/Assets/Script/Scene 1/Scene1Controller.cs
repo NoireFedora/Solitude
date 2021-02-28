@@ -30,9 +30,7 @@ public class Scene1Controller : MonoBehaviour
     
         hasInteracted = _laptopController.InteractedWithLaptop();
 
-        Debug.Log(hasInteracted);
         if (hasInteracted > 0) {
-            Debug.Log("In Here");
             laptopSFX.Play();
         }
 
