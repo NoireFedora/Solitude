@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameCameraController : MonoBehaviour
 {
-    private float moveSpeed = 1f;
+    private float moveSpeed = 1.5f;
     public Transform target;
 
     // Start is called before the first frame update

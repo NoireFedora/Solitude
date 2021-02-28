@@ -11,6 +11,7 @@ public class LevelLoader : MonoBehaviour
     private LaptopController _laptopController;
     private Scene2Controller _scene2Controller;
     private Scene4Controller _scene4Controller;
+    private Scene5Controller _scene5Controller;
 
     // Start is called before the first frame update
     void Start()
@@ -18,12 +19,13 @@ public class LevelLoader : MonoBehaviour
         _laptopController = GameObject.FindObjectOfType<LaptopController>();
         _scene2Controller = GameObject.FindObjectOfType<Scene2Controller>();
         _scene4Controller = GameObject.FindObjectOfType<Scene4Controller>();
+        _scene5Controller = GameObject.FindObjectOfType<Scene5Controller>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 0) {
+        if (SceneManager.GetActiveScene().buildIndex == 1) {
             int hasInteracted = _laptopController.InteractedWithLaptop();
             
             if (hasInteracted > 0) {
@@ -31,7 +33,7 @@ public class LevelLoader : MonoBehaviour
             }
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 1) {
+        if (SceneManager.GetActiveScene().buildIndex == 2) {
             bool goNext = _scene2Controller.CanGoNext();
             
             if (goNext) {
@@ -39,7 +41,7 @@ public class LevelLoader : MonoBehaviour
             }
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             GameObject mainChar = GameObject.Find("GameChar");
             if (mainChar.transform.position.y < -8)
@@ -48,7 +50,7 @@ public class LevelLoader : MonoBehaviour
             }
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 3)
+        if (SceneManager.GetActiveScene().buildIndex == 4)
         {
             int hasInteracted = _laptopController.InteractedWithLaptop();
             bool checkLights = _scene4Controller.CheckLights();
@@ -57,6 +59,17 @@ public class LevelLoader : MonoBehaviour
                 LoadNextLevel();
             }
         }
+
+        if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            bool goNext = _scene5Controller.CanGoNext();
+            
+            if (goNext) {
+                LoadNextLevel();
+            }
+        
+        }
+
     }
 
     public void LoadNextLevel() {

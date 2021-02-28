@@ -1,0 +1,1748 @@
+fileFormatVersion: 2
+guid: 52faf8445bf63cc449093c8fb733351f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7440575436539055487
+    second: Bedsheetupdated_0
+  - first:
+      213: 5058871553204393482
+    second: Bedsheetupdated_1
+  - first:
+      213: 3289143373530067255
+    second: Bedsheetupdated_2
+  - first:
+      213: -629575340725629518
+    second: Bedsheetupdated_3
+  - first:
+      213: 7160164085272059088
+    second: Bedsheetupdated_4
+  - first:
+      213: 2552190917555053661
+    second: Bedsheetupdated_5
+  - first:
+      213: 5240925969786185086
+    second: Bedsheetupdated_6
+  - first:
+      213: -5403588826745219290
+    second: Bedsheetupdated_7
+  - first:
+      213: -9043503828860459782
+    second: Bedsheetupdated_8
+  - first:
+      213: -5837670836573773081
+    second: Bedsheetupdated_9
+  - first:
+      213: -680673441312267479
+    second: Bedsheetupdated_10
+  - first:
+      213: -6806187984750334020
+    second: Bedsheetupdated_11
+  - first:
+      213: -500858520962582360
+    second: Bedsheetupdated_12
+  - first:
+      213: -9135871229568749837
+    second: Bedsheetupdated_13
+  - first:
+      213: 2185826909525789420
+    second: Bedsheetupdated_14
+  - first:
+      213: -107056570663672182
+    second: Bedsheetupdated_15
+  - first:
+      213: -5171131102306718596
+    second: Bedsheetupdated_16
+  - first:
+      213: -301605416334964728
+    second: Bedsheetupdated_17
+  - first:
+      213: 2888355781730292391
+    second: Bedsheetupdated_18
+  - first:
+      213: -6165428953002355717
+    second: Bedsheetupdated_19
+  - first:
+      213: 7339341140824661638
+    second: Bedsheetupdated_20
+  - first:
+      213: -9047827740606785506
+    second: Bedsheetupdated_21
+  - first:
+      213: -3928043100224719333
+    second: Bedsheetupdated_22
+  - first:
+      213: 9061466336684252776
+    second: Bedsheetupdated_23
+  - first:
+      213: 4870593472043576570
+    second: Bedsheetupdated_24
+  - first:
+      213: -4377926706673112653
+    second: Bedsheetupdated_25
+  - first:
+      213: -1070627303382289748
+    second: Bedsheetupdated_26
+  - first:
+      213: 4006676991838571641
+    second: Bedsheetupdated_27
+  - first:
+      213: -2890836427575126282
+    second: Bedsheetupdated_28
+  - first:
+      213: 4074640242943769632
+    second: Bedsheetupdated_29
+  - first:
+      213: -6180593511663781188
+    second: Bedsheetupdated_30
+  - first:
+      213: 2078616062600074947
+    second: Bedsheetupdated_31
+  - first:
+      213: -1076920797274457946
+    second: Bedsheetupdated_32
+  - first:
+      213: 6428439631085409679
+    second: Bedsheetupdated_33
+  - first:
+      213: -1768640538513539828
+    second: Bedsheetupdated_34
+  - first:
+      213: -8983752151117888525
+    second: Bedsheetupdated_35
+  - first:
+      213: -4026141689219770629
+    second: Bedsheetupdated_36
+  - first:
+      213: 7864587808441314034
+    second: Bedsheetupdated_37
+  - first:
+      213: -3778992581157361803
+    second: Bedsheetupdated_38
+  - first:
+      213: -8207433950533468166
+    second: Bedsheetupdated_39
+  - first:
+      213: -5169022779206799595
+    second: Bedsheetupdated_40
+  - first:
+      213: -3794616840132564990
+    second: Bedsheetupdated_41
+  - first:
+      213: -1760500390047970584
+    second: Bedsheetupdated_42
+  - first:
+      213: 3749496653068266969
+    second: Bedsheetupdated_43
+  - first:
+      213: -4403564241044248198
+    second: Bedsheetupdated_44
+  - first:
+      213: -8818826357094030716
+    second: Bedsheetupdated_45
+  - first:
+      213: -6553930320584820320
+    second: Bedsheetupdated_46
+  - first:
+      213: -3038472903809927149
+    second: Bedsheetupdated_47
+  - first:
+      213: -7502721526665869985
+    second: Bedsheetupdated_48
+  - first:
+      213: -1845597728087447545
+    second: Bedsheetupdated_49
+  - first:
+      213: 4552359693996016642
+    second: Bedsheetupdated_50
+  - first:
+      213: -7865419336053733023
+    second: Bedsheetupdated_51
+  - first:
+      213: -1044655029044080737
+    second: Bedsheetupdated_52
+  - first:
+      213: 8623592681655074862
+    second: Bedsheetupdated_53
+  - first:
+      213: -7344851879896197276
+    second: Bedsheetupdated_54
+  - first:
+      213: -2309406484055075534
+    second: Bedsheetupdated_55
+  - first:
+      213: -6151796757162336467
+    second: Bedsheetupdated_56
+  - first:
+      213: 8083835084705814273
+    second: Bedsheetupdated_57
+  - first:
+      213: 5560030255315831691
+    second: Bedsheetupdated_58
+  - first:
+      213: -669645418295143271
+    second: Bedsheetupdated_59
+  - first:
+      213: 704044067046328871
+    second: Bedsheetupdated_60
+  - first:
+      213: -831050002835494190
+    second: Bedsheetupdated_61
+  - first:
+      213: -4899146610841137777
+    second: Bedsheetupdated_62
+  - first:
+      213: -6386891879819830206
+    second: Bedsheetupdated_63
+  - first:
+      213: 6215890594410692959
+    second: Bedsheetupdated_64
+  - first:
+      213: 5028252031923832584
+    second: Bedsheetupdated_65
+  - first:
+      213: 7054301120910322851
+    second: Bedsheetupdated_66
+  - first:
+      213: 1411410542413251806
+    second: Bedsheetupdated_67
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1000
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bedsheetupdated_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182b794ff04cdb890800000000000000
+      internalID: -7440575436539055487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_1
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a069315efd8b43640800000000000000
+      internalID: 5058871553204393482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_2
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 731f69ab87265ad20800000000000000
+      internalID: 3289143373530067255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_3
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd04b0309c4347f0800000000000000
+      internalID: -629575340725629518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_4
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc9624ac430e5360800000000000000
+      internalID: 7160164085272059088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_5
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54e8df0e143b6320800000000000000
+      internalID: 2552190917555053661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_6
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e75a933e6628bb840800000000000000
+      internalID: 5240925969786185086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_7
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627d49d67989205b0800000000000000
+      internalID: -5403588826745219290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_8
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 7364
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af423e3ae250f7280800000000000000
+      internalID: -9043503828860459782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e2ec5ead4d6cfea0800000000000000
+      internalID: -5837670836573773081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_10
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9232a8a8c13cd86f0800000000000000
+      internalID: -680673441312267479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_11
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbfac6ea6109b81a0800000000000000
+      internalID: -6806187984750334020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_12
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a83c4f24d79c09f0800000000000000
+      internalID: -500858520962582360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_13
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fee7d7458dd63180800000000000000
+      internalID: -9135871229568749837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_14
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cea46c24efd955e10800000000000000
+      internalID: 2185826909525789420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_15
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8668bebd98a38ef0800000000000000
+      internalID: -107056570663672182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_16
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ca80809a37c38b0800000000000000
+      internalID: -5171131102306718596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_17
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 6312
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8084509c87b70dbf0800000000000000
+      internalID: -301605416334964728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2daf2c740851820800000000000000
+      internalID: 2888355781730292391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_19
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3d268780fff6aa0800000000000000
+      internalID: -6165428953002355717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_20
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e9340d1e39ad560800000000000000
+      internalID: 7339341140824661638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_21
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e18153c7b98af6280800000000000000
+      internalID: -9047827740606785506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_22
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b167eacac99cc79c0800000000000000
+      internalID: -3928043100224719333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_23
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e993e9f9bc0cd70800000000000000
+      internalID: 9061466336684252776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_24
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc6e7215f2d79340800000000000000
+      internalID: 4870593472043576570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_25
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b9ad040bda7e33c0800000000000000
+      internalID: -4377926706673112653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_26
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 5260
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca27017d32e5421f0800000000000000
+      internalID: -1070627303382289748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97cc44cee739a9730800000000000000
+      internalID: 4006676991838571641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_28
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f610aed59fa1e7d0800000000000000
+      internalID: -2890836427575126282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_29
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cbc2c66b70c8830800000000000000
+      internalID: 4074640242943769632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_30
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba323482fe1a3aa0800000000000000
+      internalID: -6180593511663781188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_31
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6d2b3cb4ab8dc10800000000000000
+      internalID: 2078616062600074947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_32
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a8b93b9d320e01f0800000000000000
+      internalID: -1076920797274457946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_33
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8593eef8c7663950800000000000000
+      internalID: 6428439631085409679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_34
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d7b860dc68477e0800000000000000
+      internalID: -1768640538513539828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_35
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 4208
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3877a340d435380800000000000000
+      internalID: -8983752151117888525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf61aae07754028c0800000000000000
+      internalID: -4026141689219770629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_37
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa230381f0a42d60800000000000000
+      internalID: 7864587808441314034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_38
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5776747f4425e8bc0800000000000000
+      internalID: -3778992581157361803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_39
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affb8fc8e46591e80800000000000000
+      internalID: -8207433950533468166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_40
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51fe9714b21f348b0800000000000000
+      internalID: -5169022779206799595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_41
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208ee21b610d65bc0800000000000000
+      internalID: -3794616840132564990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_42
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ea014809327197e0800000000000000
+      internalID: -1760500390047970584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_43
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd66ac1753e80430800000000000000
+      internalID: 3749496653068266969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_44
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 3156
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79e1f267a563e2c0800000000000000
+      internalID: -4403564241044248198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482ee81072c3d9580800000000000000
+      internalID: -8818826357094030716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_46
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a931eef813cb05a0800000000000000
+      internalID: -6553930320584820320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_47
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31872c41efc25d5d0800000000000000
+      internalID: -3038472903809927149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_48
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f55876ac58af0e790800000000000000
+      internalID: -7502721526665869985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_49
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708641b05ae1366e0800000000000000
+      internalID: -1845597728087447545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_50
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2044072b50b3d2f30800000000000000
+      internalID: 4552359693996016642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_51
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 169470169ca68d290800000000000000
+      internalID: -7865419336053733023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_52
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9f800139c3a081f0800000000000000
+      internalID: -1044655029044080737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_53
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 2104
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2085bdaad72da770800000000000000
+      internalID: 8623592681655074862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4675de24128d11a90800000000000000
+      internalID: -7344851879896197276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_55
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 235d9ebd90753ffd0800000000000000
+      internalID: -2309406484055075534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_56
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f50f6617d60aaa0800000000000000
+      internalID: -6151796757162336467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_57
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 107dab6fd2d8f2070800000000000000
+      internalID: 8083835084705814273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_58
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b46841f02392d40800000000000000
+      internalID: 5560030255315831691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_59
+      rect:
+        serializedVersion: 2
+        x: 8995
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 994dc0d3a01f4b6f0800000000000000
+      internalID: -669645418295143271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_60
+      rect:
+        serializedVersion: 2
+        x: 10794
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72a848a495445c900800000000000000
+      internalID: 704044067046328871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_61
+      rect:
+        serializedVersion: 2
+        x: 12593
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da276eec648774f0800000000000000
+      internalID: -831050002835494190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_62
+      rect:
+        serializedVersion: 2
+        x: 14392
+        y: 1052
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d414e3d1cb20cb0800000000000000
+      internalID: -4899146610841137777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c138caca33d57a0800000000000000
+      internalID: -6386891879819830206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_64
+      rect:
+        serializedVersion: 2
+        x: 1799
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f518a8aff87434650800000000000000
+      internalID: 6215890594410692959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_65
+      rect:
+        serializedVersion: 2
+        x: 3598
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807c4fb0590f7c540800000000000000
+      internalID: 5028252031923832584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_66
+      rect:
+        serializedVersion: 2
+        x: 5397
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3acef728e79e5e160800000000000000
+      internalID: 7054301120910322851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bedsheetupdated_67
+      rect:
+        serializedVersion: 2
+        x: 7196
+        y: 0
+        width: 1799
+        height: 1052
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed488cc0966569310800000000000000
+      internalID: 1411410542413251806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

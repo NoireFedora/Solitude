@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CharControl : MonoBehaviour
 {
@@ -25,7 +26,9 @@ public class CharControl : MonoBehaviour
     public bool inAction;
     public bool inAnimation;
     public bool can_interact;
+    public bool inMenu;
     public float direction;
+    public bool goRightOnly;
 
     public float handDistance;
     public float speedMultiplier = 1f;
@@ -33,6 +36,7 @@ public class CharControl : MonoBehaviour
     public GameObject speechGUI;
     public GameObject thoughtGUI;
     public GameObject interactUI;
+    public GameObject menu;
 
     // Start is called before the first frame update
     void Start()
@@ -51,6 +55,7 @@ public class CharControl : MonoBehaviour
         inAction = false;
         can_interact = false;
         direction = 0;
+        inMenu = false;
     }
 
     // Update is called once per frame
@@ -58,6 +63,15 @@ public class CharControl : MonoBehaviour
     {
         _playerInputH = Input.GetAxis("Horizontal");
         _playerInputV = Input.GetAxis("Vertical");
+
+        if (goRightOnly)
+        {   
+            if (_playerInputH < 0f)
+            {
+                _playerInputH = 0f;
+            }
+        }
+
         _jumped = Input.GetButton("Jump");
 
         if (!GetComponent<SpriteRenderer>().isVisible) {
@@ -65,6 +79,14 @@ public class CharControl : MonoBehaviour
             inAnimation = true;
         } else {
             inAnimation = false;
+        }
+
+        if (Input.GetButtonDown("Cancel"))
+        {   
+            if (!inMenu){
+                menu.SetActive(true);
+            }
+            
         }
 
         if (Input.GetButtonDown("Interact") && _selectedObject)
