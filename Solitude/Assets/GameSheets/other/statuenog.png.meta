@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -82,10 +82,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,10 +94,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -123,10 +123,10 @@ TextureImporter:
       name: statuenog_0
       rect:
         serializedVersion: 2
-        x: 20
-        y: 25
-        width: 149
-        height: 312
+        x: 0
+        y: 0
+        width: 191
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,10 +144,10 @@ TextureImporter:
       name: statuenog_1
       rect:
         serializedVersion: 2
-        x: 211
-        y: 25
-        width: 149
-        height: 312
+        x: 191
+        y: 0
+        width: 191
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: statuenog_2
       rect:
         serializedVersion: 2
-        x: 402
-        y: 25
-        width: 149
-        height: 312
+        x: 382
+        y: 0
+        width: 191
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +186,10 @@ TextureImporter:
       name: statuenog_3
       rect:
         serializedVersion: 2
-        x: 593
-        y: 25
-        width: 149
-        height: 312
+        x: 573
+        y: 0
+        width: 191
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: statuenog_4
       rect:
         serializedVersion: 2
-        x: 784
-        y: 25
-        width: 149
-        height: 311
+        x: 764
+        y: 0
+        width: 191
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: statuenog_5
       rect:
         serializedVersion: 2
-        x: 975
-        y: 25
-        width: 149
-        height: 311
+        x: 955
+        y: 0
+        width: 191
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +249,10 @@ TextureImporter:
       name: statuenog_6
       rect:
         serializedVersion: 2
-        x: 1166
-        y: 25
-        width: 149
-        height: 312
+        x: 1146
+        y: 0
+        width: 191
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

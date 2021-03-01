@@ -7,7 +7,6 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 {   
     public GameObject mainChar;
-    //public TMP_Text playerDialogue;
 
     private Queue<string> sentences;
     private Queue<TMP_Text> textContainers;
@@ -19,7 +18,7 @@ public class DialogueManager : MonoBehaviour
         textContainers = new Queue<TMP_Text>();
     }
 
-    public void StartDialogue(Dialogue dialogue)
+    public void StartDialogue(Dialogue dialogue, bool _thinking)
     {   
         sentences.Clear();
         textContainers.Clear();
@@ -33,7 +32,14 @@ public class DialogueManager : MonoBehaviour
             textContainers.Enqueue(textContainer);
         }
 
-        mainChar.GetComponent<CharControl>().startTalking();
+        if (!_thinking)
+        {
+            mainChar.GetComponent<CharControl>().startTalking();
+        }
+        else{
+            mainChar.GetComponent<CharControl>().startThinking();
+        }
+        
 
         DisplayNextSentence();
 
@@ -69,6 +75,7 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         mainChar.GetComponent<CharControl>().endTalking();
+        mainChar.GetComponent<CharControl>().endThinking();
     }
 
 

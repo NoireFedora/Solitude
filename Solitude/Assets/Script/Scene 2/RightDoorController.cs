@@ -18,6 +18,8 @@ public class RightDoorController : MonoBehaviour, ISInteractable
     private float _floorThreshold;
     private bool canOpen;
 
+    private AudioSource doorSFX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +41,8 @@ public class RightDoorController : MonoBehaviour, ISInteractable
 
         _leftDoorController = GameObject.FindObjectOfType<LeftDoorController>();
         canOpen = true;
+
+        doorSFX = gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -50,6 +54,7 @@ public class RightDoorController : MonoBehaviour, ISInteractable
     void ISInteractable.interact()
     {   
         if (canOpen) {
+            doorSFX.Play();
             _animator.SetBool("CanOpen", true);
             StartCoroutine(Transition());
             _interactable.SetActive(false);
