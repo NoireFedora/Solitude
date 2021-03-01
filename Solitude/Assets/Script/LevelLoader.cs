@@ -29,8 +29,12 @@ public class LevelLoader : MonoBehaviour
     {
         if (SceneManager.GetActiveScene().buildIndex == 1) {
             int hasInteracted = _scene1LaptopController.InteractedWithLaptop();
-            
-            if (hasInteracted > 0) {
+            bool isLaptopOpen = _scene1LaptopController.IsLaptopOpen();
+            // if (hasInteracted > 0) {
+            //     LoadNextLevel();
+            // }
+
+            if (isLaptopOpen) {
                 LoadNextLevel();
             }
         }
