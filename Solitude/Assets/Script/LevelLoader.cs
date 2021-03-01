@@ -8,7 +8,8 @@ public class LevelLoader : MonoBehaviour
     public Animator transition;
     private const int _TRANSITIONTIME = 6;
 
-    private LaptopController _laptopController;
+    private Scene1LaptopController _scene1LaptopController;
+    private Scene4LaptopController _scene4LaptopController;
     private Scene2Controller _scene2Controller;
     private Scene4Controller _scene4Controller;
     private Scene5Controller _scene5Controller;
@@ -16,7 +17,8 @@ public class LevelLoader : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        _laptopController = GameObject.FindObjectOfType<LaptopController>();
+        _scene1LaptopController = GameObject.FindObjectOfType<Scene1LaptopController>();
+        _scene4LaptopController = GameObject.FindObjectOfType<Scene4LaptopController>();
         _scene2Controller = GameObject.FindObjectOfType<Scene2Controller>();
         _scene4Controller = GameObject.FindObjectOfType<Scene4Controller>();
         _scene5Controller = GameObject.FindObjectOfType<Scene5Controller>();
@@ -26,7 +28,7 @@ public class LevelLoader : MonoBehaviour
     void Update()
     {
         if (SceneManager.GetActiveScene().buildIndex == 1) {
-            int hasInteracted = _laptopController.InteractedWithLaptop();
+            int hasInteracted = _scene1LaptopController.InteractedWithLaptop();
             
             if (hasInteracted > 0) {
                 LoadNextLevel();
@@ -52,7 +54,7 @@ public class LevelLoader : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 4)
         {
-            int hasInteracted = _laptopController.InteractedWithLaptop();
+            int hasInteracted = _scene4LaptopController.InteractedWithLaptop();
             bool checkLights = _scene4Controller.CheckLights();
 
             if (hasInteracted > 0 && checkLights) {

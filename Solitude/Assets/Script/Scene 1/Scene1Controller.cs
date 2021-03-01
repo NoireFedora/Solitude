@@ -9,7 +9,7 @@ public class Scene1Controller : MonoBehaviour
     private float _threshold;
 
     public AudioSource laptopSFX;
-    private LaptopController _laptopController;
+    private Scene1LaptopController _laptopController;
     int hasInteracted;
 
     // Start is called before the first frame update
@@ -21,18 +21,12 @@ public class Scene1Controller : MonoBehaviour
         _threshold = 0.0f;
         _objectLight.SetFloat("_Threshold", _threshold);
 
-        _laptopController = GameObject.FindObjectOfType<LaptopController>();
+        _laptopController = GameObject.FindObjectOfType<Scene1LaptopController>();
     }
 
     // Update is called once per frame
     void Update()
     {
-    
-        hasInteracted = _laptopController.InteractedWithLaptop();
-
-        if (hasInteracted > 0) {
-            laptopSFX.Play();
-        }
 
     }
 }

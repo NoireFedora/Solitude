@@ -36,6 +36,8 @@ public class CharControl : MonoBehaviour
     public GameObject speechGUI;
     public GameObject thoughtGUI;
     public GameObject interactUI;
+    //public Animator speechAnimator;
+
     public GameObject menu;
 
     // Start is called before the first frame update
@@ -245,6 +247,7 @@ public class CharControl : MonoBehaviour
         _talking = true;
         _thinking = false;
         speechGUI.SetActive(_talking);
+        //speechAnimator.SetBool("IsOpen", true);
         thoughtGUI.SetActive(_thinking);
         inAction = true;
         SetMovement(false);
@@ -257,4 +260,23 @@ public class CharControl : MonoBehaviour
         inAction = false;
         SetMovement(true);
     }
+
+    public void startThinking()
+    {
+        _talking = false;
+        _thinking = true;
+        speechGUI.SetActive(_talking);
+        thoughtGUI.SetActive(_thinking);
+        inAction = true;
+        SetMovement(false);
+    }
+
+    public void endThinking()
+    {
+        _thinking = false;
+        thoughtGUI.SetActive(_thinking);
+        inAction = false;
+        SetMovement(true);
+    }
+
 }

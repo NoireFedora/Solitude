@@ -37,5 +37,5 @@ public class ImageAnimation : MonoBehaviour
                 Destroy(gameObject);
 		}
 		
-    }
+	}
 }
