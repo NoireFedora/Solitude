@@ -56,7 +56,7 @@ public class LightController : MonoBehaviour, ISInteractable
         
         if (_isOpen) {
 
-            if (SceneManager.GetActiveScene().buildIndex == 1) {
+            if (SceneManager.GetActiveScene().buildIndex == 2) {
                 _lightsOffMusic.Stop(); 
                 _gameAudio.togglePlay();
             }
@@ -67,7 +67,7 @@ public class LightController : MonoBehaviour, ISInteractable
 
         } else {
 
-            if (SceneManager.GetActiveScene().buildIndex == 1) {
+            if (SceneManager.GetActiveScene().buildIndex == 2) {
                 _gameAudio.togglePlay();
                 _lightsOffMusic.Play();
             }
