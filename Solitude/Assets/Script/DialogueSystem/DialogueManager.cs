@@ -24,7 +24,7 @@ public class DialogueManager : MonoBehaviour
         textContainers.Clear();
 
         foreach (string sentence in dialogue.sentences)
-        {
+        {   
             sentences.Enqueue(sentence);
         }
         foreach (TMP_Text textContainer in dialogue.textContainers)
@@ -45,19 +45,19 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    public void DisplayNextSentence()
-    {
+    public bool DisplayNextSentence()
+    {   
         if (sentences.Count == 0)
         {
-            EndDialogue();
-            return;
+            bool isEnded = EndDialogue();
+            return isEnded;
         }
 
         string sentence = sentences.Dequeue();
         TMP_Text textContainer = textContainers.Dequeue();
         StopAllCoroutines();
         StartCoroutine(ScrollText(sentence, textContainer));
-
+        return false;
     }
 
     private IEnumerator ScrollText(string sentence, TMP_Text textContainer)
@@ -72,10 +72,12 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-    public void EndDialogue()
+    public bool EndDialogue()
     {
+        StopAllCoroutines();
         mainChar.GetComponent<CharControl>().endTalking();
         mainChar.GetComponent<CharControl>().endThinking();
+        return true;
     }
 
 

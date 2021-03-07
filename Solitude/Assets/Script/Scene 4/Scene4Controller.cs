@@ -27,6 +27,8 @@ public class Scene4Controller : MonoBehaviour
         _threshold = 1f;
         _objectLight.SetFloat("_Threshold", _threshold);
 
+        
+
     }
 
     // Update is called once per frame

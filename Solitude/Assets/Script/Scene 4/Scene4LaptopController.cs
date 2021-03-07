@@ -11,7 +11,7 @@ public class Scene4LaptopController : MonoBehaviour, ISInteractable
     private Scene4Controller _scene4Controller;
     private bool _checkLights;
     
-    public AudioSource errorSFX;
+    // public AudioSource errorSFX;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,13 +34,18 @@ public class Scene4LaptopController : MonoBehaviour, ISInteractable
     {
         _checkLights = _scene4Controller.CheckLights();
 
-        if (_interactCounter <= 0 && _checkLights)
+        // if (_interactCounter <= 0 && _checkLights)
+        // {
+        //     _laptopSFX.Play();
+        // }
+
+        // if (_interactCounter <= 0 && !_checkLights) {
+        //     errorSFX.Play();
+        // }
+
+        if (_interactCounter <= 0)
         {
             _laptopSFX.Play();
-        }
-
-        if (_interactCounter <= 0 && !_checkLights) {
-            errorSFX.Play();
         }
 
         _interactCounter += 1;
