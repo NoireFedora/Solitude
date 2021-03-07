@@ -15,6 +15,12 @@ public class CharControl : MonoBehaviour
     private GameObject _holdingObject;
     private Animator _animator;
     private AudioSource _footstep;
+    private GameObject _interactUI;
+    private GameObject _speechBubble;
+    //private GameObject _thoughtGUI;
+    private GameObject _menu;
+
+    public Animator speechAnimator;
 
     public bool _jumped;
     public bool _grounded;
@@ -32,13 +38,7 @@ public class CharControl : MonoBehaviour
 
     public float handDistance;
     public float speedMultiplier = 1f;
-
-    public GameObject speechGUI;
-    public GameObject thoughtGUI;
-    public GameObject interactUI;
-    //public Animator speechAnimator;
-
-    public GameObject menu;
+    private float baseSpeed = 0.02f;
 
     // Start is called before the first frame update
     void Start()
@@ -47,6 +47,11 @@ public class CharControl : MonoBehaviour
         _transform = GetComponent<Transform>();
         _animator = GetComponent<Animator>();
         _footstep = GetComponent<AudioSource>();
+        _interactUI = GameObject.Find("InteractUI");
+        _speechBubble = GameObject.Find("SpeechBubble");
+        _speechBubble.SetActive(false);
+        //_thoughtGUI = GameObject.Find("ThoughtGUI");
+        _menu = GameObject.Find("Menu");
         _animator.SetFloat("Horizontal", 0);
         _animator.SetFloat("Vertical", 0);
         _jumped = false;
@@ -86,7 +91,8 @@ public class CharControl : MonoBehaviour
         if (Input.GetButtonDown("Cancel"))
         {   
             if (!inMenu){
-                menu.SetActive(true);
+                _menu.SetActive(true);
+                gameObject.SetActive(false);
             }
             
         }
@@ -142,8 +148,16 @@ public class CharControl : MonoBehaviour
 
         if (!inAction && !inAnimation)
         {
-            _rigidbody.velocity = new Vector3(_playerInputH * speedMultiplier, _rigidbody.velocity.y, _playerInputV * speedMultiplier);
-            _transform.position += new Vector3(0, 0.001f, 0); // make player wont stuck on small gap
+            // _rigidbody.velocity = new Vector3(_playerInputH * speedMultiplier, _rigidbody.velocity.y, _playerInputV * speedMultiplier);
+            // _transform.position += new Vector3(0, -0.005f, 0); // make player wont stuck on small gap
+            if (_rigidbody.velocity.y > 0){
+                // _rigidbody.velocity = new Vector3(_rigidbody.velocity.x, 0, _rigidbody.velocity.z);
+                _rigidbody.velocity += new Vector3(0, -10f, 0);
+            }
+            // _transform.position += new Vector3(_playerInputH * speedMultiplier * baseSpeed, 0, _playerInputV * speedMultiplier *baseSpeed);
+            
+            Vector3 position = new Vector3(_playerInputH * speedMultiplier * baseSpeed, 0, _playerInputV * speedMultiplier * baseSpeed) + _rigidbody.position;
+            _rigidbody.MovePosition(position);
             _animator.SetFloat("Horizontal", _playerInputH);
             _animator.SetFloat("Vertical", _playerInputV);
 
@@ -196,9 +210,9 @@ public class CharControl : MonoBehaviour
                 Vector3 diff = interactable.transform.position - _transform.position;
                 diff.y = 0f;
                 float distance = diff.sqrMagnitude;
-                SpriteRenderer interactableRenderer;
-                interactableRenderer = interactable.GetComponent<SpriteRenderer>();
-                interactableRenderer.sprite = Resources.Load<Sprite>("Element/selected");
+                // SpriteRenderer interactableRenderer;
+                // interactableRenderer = interactable.GetComponent<SpriteRenderer>();
+                // interactableRenderer.sprite = Resources.Load<Sprite>("Element/selected");
                 if (distance < minDistance)
                 {
                     minDistance = distance;
@@ -206,18 +220,35 @@ public class CharControl : MonoBehaviour
                 }
             }
 
+            GameObject[] holdables;
+            holdables = GameObject.FindGameObjectsWithTag("Holdable");
+            bool inHoldable = false;
+            foreach (GameObject holdable in holdables)
+            {
+                Vector3 diff = holdable.transform.position - _transform.position;
+                diff.y = 0f;
+                float distance = diff.sqrMagnitude;
+                if (distance < minDistance)
+                {
+                    minDistance = distance;
+                    inHoldable = true;
+                }
+            }
+
             if (_selectedObject)
             {
-                _selectedObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("selected");
-                interactUI.SetActive(true);
+                // _selectedObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("selected");
+                _interactUI.SetActive(true);
+            }else if(inHoldable){
+                _interactUI.SetActive(true);
             }
-            else interactUI.SetActive(false);
+            else _interactUI.SetActive(false);
         }
         else
         {   
             _animator.SetFloat("Horizontal", 0);
             _animator.SetFloat("Vertical", 0);
-            interactUI.SetActive(false);
+            _interactUI.SetActive(false);
         }
         
     }
@@ -246,9 +277,9 @@ public class CharControl : MonoBehaviour
     {
         _talking = true;
         _thinking = false;
-        speechGUI.SetActive(_talking);
-        //speechAnimator.SetBool("IsOpen", true);
-        thoughtGUI.SetActive(_thinking);
+        _speechBubble.SetActive(_talking);
+        speechAnimator.SetBool("IsOpen", true);
+        //_thoughtGUI.SetActive(_thinking);
         inAction = true;
         SetMovement(false);
     }
@@ -256,7 +287,7 @@ public class CharControl : MonoBehaviour
     public void endTalking()
     {
         _talking = false;
-        speechGUI.SetActive(_talking);
+        _speechBubble.SetActive(_talking);
         inAction = false;
         SetMovement(true);
     }
@@ -265,8 +296,8 @@ public class CharControl : MonoBehaviour
     {
         _talking = false;
         _thinking = true;
-        speechGUI.SetActive(_talking);
-        thoughtGUI.SetActive(_thinking);
+        _speechBubble.SetActive(_talking);
+        //_thoughtGUI.SetActive(_thinking);
         inAction = true;
         SetMovement(false);
     }
@@ -274,9 +305,14 @@ public class CharControl : MonoBehaviour
     public void endThinking()
     {
         _thinking = false;
-        thoughtGUI.SetActive(_thinking);
+        //_thoughtGUI.SetActive(_thinking);
         inAction = false;
         SetMovement(true);
+    }
+
+    public void CanGoRightOnly(bool boolean)
+    {
+        goRightOnly = boolean;
     }
 
 }

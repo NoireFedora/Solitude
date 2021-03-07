@@ -18,8 +18,12 @@ public class BubbleFollow : MonoBehaviour
     void Update()
     {
         Vector3 GUIPos = Camera.main.WorldToScreenPoint(this.transform.position);
-        speechBackground.transform.position = GUIPos;
-        thoughtBackground.transform.position = GUIPos;
+        if (speechBackground){
+            speechBackground.transform.position = GUIPos;
+        }
+        if (thoughtBackground){
+            thoughtBackground.transform.position = GUIPos;
+        }
         
     }
 }

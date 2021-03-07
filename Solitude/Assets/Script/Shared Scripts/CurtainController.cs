@@ -9,15 +9,12 @@ public class CurtainController : MonoBehaviour, ISInteractable
     private int _interactCD = 0;
     private int _interactCounter;
 
-    Animator animator;
-    public AudioSource interactSound;
+    private AudioSource _interactSound;
     // Start is called before the first frame update
     void Start()
     {
         isOpen = false;
-        animator = GetComponent<Animator>();
-        interactSound = GetComponent<AudioSource>();
-        animator.SetBool("IsOpen", isOpen);
+        _interactSound = gameObject.GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -33,9 +30,7 @@ public class CurtainController : MonoBehaviour, ISInteractable
     {
         if (_interactCounter <= 0)
         {
-            isOpen = !isOpen;
-            interactSound.Play(0);
-            animator.SetBool("IsOpen", isOpen);
+            _interactSound.Play(0);
             _interactCounter = _interactCD;
         }
     }

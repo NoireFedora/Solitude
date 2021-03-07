@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class LightController : MonoBehaviour, ISInteractable
 {
@@ -54,17 +55,27 @@ public class LightController : MonoBehaviour, ISInteractable
         
         
         if (_isOpen) {
-            _lightsOffMusic.Stop(); 
-            _gameAudio.togglePlay();
+
+            if (SceneManager.GetActiveScene().buildIndex == 1) {
+                _lightsOffMusic.Stop(); 
+                _gameAudio.togglePlay();
+            }
+
             _lightAnimator.SetBool("LightOn", true);
             _interactUI.color = Color.black;
             _interactUI.faceColor = Color.black;
+
         } else {
-            _gameAudio.togglePlay();
-            _lightsOffMusic.Play();  
+
+            if (SceneManager.GetActiveScene().buildIndex == 1) {
+                _gameAudio.togglePlay();
+                _lightsOffMusic.Play();
+            }
+
             _lightAnimator.SetBool("LightOn", false);
             _interactUI.color = Color.red;
             _interactUI.faceColor = Color.red;
+
         }
 
         _isOpen = !_isOpen;

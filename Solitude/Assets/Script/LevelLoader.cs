@@ -12,7 +12,6 @@ public class LevelLoader : MonoBehaviour
     private Scene4LaptopController _scene4LaptopController;
     private Scene2Controller _scene2Controller;
     private Scene4Controller _scene4Controller;
-    private Scene5Controller _scene5Controller;
 
     // Start is called before the first frame update
     void Start()
@@ -21,14 +20,13 @@ public class LevelLoader : MonoBehaviour
         _scene4LaptopController = GameObject.FindObjectOfType<Scene4LaptopController>();
         _scene2Controller = GameObject.FindObjectOfType<Scene2Controller>();
         _scene4Controller = GameObject.FindObjectOfType<Scene4Controller>();
-        _scene5Controller = GameObject.FindObjectOfType<Scene5Controller>();
     }
 
     // Update is called once per frame
     void Update()
     {
         if (SceneManager.GetActiveScene().buildIndex == 1) {
-            int hasInteracted = _scene1LaptopController.InteractedWithLaptop();
+            // int hasInteracted = _scene1LaptopController.InteractedWithLaptop();
             bool isLaptopOpen = _scene1LaptopController.IsLaptopOpen();
             // if (hasInteracted > 0) {
             //     LoadNextLevel();
@@ -50,7 +48,7 @@ public class LevelLoader : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex == 3)
         {
             GameObject mainChar = GameObject.Find("GameChar");
-            if (mainChar.transform.position.y < -8)
+            if (mainChar && mainChar.transform.position.y < -8)
             {
                 LoadNextLevel();
             }
@@ -59,21 +57,15 @@ public class LevelLoader : MonoBehaviour
         if (SceneManager.GetActiveScene().buildIndex == 4)
         {
             int hasInteracted = _scene4LaptopController.InteractedWithLaptop();
-            bool checkLights = _scene4Controller.CheckLights();
+            // bool checkLights = _scene4Controller.CheckLights();
 
-            if (hasInteracted > 0 && checkLights) {
+            // if (hasInteracted > 0 && checkLights) {
+            //     LoadNextLevel();
+            // }
+
+            if (hasInteracted > 0) {
                 LoadNextLevel();
             }
-        }
-
-        if (SceneManager.GetActiveScene().buildIndex == 5)
-        {
-            bool goNext = _scene5Controller.CanGoNext();
-            
-            if (goNext) {
-                LoadNextLevel();
-            }
-        
         }
 
     }

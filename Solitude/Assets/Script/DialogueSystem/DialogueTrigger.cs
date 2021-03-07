@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class DialogueTrigger : MonoBehaviour
 {   
@@ -12,8 +13,14 @@ public class DialogueTrigger : MonoBehaviour
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue, _thinking);
     }
 
-    public void ContinueDialogue()
+    public bool ContinueDialogue()
     {
-        FindObjectOfType<DialogueManager>().DisplayNextSentence();
+        bool isEnded = FindObjectOfType<DialogueManager>().DisplayNextSentence();
+        return isEnded;
+    }
+
+    public void SetDialogue(string[] newSentences, TMP_Text[] newTextContainers)
+    {
+        dialogue.SetDialogue(newSentences, newTextContainers);
     }
 }

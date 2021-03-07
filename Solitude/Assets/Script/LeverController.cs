@@ -14,16 +14,18 @@ public class LeverController : MonoBehaviour, ISHoldable
     public float bridgeDistance = 2f;
     public bool isFix;
     Animator animator;
+    AudioSource activeAudio;
     // Start is called before the first frame update
     void Start()
     {
         
         _holding = false;
-        _holdcounter = 0;
+        _holdcounter = 0; 
         _holdMax = (int)(Math.Ceiling(bridgeDistance / bridgeSpeed));
         isFix = false;
         animator = GetComponent<Animator>();
         animator.SetBool("IsDown", false);
+        activeAudio = GetComponent<AudioSource>();
 
     }
 
@@ -71,11 +73,13 @@ public class LeverController : MonoBehaviour, ISHoldable
     {
         _holding = true;
         animator.SetBool("IsDown", true);
+        activeAudio.Play();
     }
 
     void ISHoldable.holdEnd()
     {
         _holding = false;
         animator.SetBool("IsDown", false);
+        activeAudio.Play();
     }
 }
