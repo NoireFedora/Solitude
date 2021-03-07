@@ -25,7 +25,7 @@ public class LevelLoader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (SceneManager.GetActiveScene().buildIndex == 1) {
+        if (SceneManager.GetActiveScene().buildIndex == 2) {
             // int hasInteracted = _scene1LaptopController.InteractedWithLaptop();
             bool isLaptopOpen = _scene1LaptopController.IsLaptopOpen();
             // if (hasInteracted > 0) {
@@ -37,7 +37,7 @@ public class LevelLoader : MonoBehaviour
             }
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 2) {
+        if (SceneManager.GetActiveScene().buildIndex == 3) {
             bool goNext = _scene2Controller.CanGoNext();
             
             if (goNext) {
@@ -45,7 +45,7 @@ public class LevelLoader : MonoBehaviour
             }
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 3)
+        if (SceneManager.GetActiveScene().buildIndex == 4)
         {
             GameObject mainChar = GameObject.Find("GameChar");
             if (mainChar && mainChar.transform.position.y < -8)
@@ -54,7 +54,7 @@ public class LevelLoader : MonoBehaviour
             }
         }
 
-        if (SceneManager.GetActiveScene().buildIndex == 4)
+        if (SceneManager.GetActiveScene().buildIndex == 5)
         {
             int hasInteracted = _scene4LaptopController.InteractedWithLaptop();
             // bool checkLights = _scene4Controller.CheckLights();
