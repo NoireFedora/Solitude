@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: 507dc16f7d8e37445923315d4c5f7427
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7157510760896669456
+    second: Pim Walking Down_0
+  - first:
+      213: 8083764415946080614
+    second: Pim Walking Down_1
+  - first:
+      213: -1034986671818787156
+    second: Pim Walking Down_2
+  - first:
+      213: 3042019895724155875
+    second: Pim Walking Down_3
+  - first:
+      213: -2001513345554278437
+    second: Pim Walking Down_4
+  - first:
+      213: -521886874392879935
+    second: Pim Walking Down_5
+  - first:
+      213: -8205345390802606158
+    second: Pim Walking Down_6
+  - first:
+      213: -9014965366743941995
+    second: Pim Walking Down_7
+  - first:
+      213: 4059778050916016222
+    second: Pim Walking Down_8
+  - first:
+      213: -5848739006671337478
+    second: Pim Walking Down_9
+  - first:
+      213: 1608175687964825945
+    second: Pim Walking Down_10
+  - first:
+      213: -8468646424267364913
+    second: Pim Walking Down_11
+  - first:
+      213: 3048053204947637640
+    second: Pim Walking Down_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pim Walking Down_0
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 1429
+        width: 78
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017284b6d16945360800000000000000
+      internalID: 7157510760896669456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_1
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1422
+        width: 102
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 661c86c18ec4f2070800000000000000
+      internalID: 8083764415946080614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_2
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1430
+        width: 106
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca63af60b1df2a1f0800000000000000
+      internalID: -1034986671818787156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 1100
+        width: 142
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e32f445afc673a20800000000000000
+      internalID: 3042019895724155875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1085
+        width: 118
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd7980977323934e0800000000000000
+      internalID: -2001513345554278437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_5
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1087
+        width: 101
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc9fde17a2e1c8f0800000000000000
+      internalID: -521886874392879935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_6
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 749
+        width: 95
+        height: 273
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b762d147d1c02e80800000000000000
+      internalID: -8205345390802606158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 740
+        width: 99
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c37c423c864e280800000000000000
+      internalID: -9014965366743941995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_8
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 742
+        width: 96
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50e6cfa0aa375830800000000000000
+      internalID: 4059778050916016222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_9
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 378
+        width: 129
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af742638cda15dea0800000000000000
+      internalID: -5848739006671337478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_10
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 365
+        width: 124
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95910998443615610800000000000000
+      internalID: 1608175687964825945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_11
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 391
+        width: 114
+        height: 281
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5692922f2597a80800000000000000
+      internalID: -8468646424267364913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Down_12
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 36
+        width: 85
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88515699d3cdc4a20800000000000000
+      internalID: 3048053204947637640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3f1506e95d86c4b478a669b0beb06921
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

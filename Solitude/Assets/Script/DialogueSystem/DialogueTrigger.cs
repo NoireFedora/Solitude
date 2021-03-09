@@ -19,8 +19,4 @@ public class DialogueTrigger : MonoBehaviour
         return isEnded;
     }
 
-    public void SetDialogue(string[] newSentences, TMP_Text[] newTextContainers)
-    {
-        dialogue.SetDialogue(newSentences, newTextContainers);
-    }
 }

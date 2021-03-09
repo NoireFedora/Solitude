@@ -14,13 +14,17 @@ public class CharControl : MonoBehaviour
     private GameObject _selectedObject;
     private GameObject _holdingObject;
     private Animator _animator;
+    private AudioSource[] _audioSource;
     private AudioSource _footstep;
+    private AudioSource _bubbleSpawn;
     private GameObject _interactUI;
     private GameObject _speechBubble;
-    //private GameObject _thoughtGUI;
+    private GameObject _thoughtBubble;
     private GameObject _menu;
+    private GameObject _nameEntry;
 
     public Animator speechAnimator;
+    public Animator thoughtAnimator;
 
     public bool _jumped;
     public bool _grounded;
@@ -30,15 +34,18 @@ public class CharControl : MonoBehaviour
     private bool _thinking;
     public bool thinking { get { return _thinking; } }
     public bool inAction;
+    public bool interactDisabled;
     public bool inAnimation;
     public bool can_interact;
     public bool inMenu;
     public float direction;
-    public bool goRightOnly;
+    public bool _withTorch;
 
     public float handDistance;
     public float speedMultiplier = 1f;
     private float baseSpeed = 0.02f;
+
+    public string charName;
 
     // Start is called before the first frame update
     void Start()
@@ -46,12 +53,20 @@ public class CharControl : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         _transform = GetComponent<Transform>();
         _animator = GetComponent<Animator>();
-        _footstep = GetComponent<AudioSource>();
+        _audioSource = GetComponents<AudioSource>();
+        _footstep = _audioSource[0];
+        _bubbleSpawn = _audioSource[1];
+
         _interactUI = GameObject.Find("InteractUI");
         _speechBubble = GameObject.Find("SpeechBubble");
         _speechBubble.SetActive(false);
-        //_thoughtGUI = GameObject.Find("ThoughtGUI");
+        _thoughtBubble = GameObject.Find("ThoughtBubble");
+        _thoughtBubble.SetActive(false);
         _menu = GameObject.Find("Menu");
+        _nameEntry = GameObject.Find("NameEntry");
+        charName = _nameEntry.GetComponent<NameEntry>().GetPlayerName();
+        _nameEntry.SetActive(false);
+        _menu.SetActive(false);
         _animator.SetFloat("Horizontal", 0);
         _animator.SetFloat("Vertical", 0);
         _jumped = false;
@@ -60,9 +75,11 @@ public class CharControl : MonoBehaviour
         _talking = false;
         _thinking= false;
         inAction = false;
+        interactDisabled = false;
         can_interact = false;
         direction = 0;
         inMenu = false;
+        _withTorch = false;
     }
 
     // Update is called once per frame
@@ -70,15 +87,6 @@ public class CharControl : MonoBehaviour
     {
         _playerInputH = Input.GetAxis("Horizontal");
         _playerInputV = Input.GetAxis("Vertical");
-
-        if (goRightOnly)
-        {   
-            if (_playerInputH < 0f)
-            {
-                _playerInputH = 0f;
-            }
-        }
-
         _jumped = Input.GetButton("Jump");
 
         if (!GetComponent<SpriteRenderer>().isVisible) {
@@ -96,6 +104,8 @@ public class CharControl : MonoBehaviour
             }
             
         }
+
+        if (!interactDisabled){
 
         if (Input.GetButtonDown("Interact") && _selectedObject)
         {
@@ -137,6 +147,8 @@ public class CharControl : MonoBehaviour
                 _holdingObject = null;
             }
         }
+
+        }
         
     }
 
@@ -161,7 +173,7 @@ public class CharControl : MonoBehaviour
             _animator.SetFloat("Horizontal", _playerInputH);
             _animator.SetFloat("Vertical", _playerInputV);
 
-            if (_playerInputH != 0f || _playerInputV != 0f)
+            if ((_playerInputH != 0f || _playerInputV != 0f))
             {
                 _footstep.UnPause();
             }
@@ -248,6 +260,7 @@ public class CharControl : MonoBehaviour
         {   
             _animator.SetFloat("Horizontal", 0);
             _animator.SetFloat("Vertical", 0);
+            _footstep.Pause();
             _interactUI.SetActive(false);
         }
         
@@ -277,9 +290,11 @@ public class CharControl : MonoBehaviour
     {
         _talking = true;
         _thinking = false;
+        _footstep.Pause();
+        _thoughtBubble.SetActive(_thinking);
         _speechBubble.SetActive(_talking);
+        _bubbleSpawn.Play();
         speechAnimator.SetBool("IsOpen", true);
-        //_thoughtGUI.SetActive(_thinking);
         inAction = true;
         SetMovement(false);
     }
@@ -293,11 +308,14 @@ public class CharControl : MonoBehaviour
     }
 
     public void startThinking()
-    {
+    {   
         _talking = false;
         _thinking = true;
+        _footstep.Pause();
         _speechBubble.SetActive(_talking);
-        //_thoughtGUI.SetActive(_thinking);
+        _thoughtBubble.SetActive(_thinking);
+        _bubbleSpawn.Play();
+        thoughtAnimator.SetBool("IsOpen", true);
         inAction = true;
         SetMovement(false);
     }
@@ -305,14 +323,28 @@ public class CharControl : MonoBehaviour
     public void endThinking()
     {
         _thinking = false;
-        //_thoughtGUI.SetActive(_thinking);
+        _thoughtBubble.SetActive(_thinking);
         inAction = false;
         SetMovement(true);
     }
 
-    public void CanGoRightOnly(bool boolean)
+    public void startListening()
     {
-        goRightOnly = boolean;
+        _talking = true;
+        _footstep.Pause();
+        inAction = true;
+        SetMovement(false);
+    }
+
+    public void endListening()
+    {
+        _talking = false;
+        inAction = false;
+        SetMovement(true);
+    }
+
+    public void DisableInteract(bool boolean){
+        interactDisabled = boolean;
     }
 
 }

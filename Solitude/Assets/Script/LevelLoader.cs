@@ -12,6 +12,7 @@ public class LevelLoader : MonoBehaviour
     private Scene4LaptopController _scene4LaptopController;
     private Scene2Controller _scene2Controller;
     private Scene4Controller _scene4Controller;
+    private Scene5Controller _scene5Controller;
 
     // Start is called before the first frame update
     void Start()
@@ -20,6 +21,7 @@ public class LevelLoader : MonoBehaviour
         _scene4LaptopController = GameObject.FindObjectOfType<Scene4LaptopController>();
         _scene2Controller = GameObject.FindObjectOfType<Scene2Controller>();
         _scene4Controller = GameObject.FindObjectOfType<Scene4Controller>();
+        _scene5Controller = GameObject.FindObjectOfType<Scene5Controller>();
     }
 
     // Update is called once per frame
@@ -64,6 +66,14 @@ public class LevelLoader : MonoBehaviour
             // }
 
             if (hasInteracted > 0) {
+                LoadNextLevel();
+            }
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 6) {
+            bool goNext = _scene5Controller.CanGoNext();
+            
+            if (goNext) {
                 LoadNextLevel();
             }
         }
