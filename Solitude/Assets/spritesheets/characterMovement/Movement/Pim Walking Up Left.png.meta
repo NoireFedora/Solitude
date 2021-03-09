@@ -1,0 +1,392 @@
+fileFormatVersion: 2
+guid: 83c9848b46a1eef4eaedc85d516f9913
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7801222311550362044
+    second: Pim Walking Up Left_0
+  - first:
+      213: -4107026201610371429
+    second: Pim Walking Up Left_1
+  - first:
+      213: -1712927784734912002
+    second: Pim Walking Up Left_2
+  - first:
+      213: -6674399356475759430
+    second: Pim Walking Up Left_3
+  - first:
+      213: 1225666414688201909
+    second: Pim Walking Up Left_4
+  - first:
+      213: -210549719936142519
+    second: Pim Walking Up Left_5
+  - first:
+      213: -200321533710267138
+    second: Pim Walking Up Left_6
+  - first:
+      213: 8516881545448218531
+    second: Pim Walking Up Left_7
+  - first:
+      213: 844218962716274228
+    second: Pim Walking Up Left_8
+  - first:
+      213: 4430615372554300284
+    second: Pim Walking Up Left_9
+  - first:
+      213: -4649194976452794762
+    second: Pim Walking Up Left_10
+  - first:
+      213: -1361172712416038960
+    second: Pim Walking Up Left_11
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Pim Walking Up Left_0
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 381
+        width: 96
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e503ae3ad7cb390800000000000000
+      internalID: -7801222311550362044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Up Left_1
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 379
+        width: 66
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ebac9fd69e007c0800000000000000
+      internalID: -4107026201610371429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Up Left_2
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 376
+        width: 91
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef19af851457a38e0800000000000000
+      internalID: -1712927784734912002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Up Left_3
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 374
+        width: 129
+        height: 295
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab4aa24d525cf53a0800000000000000
+      internalID: -6674399356475759430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Up Left_4
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 374
+        width: 118
+        height: 294
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bced9c3c11720110800000000000000
+      internalID: 1225666414688201909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Up Left_5
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 380
+        width: 106
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 943f5af252af31df0800000000000000
+      internalID: -210549719936142519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Up Left_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 33
+        width: 69
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc865e50a0583df0800000000000000
+      internalID: -200321533710267138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Up Left_7
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 32
+        width: 111
+        height: 286
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af558624aa023670800000000000000
+      internalID: 8516881545448218531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Up Left_8
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 26
+        width: 150
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e2a597ca447bb00800000000000000
+      internalID: 844218962716274228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Up Left_9
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 26
+        width: 141
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7beb79f435bc7d30800000000000000
+      internalID: 4430615372554300284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Up Left_10
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 18
+        width: 143
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67620092dcdba7fb0800000000000000
+      internalID: -4649194976452794762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pim Walking Up Left_11
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 26
+        width: 86
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfac7e31a42c1de0800000000000000
+      internalID: -1361172712416038960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

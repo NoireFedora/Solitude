@@ -37,8 +37,6 @@ public class LightController : MonoBehaviour, ISInteractable
         _isOpen = _threshold == 0;
 
         setMode();
-
-
     }
 
     // Update is called once per frame

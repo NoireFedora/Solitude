@@ -7,12 +7,12 @@ public class Holeinwall : MonoBehaviour, ISInteractable
 {   
     private GameObject gameChar;
     private GameObject holeBubble;
-    private DialogueTrigger dialogueTrigger;
-    private CharControl charControl;
-    private DialogueLooper dialogueLooper;
+    private GameObject smallDoor;
 
-    public Animator speechBubble;
-    public TMP_Text charText;
+    private DialogueLooper dialogueLooper;
+    private DialogueTrigger[] dialogueTrigger;
+
+    public Animator holeBubbleAnimator;
 
     public bool dialogueEnded;
 
@@ -21,11 +21,11 @@ public class Holeinwall : MonoBehaviour, ISInteractable
     {   
         gameChar = GameObject.Find("GameChar");
         holeBubble = GameObject.Find("HoleBubble");
-        charControl = gameChar.GetComponent<CharControl>();
-        dialogueTrigger = GetComponent<DialogueTrigger>();
+        smallDoor = GameObject.Find("Small Door");
+        smallDoor.SetActive(false);
         dialogueLooper = GameObject.FindObjectOfType<DialogueLooper>();
-        charControl.CanGoRightOnly(true);
-        speechBubble.SetBool("IsOpen", true);
+        dialogueTrigger = GetComponents<DialogueTrigger>();
+        holeBubbleAnimator.SetBool("IsOpen", true);
         dialogueEnded = false;
     }
 
@@ -42,22 +42,31 @@ public class Holeinwall : MonoBehaviour, ISInteractable
             dialogueLooper.StopLooping();
         }
 
-        if (!gameChar.GetComponent<CharControl>().talking)
+        bool isTalking = gameChar.GetComponent<CharControl>().talking;
+
+        if (!isTalking && !dialogueEnded)
         {   
-            dialogueTrigger.TriggerDialogue();
+            dialogueTrigger[0].TriggerDialogue();
         }
-        else
+        else if (isTalking && !dialogueEnded)
         {   
             StopAllCoroutines();
-            dialogueEnded = dialogueTrigger.ContinueDialogue();
+            dialogueEnded = dialogueTrigger[0].ContinueDialogue();
             if (dialogueEnded)
-            {
+            {   
                 holeBubble.SetActive(false);
-                string[] newSentences = {"I should let them be..."};
-                TMP_Text[] newTextContainers = {charText};
-                dialogueTrigger.SetDialogue(newSentences, newTextContainers);
+                smallDoor.SetActive(true);
             }
         }
+        else if (!isTalking && dialogueEnded)
+        {
+            dialogueTrigger[1].TriggerDialogue();
+        }
+        else if (isTalking && dialogueEnded)
+        {
+            dialogueTrigger[1].ContinueDialogue();
+        }
+
 
     }
 
