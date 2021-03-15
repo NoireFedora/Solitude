@@ -35,6 +35,10 @@ public class Scene6Controller : MonoBehaviour
             sweat.SetActive(false);
         }
 
+        if (position.y < -8){
+            mainChar.position = new Vector3(-4f, 1.665f, 0);
+        }
+
         if (dialogCounter < dialogTime){
             dialogCounter ++;
             if (dialogCounter >= dialogTime){

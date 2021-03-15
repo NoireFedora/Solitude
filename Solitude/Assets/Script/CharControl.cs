@@ -13,7 +13,7 @@ public class CharControl : MonoBehaviour
     private Transform _transform;
     private GameObject _selectedObject;
     private GameObject _holdingObject;
-    private Animator _animator;
+    public Animator _animator;
     private AudioSource[] _audioSource;
     private AudioSource _footstep;
     private AudioSource _bubbleSpawn;
@@ -267,7 +267,8 @@ public class CharControl : MonoBehaviour
     }
 
     void OnCollisionEnter(Collision collision)
-    {
+    {   
+        
         _grounded = true;
     }
 
@@ -347,4 +348,7 @@ public class CharControl : MonoBehaviour
         interactDisabled = boolean;
     }
 
+    public float getMoveSpeed(){
+        return speedMultiplier * baseSpeed;
+    }
 }
