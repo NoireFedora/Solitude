@@ -23,12 +23,19 @@ public class FallTriggerController : MonoBehaviour
 
     private void FixedUpdate() {
         if (inAction){
+            // if (counter == 0){
+            //     gameObject.GetComponent<ConversationTrigger>().ContinueConversation();
+            // }
             if (counter < countMax){
                 counter ++;
                 mainChar.position += new Vector3(moveSpeed, 0,0);
+                
                 if (counter >= countMax){
                     CharControl controller = mainChar.GetComponent<CharControl>();
                     controller.SetMovement(true);
+                    ConversationTrigger conversation = gameObject.GetComponent<ConversationTrigger>();
+                    conversation.ContinueConversation();
+                    conversation.conversation.textContainers[0].gameObject.SetActive(false);
                 }
             }
         }
@@ -45,5 +52,6 @@ public class FallTriggerController : MonoBehaviour
 
         counter = 0;
         inAction = true;
+        gameObject.GetComponent<ConversationTrigger>().TriggerConversation();
     }
 }

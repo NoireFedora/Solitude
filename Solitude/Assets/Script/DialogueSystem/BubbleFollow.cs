@@ -5,8 +5,7 @@ using UnityEngine;
 public class BubbleFollow : MonoBehaviour
 {   
 
-    public GameObject speechBackground;
-    public GameObject thoughtBackground;
+    public GameObject interactUI;
 
     // Start is called before the first frame update
     void Start()
@@ -18,11 +17,8 @@ public class BubbleFollow : MonoBehaviour
     void Update()
     {
         Vector3 GUIPos = Camera.main.WorldToScreenPoint(this.transform.position);
-        if (speechBackground){
-            speechBackground.transform.position = GUIPos;
-        }
-        if (thoughtBackground){
-            thoughtBackground.transform.position = GUIPos;
+        if (interactUI){
+            interactUI.transform.position = GUIPos;
         }
         
     }

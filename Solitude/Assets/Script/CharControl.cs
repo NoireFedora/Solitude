@@ -58,9 +58,9 @@ public class CharControl : MonoBehaviour
         _bubbleSpawn = _audioSource[1];
 
         _interactUI = GameObject.Find("InteractUI");
-        _speechBubble = GameObject.Find("SpeechBubble");
+        _speechBubble = gameObject.transform.Find("SpeechBubble").gameObject;
         _speechBubble.SetActive(false);
-        _thoughtBubble = GameObject.Find("ThoughtBubble");
+        _thoughtBubble = gameObject.transform.Find("ThoughtBubble").gameObject;
         _thoughtBubble.SetActive(false);
         _menu = GameObject.Find("Menu");
         _nameEntry = GameObject.Find("NameEntry");
@@ -92,7 +92,8 @@ public class CharControl : MonoBehaviour
         if (!GetComponent<SpriteRenderer>().isVisible) {
             _footstep.Pause();
             inAnimation = true;
-        } else {
+        } 
+        else {
             inAnimation = false;
         }
 
@@ -268,7 +269,6 @@ public class CharControl : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {   
-        
         _grounded = true;
     }
 

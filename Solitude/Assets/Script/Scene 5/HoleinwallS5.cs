@@ -6,17 +6,22 @@ using TMPro;
 public class HoleinwallS5 : MonoBehaviour, ISInteractable
 {
     private GameObject gameChar;
+    private Transform charPosition;
+    private GameObject pim;
     private GameObject holeBubble;
     private GameObject smallDoor;
+    private GameObject positionHole;
+    private Transform dialoguePosition;
 
     private DialogueLooper dialogueLooper;
-    private DialogueTrigger[] dialogueTrigger;
+    private DialogueTrigger dialogueTrigger;
+    private ConversationTrigger conversationTrigger;
 
     public Animator holeBubbleAnimator;
 
     public bool dialogueEnded;
     public bool dialogueEnded2;
-    public int count;
+    public float speed;
 
     public TMP_Text NPCText;
     private AudioSource scrollSFX;
@@ -29,15 +34,21 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
     void Start()
     {   
         gameChar = GameObject.Find("GameChar");
+        charPosition = gameChar.GetComponent<Transform>();
+        pim = GameObject.Find("Pim");
+        pim.SetActive(false);
         holeBubble = GameObject.Find("HoleBubble");
         smallDoor = GameObject.Find("Small Door");
         smallDoor.SetActive(false);
+        positionHole = GameObject.Find("Position-Hole");
+        dialoguePosition = positionHole.GetComponent<Transform>();
         dialogueLooper = GameObject.FindObjectOfType<DialogueLooper>();
-        dialogueTrigger = GetComponents<DialogueTrigger>();
+        dialogueTrigger = GetComponent<DialogueTrigger>();
+        conversationTrigger = GetComponent<ConversationTrigger>();
         holeBubbleAnimator.SetBool("IsOpen", true);
         dialogueEnded = false;
         dialogueEnded2 = false;
-        count = 0;
+        speed = 1f;
 
         torch1.SetActive(false);
         torch2.SetActive(false);
@@ -54,6 +65,8 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
 
     void ISInteractable.interact()
     {      
+        charPosition.position = Vector3.MoveTowards(charPosition.position, dialoguePosition.position, speed);
+
         if (dialogueLooper.GetLooping())
         {
             dialogueLooper.StopLooping();
@@ -64,12 +77,12 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
 
         if (!isTalking && !dialogueEnded)
         {   
-            dialogueTrigger[0].TriggerDialogue();
+            dialogueTrigger.TriggerDialogue();
         }
         else if (isTalking && !dialogueEnded)
         {   
             StopAllCoroutines();
-            dialogueEnded = dialogueTrigger[0].ContinueDialogue();
+            dialogueEnded = dialogueTrigger.ContinueDialogue();
             if (dialogueEnded)
             {   
                 holeBubble.SetActive(false);
@@ -88,28 +101,21 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
             gameChar.GetComponent<CharControl>().endListening();
         }
         // Has bug
-        else if (!isTalking && withTorch && count == 0)
-        {
-            DisplayNPCSentence("You did it! My name is Pim, by the way.");
+        else if (!isTalking && withTorch)
+        {   
+            pim.SetActive(true);
+            conversationTrigger.TriggerConversation();
             smallDoor.SetActive(true);
             torch1.SetActive(false);
             torch2.SetActive(false);
             torch3.SetActive(false);
-            count += 1;
         }
-        else if (isTalking && withTorch && count == 1)
+        else if (isTalking && withTorch)
         {
-           dialogueTrigger[1].TriggerDialogue();
-           count += 1;
-        }
-        else if (isTalking && withTorch && count == 2)
-        {
-            StopAllCoroutines();
-            dialogueEnded2 = dialogueTrigger[1].ContinueDialogue();
+           dialogueEnded2 = conversationTrigger.ContinueConversation();
             if (dialogueEnded2)
             {   
                 gameObject.SetActive(false);
-                holeBubble.SetActive(false);
             }
         }
 

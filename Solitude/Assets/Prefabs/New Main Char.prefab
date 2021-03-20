@@ -139,6 +139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74ac7403f18b47644a4b7a936728cafb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _animator: {fileID: 0}
   speechAnimator: {fileID: 3843630674329265446}
   thoughtAnimator: {fileID: 4964530969925466505}
   _jumped: 0
@@ -150,8 +151,10 @@ MonoBehaviour:
   can_interact: 0
   inMenu: 0
   direction: 0
+  _withTorch: 0
   handDistance: 0.1
   speedMultiplier: 0.5
+  charName: 
 --- !u!82 &8329225086980124217
 AudioSource:
   m_ObjectHideFlags: 0
@@ -262,7 +265,7 @@ AudioSource:
     type: 2}
   m_audioClip: {fileID: 8300000, guid: f7c01cad0cba9d54b9086fa1ea63a5af, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.1
+  m_Volume: 0.05
   m_Pitch: 1
   Loop: 0
   Mute: 0
