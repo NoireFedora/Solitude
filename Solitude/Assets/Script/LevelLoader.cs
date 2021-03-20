@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     public Animator transition;
-    private const int _TRANSITIONTIME = 6;
+    private int _transitionTime = 6;
 
     private Scene1LaptopController _scene1LaptopController;
     private Scene4LaptopController _scene4LaptopController;
@@ -33,8 +33,9 @@ public class LevelLoader : MonoBehaviour
             // if (hasInteracted > 0) {
             //     LoadNextLevel();
             // }
-
+    
             if (isLaptopOpen) {
+                SetTransitionTime(4);
                 LoadNextLevel();
             }
         }
@@ -43,6 +44,7 @@ public class LevelLoader : MonoBehaviour
             bool goNext = _scene2Controller.CanGoNext();
             
             if (goNext) {
+                SetTransitionTime(2);
                 LoadNextLevel();
             }
         }
@@ -52,6 +54,7 @@ public class LevelLoader : MonoBehaviour
             GameObject mainChar = GameObject.Find("GameChar");
             if (mainChar && mainChar.transform.position.y < -8)
             {
+                SetTransitionTime(1);
                 LoadNextLevel();
             }
         }
@@ -66,6 +69,7 @@ public class LevelLoader : MonoBehaviour
             // }
 
             if (hasInteracted > 0) {
+                SetTransitionTime(4);
                 LoadNextLevel();
             }
         }
@@ -74,6 +78,7 @@ public class LevelLoader : MonoBehaviour
             bool goNext = _scene5Controller.CanGoNext();
             
             if (goNext) {
+                SetTransitionTime(2);
                 LoadNextLevel();
             }
         }
@@ -84,9 +89,14 @@ public class LevelLoader : MonoBehaviour
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
+
+    private void SetTransitionTime(int tTime) {
+        _transitionTime = tTime;
+    }
+
     IEnumerator LoadLevel(int levelIndex) {
         transition.SetTrigger("Start");
-        yield return new WaitForSeconds(_TRANSITIONTIME);
+        yield return new WaitForSeconds(_transitionTime);
         SceneManager.LoadScene(levelIndex);
     }
 }

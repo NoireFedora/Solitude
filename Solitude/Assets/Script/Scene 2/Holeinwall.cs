@@ -6,8 +6,11 @@ using TMPro;
 public class Holeinwall : MonoBehaviour, ISInteractable
 {   
     private GameObject gameChar;
+    private Transform charPosition;
     private GameObject holeBubble;
     private GameObject smallDoor;
+    private GameObject positionHole;
+    private Transform dialoguePosition;
 
     private DialogueLooper dialogueLooper;
     private DialogueTrigger[] dialogueTrigger;
@@ -15,18 +18,23 @@ public class Holeinwall : MonoBehaviour, ISInteractable
     public Animator holeBubbleAnimator;
 
     public bool dialogueEnded;
+    public float speed;
 
     // Start is called before the first frame update
     void Start()
     {   
         gameChar = GameObject.Find("GameChar");
+        charPosition = gameChar.GetComponent<Transform>();
         holeBubble = GameObject.Find("HoleBubble");
         smallDoor = GameObject.Find("Small Door");
         smallDoor.SetActive(false);
+        positionHole = GameObject.Find("Position-Hole");
+        dialoguePosition = positionHole.GetComponent<Transform>();
         dialogueLooper = GameObject.FindObjectOfType<DialogueLooper>();
         dialogueTrigger = GetComponents<DialogueTrigger>();
         holeBubbleAnimator.SetBool("IsOpen", true);
         dialogueEnded = false;
+        speed = 1f;
     }
 
     // Update is called once per frame
@@ -37,6 +45,9 @@ public class Holeinwall : MonoBehaviour, ISInteractable
 
     void ISInteractable.interact()
     {      
+
+        charPosition.position = Vector3.MoveTowards(charPosition.position, dialoguePosition.position, speed);
+
         if (dialogueLooper.GetLooping())
         {
             dialogueLooper.StopLooping();

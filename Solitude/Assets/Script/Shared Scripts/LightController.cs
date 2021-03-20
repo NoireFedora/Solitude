@@ -80,6 +80,10 @@ public class LightController : MonoBehaviour, ISInteractable
 
     }
 
+    public bool CheckLights() {
+        return _isOpen;
+    }
+    
     void ISInteractable.interact()
     {   
         
