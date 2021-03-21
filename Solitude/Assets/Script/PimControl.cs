@@ -1,12 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PimControl : MonoBehaviour
 {
     // Movement Parts
     protected float _playerInputH;
     protected float _playerInputV;
+    protected Vector3 lastPosition;
+    protected Transform mainChar;
+    public float followDistance = 2f;
     protected Rigidbody _rigidbody;
     public Animator _animator;
     public float speedMultiplier = 1f;
@@ -38,6 +42,7 @@ public class PimControl : MonoBehaviour
         _speechBubble.SetActive(false);
         _animator.SetFloat("Horizontal", 0);
         _animator.SetFloat("Vertical", 0);
+        mainChar = GameObject.Find("GameChar").transform;
         _moving = true;
         _talking = false;
         direction = 0;
@@ -46,8 +51,8 @@ public class PimControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        _playerInputH = Input.GetAxis("Horizontal");
-        _playerInputV = Input.GetAxis("Vertical");
+        // _playerInputH = Input.GetAxis("Horizontal");
+        // _playerInputV = Input.GetAxis("Vertical");
 
     }
 
@@ -63,8 +68,40 @@ public class PimControl : MonoBehaviour
                 _rigidbody.velocity += new Vector3(0, -10f, 0);
             }
             
-            Vector3 position = new Vector3(_playerInputH * speedMultiplier * baseSpeed, 0, _playerInputV * speedMultiplier * baseSpeed) + _rigidbody.position;
-            _rigidbody.MovePosition(position);
+            // Vector3 position = new Vector3(_playerInputH * speedMultiplier * baseSpeed, 0, _playerInputV * speedMultiplier * baseSpeed) + _rigidbody.position;
+            // _rigidbody.MovePosition(position);
+            Vector3 newPosition = transform.position;
+            Vector3 diff = newPosition - mainChar.position;
+            float distance = (float)Math.Sqrt(Math.Pow(diff.x, 2) + Math.Pow(diff.z, 2));
+            if (distance > followDistance){
+                double angle = Math.Atan2(diff.z, diff.x);
+                newPosition = new Vector3(mainChar.position.x + (float)(Math.Cos(angle) * followDistance), mainChar.position.y, mainChar.position.z + (float)(Math.Sin(angle) * followDistance));
+
+                lastPosition = transform.position;
+                if (lastPosition.x < newPosition.x){
+                    _playerInputH = 1;
+                }else if (lastPosition.x > newPosition.x){
+                    _playerInputH = -1;
+                }else{
+                    _playerInputH = 0;
+                }
+                if (lastPosition.z < newPosition.z)
+                {
+                    _playerInputV = 1;
+                }
+                else if (lastPosition.z > newPosition.z)
+                {
+                    _playerInputV = -1;
+                }else
+                {
+                    _playerInputV = 0;
+                }
+                transform.position = newPosition;
+            }else{
+                _playerInputV = 0;
+                _playerInputH = 0;
+            }
+
             _animator.SetFloat("Horizontal", _playerInputH);
             _animator.SetFloat("Vertical", _playerInputV);
 
@@ -109,12 +146,12 @@ public class PimControl : MonoBehaviour
     {
         _moving = moveEnabled;
 
-        if (moveEnabled) _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
+        // if (moveEnabled) _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
 
         if (!moveEnabled)
         {   
             _rigidbody.velocity = Vector3.zero;
-            _rigidbody.constraints = RigidbodyConstraints.FreezeAll;
+            // _rigidbody.constraints = RigidbodyConstraints.FreezeAll;
             _animator.SetFloat("Horizontal", 0);
             _animator.SetFloat("Vertical", 0);
         }

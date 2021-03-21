@@ -64,8 +64,7 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
     }
 
     void ISInteractable.interact()
-    {      
-        charPosition.position = Vector3.MoveTowards(charPosition.position, dialoguePosition.position, speed);
+    {     
 
         if (dialogueLooper.GetLooping())
         {
@@ -77,6 +76,7 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
 
         if (!isTalking && !dialogueEnded)
         {   
+            charPosition.position = Vector3.MoveTowards(charPosition.position, dialoguePosition.position, speed);
             dialogueTrigger.TriggerDialogue();
         }
         else if (isTalking && !dialogueEnded)
@@ -100,9 +100,9 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
             holeBubble.SetActive(false);
             gameChar.GetComponent<CharControl>().endListening();
         }
-        // Has bug
         else if (!isTalking && withTorch)
         {   
+            charPosition.position = Vector3.MoveTowards(charPosition.position, dialoguePosition.position, speed);
             pim.SetActive(true);
             conversationTrigger.TriggerConversation();
             smallDoor.SetActive(true);
