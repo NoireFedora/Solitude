@@ -6,11 +6,14 @@ public class Scene3Controller : MonoBehaviour
 {
     Transform mainChar;
     GameObject sweat;
-    // int dialogCounter;
-    // int dialogTime = 1000;
-    // DialogueTrigger dialogueTrigger;
+    int dialogCounter;
+    int dialogTime = 1000;
+    DialogueTrigger dialogueTrigger;
     private Material _objectLight;
     private float _threshold;
+    int hintCounter;
+    public int hintCounterMax = 6000;
+    bool hinted;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,9 +23,7 @@ public class Scene3Controller : MonoBehaviour
         _objectLight.SetFloat("_Threshold", _threshold);
         mainChar = GameObject.Find("GameChar").transform;
         sweat = GameObject.Find("Sweat");
-        // dialogCounter = 0;
-        // dialogueTrigger = gameObject.GetComponent<DialogueTrigger>();
-        // dialogueTrigger.TriggerDialogue();
+        dialogCounter = dialogTime;
     }
 
     // Update is called once per frame
@@ -46,5 +47,31 @@ public class Scene3Controller : MonoBehaviour
         //         dialogueTrigger.ContinueDialogue();
         //     }
         // }
+        if (hinted){
+            if (hintCounter<hintCounterMax){
+                hintCounter ++;
+                if (hintCounter >= hintCounterMax){
+                    dialogCounter = 0;
+                    dialogueTrigger = gameObject.GetComponent<DialogueTrigger>();
+                    dialogueTrigger.TriggerDialogue();
+                }
+            }
+
+            if (dialogCounter < dialogTime)
+            {
+                dialogCounter++;
+                if (dialogCounter >= dialogTime)
+                {
+                    dialogueTrigger.ContinueDialogue();
+                }
+            }
+        }
+    }
+
+    public void startHint(){
+        if (!hinted){
+            hinted = true;
+            hintCounter = 0;
+        }
     }
 }

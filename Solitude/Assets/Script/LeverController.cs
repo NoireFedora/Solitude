@@ -74,6 +74,7 @@ public class LeverController : MonoBehaviour, ISHoldable
         _holding = true;
         animator.SetBool("IsDown", true);
         activeAudio.Play();
+        GameObject.Find("LevelController").GetComponent<Scene3Controller>().startHint();
     }
 
     void ISHoldable.holdEnd()

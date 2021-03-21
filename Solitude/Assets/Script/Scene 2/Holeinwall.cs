@@ -46,8 +46,6 @@ public class Holeinwall : MonoBehaviour, ISInteractable
     void ISInteractable.interact()
     {      
 
-        charPosition.position = Vector3.MoveTowards(charPosition.position, dialoguePosition.position, speed);
-
         if (dialogueLooper.GetLooping())
         {
             dialogueLooper.StopLooping();
@@ -57,6 +55,7 @@ public class Holeinwall : MonoBehaviour, ISInteractable
 
         if (!isTalking && !dialogueEnded)
         {   
+            charPosition.position = Vector3.MoveTowards(charPosition.position, dialoguePosition.position, speed);
             dialogueTrigger[0].TriggerDialogue();
         }
         else if (isTalking && !dialogueEnded)

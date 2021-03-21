@@ -1124,7 +1124,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 5f7ab3c62efad8a4b881eb515b880df2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2001,10 +2001,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.3958937
-  m_Height: 2
+  m_Radius: 0.65886956
+  m_Height: 2.7706487
   m_Direction: 1
-  m_Center: {x: 0.10410657, y: 0, z: 0}
+  m_Center: {x: 0.06658973, y: 0.27713358, z: -0.07401713}
 --- !u!23 &1026611312
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3395,7 +3395,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: 32c0b1ce7e1195d47a821c09a3f8dac6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3886,7 +3886,7 @@ MonoBehaviour:
     - {fileID: 2095607748}
     - {fileID: 1845911016}
     - {fileID: 1845911016}
-  playerFirst: 0
+  blockMove: 1
 --- !u!114 &1432852769510402649
 MonoBehaviour:
   m_ObjectHideFlags: 0

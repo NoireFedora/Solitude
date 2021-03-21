@@ -39,7 +39,7 @@ public class Scene6PimController : PimControl
 
         if (!_talking)
         {
-            _rigidbody.velocity = new Vector3(0, 0, 0);
+            // _rigidbody.velocity = new Vector3(0, 0, 0);
 
             float moveLeft = 0;
             float moveUp = 0;
@@ -61,8 +61,8 @@ public class Scene6PimController : PimControl
                 }
             }
 
-            Vector3 position = new Vector3(moveLeft * speedMultiplier * baseSpeed, 0, moveUp * speedMultiplier * baseSpeed) + _rigidbody.position;
-            _rigidbody.MovePosition(position);
+            transform.position = new Vector3(moveLeft * speedMultiplier * baseSpeed, 0, moveUp * speedMultiplier * baseSpeed) + transform.position;
+            // _rigidbody.MovePosition(position);
             _animator.SetFloat("Horizontal", moveLeft);
             _animator.SetFloat("Vertical", moveUp);
 
