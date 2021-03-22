@@ -25,6 +25,7 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
 
     public TMP_Text NPCText;
     private AudioSource scrollSFX;
+    private AudioClip clip;
 
     public GameObject torch1;
     public GameObject torch2;
@@ -55,6 +56,7 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
         torch3.SetActive(false);
 
         scrollSFX = GetComponent<AudioSource>();
+        clip = scrollSFX.clip;
     }
 
     // Update is called once per frame
@@ -128,7 +130,7 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
         yield return new WaitForSeconds(0.3f);
         foreach(char letter in sentence.ToCharArray())
         {   
-            scrollSFX.Play();
+            scrollSFX.PlayOneShot(clip, 2.5f);
             textContainer.text += letter;
             yield return new WaitForSeconds(0.03f);
         }

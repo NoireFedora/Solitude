@@ -12,6 +12,7 @@ public class DialogueManager : MonoBehaviour
     private Queue<string> sentences;
     private Queue<TMP_Text> textContainers;
     private AudioSource scrollSFX;
+    private AudioClip clip;
 
     // Start is called before the first frame update
     void Start()
@@ -19,6 +20,7 @@ public class DialogueManager : MonoBehaviour
         sentences = new Queue<string>();
         textContainers = new Queue<TMP_Text>();
         scrollSFX = GetComponent<AudioSource>();
+        clip = scrollSFX.clip;
     }
 
     void Update()
@@ -78,7 +80,7 @@ public class DialogueManager : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         foreach(char letter in sentence.ToCharArray())
         {   
-            scrollSFX.Play();
+            scrollSFX.PlayOneShot(clip, 2.5f);
             textContainer.text += letter;
             yield return new WaitForSeconds(0.03f);
         }
