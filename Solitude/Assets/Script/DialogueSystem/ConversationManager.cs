@@ -14,6 +14,7 @@ public class ConversationManager : MonoBehaviour
     private Queue<string> sentences;
     private Queue<Transform> textContainers;
     private AudioSource scrollSFX;
+    private AudioClip clip;
     private bool BlockMove;
 
     // Start is called before the first frame update
@@ -22,6 +23,7 @@ public class ConversationManager : MonoBehaviour
         sentences = new Queue<string>();
         textContainers = new Queue<Transform>();
         scrollSFX = GetComponent<AudioSource>();
+        clip = scrollSFX.clip;
     }
 
     void Update()
@@ -104,7 +106,7 @@ public class ConversationManager : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
         foreach(char letter in sentence.ToCharArray())
         {   
-            scrollSFX.Play();
+            scrollSFX.PlayOneShot(clip, 2.5f);
             textContainer.text += letter;
             yield return new WaitForSeconds(0.03f);
         }

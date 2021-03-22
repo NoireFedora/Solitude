@@ -207,7 +207,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sample text
+  m_text: This is Speech
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b09bff734c7b7b445a8ef3b424427749, type: 2}
   m_sharedMaterial: {fileID: -3880868584692686878, guid: b09bff734c7b7b445a8ef3b424427749,
