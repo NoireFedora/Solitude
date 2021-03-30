@@ -247,7 +247,7 @@ public class CharControl : MonoBehaviour
                     inHoldable = true;
                 }
             }
-
+            
             if (_selectedObject)
             {
                 // _selectedObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("selected");
@@ -294,6 +294,7 @@ public class CharControl : MonoBehaviour
         _footstep.Pause();
         _thoughtBubble.SetActive(_thinking);
         _speechBubble.SetActive(_talking);
+        _interactUI.SetActive(false);
         _bubbleSpawn.Play();
         speechAnimator.SetBool("IsOpen", true);
         inAction = true;
@@ -315,6 +316,7 @@ public class CharControl : MonoBehaviour
         _footstep.Pause();
         _speechBubble.SetActive(_talking);
         _thoughtBubble.SetActive(_thinking);
+        _interactUI.SetActive(false);
         _bubbleSpawn.Play();
         thoughtAnimator.SetBool("IsOpen", true);
         inAction = true;
@@ -334,6 +336,7 @@ public class CharControl : MonoBehaviour
         _talking = true;
         _footstep.Pause();
         inAction = true;
+        _interactUI.SetActive(false);
         SetMovement(false);
     }
 

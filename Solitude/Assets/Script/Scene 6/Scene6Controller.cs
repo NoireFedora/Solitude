@@ -11,6 +11,10 @@ public class Scene6Controller : MonoBehaviour
     DialogueTrigger dialogueTrigger;
     private Material _objectLight;
     private float _threshold;
+
+    private Material _interactUI;
+    private float _UIThreshold;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,6 +27,11 @@ public class Scene6Controller : MonoBehaviour
         dialogCounter = 0;
         dialogueTrigger = gameObject.GetComponent<DialogueTrigger>();
         dialogueTrigger.TriggerDialogue();
+
+        _interactUI = (Material)Resources.Load("UIMaterial", typeof(Material));
+        _UIThreshold = _interactUI.GetFloat("_Threshold");
+        _UIThreshold = 0.0f;
+        _interactUI.SetFloat("_Threshold", _UIThreshold);
     }
 
     // Update is called once per frame

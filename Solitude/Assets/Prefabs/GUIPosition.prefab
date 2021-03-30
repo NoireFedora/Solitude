@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5555587531736762341}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.3, y: 2.5, z: 0}
+  m_LocalPosition: {x: 0, y: 2.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -94,5 +94,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c8f7486c73737d4ba5ed8764a3e9a40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speechBackground: {fileID: 0}
-  thoughtBackground: {fileID: 0}
+  interactUI: {fileID: 0}
