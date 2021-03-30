@@ -10,6 +10,9 @@ public class Scene4LaptopController : MonoBehaviour, ISInteractable
     private AudioSource _laptopSFX;
     private Scene4Controller _scene4Controller;
     private bool _checkLights;
+
+    private GameObject mainChar;
+
     
     // public AudioSource errorSFX;
     // Start is called before the first frame update
@@ -17,6 +20,7 @@ public class Scene4LaptopController : MonoBehaviour, ISInteractable
     {
         _laptopSFX = GetComponent<AudioSource>();
         _scene4Controller = GameObject.FindObjectOfType<Scene4Controller>();
+        mainChar = GameObject.Find("New Main Char");
 
     }
 
@@ -44,7 +48,8 @@ public class Scene4LaptopController : MonoBehaviour, ISInteractable
         // }
 
         if (_interactCounter <= 0)
-        {
+        {   
+            mainChar.GetComponent<CharControl>().startListening();
             _laptopSFX.Play();
         }
 

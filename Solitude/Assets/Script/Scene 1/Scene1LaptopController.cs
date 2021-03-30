@@ -9,12 +9,15 @@ public class Scene1LaptopController : MonoBehaviour, ISInteractable
     private playAudio _gameAudio;
     private AudioSource _laptopSFX;
     private bool _isOpen;
+
+    private GameObject mainChar;
     
     // Start is called before the first frame update
     void Start()
     {
         _laptopSFX = GetComponent<AudioSource>();
         _isOpen = false;
+        mainChar = GameObject.Find("New Main Char");
 
     }
 
@@ -31,7 +34,8 @@ public class Scene1LaptopController : MonoBehaviour, ISInteractable
     void ISInteractable.interact()
     {
         if (_interactCounter <= 0)
-        {
+        {   
+            mainChar.GetComponent<CharControl>().startListening();
             _laptopSFX.Play();
             _isOpen = true;
         }

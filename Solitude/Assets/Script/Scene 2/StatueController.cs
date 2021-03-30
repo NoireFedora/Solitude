@@ -6,6 +6,7 @@ public class StatueController : MonoBehaviour, ISInteractable
 {   
     public GameObject mainChar;
     private DialogueTrigger dialogueTrigger;
+    public AudioSource statueSFX;
 
     // Start is called before the first frame update
     void Start()
@@ -21,9 +22,10 @@ public class StatueController : MonoBehaviour, ISInteractable
 
     void ISInteractable.interact()
     {   
-        
+
         if (!mainChar.GetComponent<CharControl>().talking)
         {   
+            if (!statueSFX.isPlaying) statueSFX.Play();
             dialogueTrigger.TriggerDialogue();
         }
         else

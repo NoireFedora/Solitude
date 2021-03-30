@@ -6,7 +6,9 @@ public class Scene1Controller : MonoBehaviour
 {
 
     private Material _objectLight;
+    private Material _interactUI;
     private float _threshold;
+    private float _UIThreshold;
 
     public AudioSource laptopSFX;
     private Scene1LaptopController _laptopController;
@@ -20,6 +22,11 @@ public class Scene1Controller : MonoBehaviour
         _threshold = _objectLight.GetFloat("_Threshold");
         _threshold = 0.0f;
         _objectLight.SetFloat("_Threshold", _threshold);
+
+        _interactUI = (Material)Resources.Load("UIMaterial", typeof(Material));
+        _UIThreshold = _interactUI.GetFloat("_Threshold");
+        _UIThreshold = 0.0f;
+        _interactUI.SetFloat("_Threshold", _UIThreshold);
 
         _laptopController = GameObject.FindObjectOfType<Scene1LaptopController>();
     }

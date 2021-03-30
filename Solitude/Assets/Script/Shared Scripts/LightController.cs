@@ -8,7 +8,7 @@ public class LightController : MonoBehaviour, ISInteractable
 {
     private bool _isOpen;
 
-    public TextMeshProUGUI _interactUI;
+    //public TextMeshProUGUI _interactUI;
 
     public AudioSource LightOn;
     public AudioSource LightOff;
@@ -19,6 +19,9 @@ public class LightController : MonoBehaviour, ISInteractable
     private Material _objectLight;
     private float _threshold;
 
+    private Material _interactUI;
+    private float _UIThreshold;
+
     private playAudio _gameAudio;
     private AudioSource _lightsOffMusic; 
     private Animator _lightAnimator;
@@ -28,6 +31,9 @@ public class LightController : MonoBehaviour, ISInteractable
     {
         _objectLight = (Material)Resources.Load("InvertMaterial", typeof(Material));
         _threshold = _objectLight.GetFloat("_Threshold");
+
+        _interactUI = (Material)Resources.Load("UIMaterial", typeof(Material));
+        _UIThreshold = _interactUI.GetFloat("_Threshold");
     
         _lightsOffMusic = GetComponent<AudioSource>();
         _gameAudio = GameObject.FindObjectOfType<playAudio>();
@@ -60,8 +66,8 @@ public class LightController : MonoBehaviour, ISInteractable
             }
 
             _lightAnimator.SetBool("LightOn", true);
-            _interactUI.color = Color.black;
-            _interactUI.faceColor = Color.black;
+            //_interactUI.color = Color.black;
+            //_interactUI.faceColor = Color.black;
 
         } else {
 
@@ -71,8 +77,8 @@ public class LightController : MonoBehaviour, ISInteractable
             }
 
             _lightAnimator.SetBool("LightOn", false);
-            _interactUI.color = Color.red;
-            _interactUI.faceColor = Color.red;
+            //_interactUI.color = Color.red;
+            //_interactUI.faceColor = Color.red;
 
         }
 
@@ -84,6 +90,10 @@ public class LightController : MonoBehaviour, ISInteractable
         return _isOpen;
     }
     
+    public float GetThreshold() {
+        return _threshold;
+    }
+    
     void ISInteractable.interact()
     {   
         
@@ -92,11 +102,15 @@ public class LightController : MonoBehaviour, ISInteractable
             if (_isOpen) {
                 _threshold = 0.0f;
                 _objectLight.SetFloat("_Threshold", _threshold);
+                _UIThreshold = 0.0f;
+                _interactUI.SetFloat("_Threshold", _UIThreshold);
                 setMode();
                 LightOn.Play();
             } else {
                 _threshold = 1.0f;
                 _objectLight.SetFloat("_Threshold", _threshold);
+                _UIThreshold = 1.0f;
+                _interactUI.SetFloat("_Threshold", _UIThreshold);
                 setMode();
                 LightOff.Play(); 
             }

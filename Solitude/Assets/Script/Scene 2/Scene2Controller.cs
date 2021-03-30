@@ -8,11 +8,13 @@ public class Scene2Controller : MonoBehaviour
     private Material _charLight;
     private Material _wallLight;
     private Material _floorLight;
+    private Material _interactUI;
     private float _charThreshold;
     private float _wallThreshold;
     private float _floorThreshold;
+    private float _UIThreshold;
 
-    public TextMeshProUGUI _interactUI;
+    //public TextMeshProUGUI _interactUI;
     private GameObject _gameChar;
     public Vector3 _gameCharPosition;
 
@@ -25,6 +27,7 @@ public class Scene2Controller : MonoBehaviour
         _charLight = (Material)Resources.Load("Game Char Material", typeof(Material));
         _wallLight = (Material)Resources.Load("Hallway Walls", typeof(Material));
         _floorLight = (Material)Resources.Load("Hallway Floors", typeof(Material));
+        _interactUI = (Material)Resources.Load("UIMaterial", typeof(Material));
 
         _charThreshold = _charLight.GetFloat("_Threshold");
         _charThreshold = 0.0f;
@@ -37,6 +40,10 @@ public class Scene2Controller : MonoBehaviour
         _floorThreshold = _floorLight.GetFloat("_Threshold");
         _floorThreshold = 0.0f;
         _floorLight.SetFloat("_Threshold", _floorThreshold);
+
+        _UIThreshold = _interactUI.GetFloat("_Threshold");
+        _UIThreshold = 0.0f;
+        _interactUI.SetFloat("_Threshold", _UIThreshold);
 
         _gameChar = GameObject.Find("GameChar");
         _gameCharPosition = _gameChar.GetComponent<Transform>().position;
@@ -78,8 +85,11 @@ public class Scene2Controller : MonoBehaviour
         _floorThreshold = 1.0f;
         _floorLight.SetFloat("_Threshold", _floorThreshold);
 
-        _interactUI.color = Color.white;
-        _interactUI.faceColor = Color.red;
+        _UIThreshold = 1.0f;
+        _interactUI.SetFloat("_Threshold", _UIThreshold);
+
+        //_interactUI.color = Color.white;
+        //_interactUI.faceColor = Color.red;
 
     }
 
