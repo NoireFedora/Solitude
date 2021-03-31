@@ -8,10 +8,6 @@ public class CalendarController : MonoBehaviour, ISInteractable
 {
 
     public GameObject calendarUI;
-    public GameObject mainChar;
-    private Animator _charAnimator;
-    private Rigidbody _charBody;
-    private AudioSource _charAudio;
     public Text calendarText;
     public Text closeButtonText;
     private LightController _lightController;
@@ -28,13 +24,12 @@ public class CalendarController : MonoBehaviour, ISInteractable
     private Material _UILight;
     private float _threshold;
 
+    private CharControl _charControl;
+
     // Start is called before the first frame update
     void Start()
     {
         calendarUI.SetActive(false);
-        _charAnimator = mainChar.GetComponent<Animator>();
-        _charBody = mainChar.GetComponent<Rigidbody>();
-        _charAudio = mainChar.GetComponent<AudioSource>();
         _lightController = GameObject.FindObjectOfType<LightController>();
         _checkLights = _lightController.CheckLights();
 
@@ -42,6 +37,8 @@ public class CalendarController : MonoBehaviour, ISInteractable
         _threshold = _lightController.GetThreshold();
 
         _UILight.SetFloat("Threshold", _threshold);
+
+        _charControl = GameObject.FindObjectOfType<CharControl>();
 
 
 
@@ -82,9 +79,7 @@ public class CalendarController : MonoBehaviour, ISInteractable
         _UILight.SetFloat("_Threshold", _threshold);
 
         if (calendarUI.activeSelf) {
-            _charAnimator.enabled = false;
-            _charBody.constraints = RigidbodyConstraints.FreezeAll;
-            _charAudio.enabled = false;
+            _charControl.SetMovement(false);
         }
 
     }
@@ -111,9 +106,7 @@ public class CalendarController : MonoBehaviour, ISInteractable
     }
 
     public void CloseCalendar() {
-        _charAnimator.enabled = true;
-        _charBody.constraints = RigidbodyConstraints.FreezeRotation;
-        _charAudio.enabled = true;
+        _charControl.SetMovement(true);
         calendarUI.SetActive(false);
     }
 

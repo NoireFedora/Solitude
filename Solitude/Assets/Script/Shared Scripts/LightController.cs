@@ -26,6 +26,9 @@ public class LightController : MonoBehaviour, ISInteractable
     private AudioSource _lightsOffMusic; 
     private Animator _lightAnimator;
 
+    private DialogueTrigger dialogueTrigger;
+    public GameObject mainChar;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +44,10 @@ public class LightController : MonoBehaviour, ISInteractable
         _lightAnimator = gameObject.GetComponent<Animator>();
 
         _isOpen = _threshold == 0;
+
+        if (SceneManager.GetActiveScene().buildIndex == 8) {
+            dialogueTrigger = GetComponent<DialogueTrigger>();
+        }
 
         setMode();
     }
@@ -93,29 +100,44 @@ public class LightController : MonoBehaviour, ISInteractable
     public float GetThreshold() {
         return _threshold;
     }
+
+    public void SetThreshold(float threshold) {
+        _threshold = threshold;
+    }
     
     void ISInteractable.interact()
     {   
-        
-        if (_interactCounter <= 0)
-        {   
-            if (_isOpen) {
-                _threshold = 0.0f;
-                _objectLight.SetFloat("_Threshold", _threshold);
-                _UIThreshold = 0.0f;
-                _interactUI.SetFloat("_Threshold", _UIThreshold);
-                setMode();
-                LightOn.Play();
-            } else {
-                _threshold = 1.0f;
-                _objectLight.SetFloat("_Threshold", _threshold);
-                _UIThreshold = 1.0f;
-                _interactUI.SetFloat("_Threshold", _UIThreshold);
-                setMode();
-                LightOff.Play(); 
+        if (SceneManager.GetActiveScene().buildIndex != 8) {
+            if (_interactCounter <= 0)
+            {   
+                if (_isOpen) {
+                    _threshold = 0.0f;
+                    _objectLight.SetFloat("_Threshold", _threshold);
+                    _UIThreshold = 0.0f;
+                    _interactUI.SetFloat("_Threshold", _UIThreshold);
+                    setMode();
+                    LightOn.Play();
+                } else {
+                    _threshold = 1.0f;
+                    _objectLight.SetFloat("_Threshold", _threshold);
+                    _UIThreshold = 1.0f;
+                    _interactUI.SetFloat("_Threshold", _UIThreshold);
+                    setMode();
+                    LightOff.Play(); 
+                }
+                
+                _interactCounter = _interactCD;
             }
-            
-            _interactCounter = _interactCD;
+        } else {
+
+            if (!mainChar.GetComponent<CharControl>().talking)
+            {   
+                dialogueTrigger.TriggerDialogue();
+            }
+            else
+            {
+                dialogueTrigger.ContinueDialogue();
+            }
         }
     }
 }
