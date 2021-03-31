@@ -16,7 +16,7 @@ public class CentipedeController : MonoBehaviour
     private float _centipedeInput;
     private Rigidbody2D _rigidBody;
     private int _delay;
-    private const int _DELAY = 300;
+    private const int _DELAY = 150;
     private AudioSource _centipedeSFX;
     private int _lightToggle;
     private bool _checkTimer;
@@ -42,7 +42,7 @@ public class CentipedeController : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         _checkLights = _lightController.CheckLights();
 
@@ -79,13 +79,10 @@ public class CentipedeController : MonoBehaviour
                     transform.position = _originalPosition;
                     _centipedeInput = 0;
                     _checkTimer = false;
-                    // _haveAppear += 1;
                 }
             }
 
         }
-
-        // if (transform.position.x == _originalPosition.x && !_checkHorizontal && _haveAppear != 0) _haveAppear = Random.Range(0, 1000000000);
 
     }
 }

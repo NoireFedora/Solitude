@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class PimControl : MonoBehaviour
 {
@@ -42,7 +43,13 @@ public class PimControl : MonoBehaviour
         _speechBubble.SetActive(false);
         _animator.SetFloat("Horizontal", 0);
         _animator.SetFloat("Vertical", 0);
-        mainChar = GameObject.Find("GameChar").transform;
+        
+        if (SceneManager.GetActiveScene().buildIndex == 8) {
+            mainChar = GameObject.Find("New Main Char").transform;
+        } else {
+            mainChar = GameObject.Find("GameChar").transform;
+        }
+
         _moving = true;
         _talking = false;
         direction = 0;

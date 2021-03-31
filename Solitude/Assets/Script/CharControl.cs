@@ -46,6 +46,7 @@ public class CharControl : MonoBehaviour
     private float baseSpeed = 0.02f;
 
     public string charName;
+    private BedController _bedController;
 
     // Start is called before the first frame update
     void Start()
@@ -80,6 +81,10 @@ public class CharControl : MonoBehaviour
         direction = 0;
         inMenu = false;
         _withTorch = false;
+
+        if (SceneManager.GetActiveScene().buildIndex == 2) {
+            _bedController = GameObject.FindObjectOfType<BedController>();
+        }
     }
 
     // Update is called once per frame
@@ -158,7 +163,9 @@ public class CharControl : MonoBehaviour
         if (!_moving) {
             return;
         }
-
+        // if (SceneManager.GetActiveScene().buildIndex == 2 && _bedController.checkBedIdle()) {
+        //         _interactUI.SetActive(true);
+        // }
         if (!inAction && !inAnimation)
         {
             // _rigidbody.velocity = new Vector3(_playerInputH * speedMultiplier, _rigidbody.velocity.y, _playerInputV * speedMultiplier);
@@ -252,9 +259,9 @@ public class CharControl : MonoBehaviour
             {
                 // _selectedObject.GetComponent<SpriteRenderer>().sprite = Resources.Load<Sprite>("selected");
                 _interactUI.SetActive(true);
-            }else if(inHoldable){
+            } else if(inHoldable){
                 _interactUI.SetActive(true);
-            }
+            } 
             else _interactUI.SetActive(false);
         }
         else
