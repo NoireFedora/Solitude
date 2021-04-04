@@ -736,6 +736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 173067743}
   - component: {fileID: 173067744}
+  - component: {fileID: 173067745}
   m_Layer: 0
   m_Name: Scene5Controller
   m_TagString: Untagged
@@ -772,6 +773,104 @@ MonoBehaviour:
   _gameCharPosition: {x: 0, y: 0, z: 0}
   lightOff: 0
   goNext: 0
+  alreadyOff: 0
+--- !u!82 &173067745
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 173067742}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 320649631282019519, guid: da7376084d67440428531bbbe2266876,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 1cc4bf1d0ce5ba64384894b245756151, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1001 &181661705
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2219,6 +2318,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1cf0a7af5621d34284b7843b9e45b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  torch1: {fileID: 2044706613}
+  torch2: {fileID: 1457313822}
+  torch3: {fileID: 357323487}
 --- !u!95 &810805201 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 90019061059411880, guid: 72267c4889c9af845a17be3a3794e2a7,
@@ -4029,6 +4131,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1cf0a7af5621d34284b7843b9e45b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  torch1: {fileID: 2044706613}
+  torch2: {fileID: 1457313822}
+  torch3: {fileID: 357323487}
 --- !u!1001 &1388496601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4834,6 +4939,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1cf0a7af5621d34284b7843b9e45b85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  torch1: {fileID: 2044706613}
+  torch2: {fileID: 1457313822}
+  torch3: {fileID: 357323487}
 --- !u!4 &1845911016 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5061108941834207366, guid: 9db6873aeed55b14da11c0d7dcc3e630,
@@ -12294,8 +12402,24 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pim
       objectReference: {fileID: 0}
+    - target: {fileID: 5117043687838638457, guid: 9db6873aeed55b14da11c0d7dcc3e630,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5117043687838638462, guid: 9db6873aeed55b14da11c0d7dcc3e630,
+        type: 3}
+      propertyPath: _speechBubble
+      value: 
+      objectReference: {fileID: 5117043686802411393}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9db6873aeed55b14da11c0d7dcc3e630, type: 3}
+--- !u!1 &5117043686802411393 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5061108941834207361, guid: 9db6873aeed55b14da11c0d7dcc3e630,
+    type: 3}
+  m_PrefabInstance: {fileID: 5117043686802411392}
+  m_PrefabAsset: {fileID: 0}
 --- !u!23 &5214116148016138818
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14025,7 +14149,7 @@ MonoBehaviour:
   inMenu: 0
   direction: 0
   _withTorch: 0
-  handDistance: 0.5
+  handDistance: 0.4
   speedMultiplier: 1
   charName: 
 --- !u!212 &6325266460931585606

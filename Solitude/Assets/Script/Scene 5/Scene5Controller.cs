@@ -17,9 +17,11 @@ public class Scene5Controller : MonoBehaviour
     //public TextMeshProUGUI _interactUI;
     private GameObject _gameChar;
     public Vector3 _gameCharPosition;
+    private AudioSource _lightOffSFX;
 
     public bool lightOff;
     public bool goNext;
+    public bool alreadyOff;
 
     // Start is called before the first frame update
     void Start()
@@ -47,9 +49,11 @@ public class Scene5Controller : MonoBehaviour
 
         _gameChar = GameObject.Find("GameChar");
         _gameCharPosition = _gameChar.GetComponent<Transform>().position;
+        _lightOffSFX = GetComponent<AudioSource>();
 
         lightOff = false;
         goNext = false;
+        alreadyOff = false;
     }
 
     // Update is called once per frame
@@ -61,7 +65,8 @@ public class Scene5Controller : MonoBehaviour
             lightOff = true;
         }
 
-        if (lightOff){
+        if (lightOff && !alreadyOff){
+            _lightOffSFX.Play();
             TurnLightOff();
         }
     }
@@ -87,6 +92,8 @@ public class Scene5Controller : MonoBehaviour
 
         _UIThreshold = 1.0f;
         _interactUI.SetFloat("_Threshold", _UIThreshold);
+        
+        alreadyOff = true;
 
         //_interactUI.color = Color.white;
         //_interactUI.faceColor = Color.red;

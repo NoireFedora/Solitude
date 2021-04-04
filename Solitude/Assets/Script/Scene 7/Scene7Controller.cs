@@ -23,7 +23,6 @@ public class Scene7Controller : MonoBehaviour
     private bool _pimDialog = false;
     private bool _hasConversationStarted = false;
     private LightController _lightController;
-    
     public Animator lightsAnimator;
     public Animator curtainAnimator;
     private bool _hasCharFinishedAnim;
@@ -35,6 +34,8 @@ public class Scene7Controller : MonoBehaviour
 
     private bool _isCharFacingDown;
     private bool _hasCharBegunAnim;
+
+    private bool _hasCharEndedAnim;
 
     // Start is called before the first frame update
     void Start()
@@ -53,7 +54,7 @@ public class Scene7Controller : MonoBehaviour
         _curtainController = GameObject.FindObjectOfType<CurtainController>();
         _hasConversationStarted = false;
         _pimDialog = true;
-        
+
         _lightController = GameObject.FindObjectOfType<LightController>();
         _hasCharFinishedAnim = false;
 
@@ -62,7 +63,8 @@ public class Scene7Controller : MonoBehaviour
 
         _hasCharBegunAnim = false;
 
-        
+        _hasCharEndedAnim = false;
+
     }
 
     // Update is called once per frame
@@ -74,9 +76,9 @@ public class Scene7Controller : MonoBehaviour
         if (Input.GetButtonDown("Interact") && !_pimDialog) {
             _pimDialog = gameObject.GetComponent<ConversationTrigger>().ContinueConversation();
 
-            // if (_pimDialog) {
-            //     _charControl.SetMovement(true);
-            // }
+            if (_pimDialog) {
+                _hasCharEndedAnim = true;
+            }
 
             return;
         }
@@ -136,6 +138,10 @@ public class Scene7Controller : MonoBehaviour
 
         }
 
+    }
+
+    public bool checkCharEndedAnim() {
+        return _hasCharEndedAnim;
     }
 
     public bool CheckLights() {

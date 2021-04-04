@@ -17,6 +17,9 @@ public class CurtainController : MonoBehaviour, ISInteractable
     public GameObject mainChar;
     private GameObject _gameAudio;
     private AudioSource _gameAudioSource;
+    private Scene7Controller _scene7Controller;
+    private bool _checkCharAnim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +30,7 @@ public class CurtainController : MonoBehaviour, ISInteractable
         _gameAudio = GameObject.FindGameObjectWithTag("GameAudio");
         if (SceneManager.GetActiveScene().buildIndex == 8) {
             _gameAudioSource = _gameAudio.GetComponent<AudioSource>();
+            _scene7Controller = GameObject.FindObjectOfType<Scene7Controller>();
         }
     }
 
@@ -66,14 +70,23 @@ public class CurtainController : MonoBehaviour, ISInteractable
         }
 
         if (SceneManager.GetActiveScene().buildIndex == 8) {
-            if (_interactCounter <= 0)
-            {
 
+            _checkCharAnim = _scene7Controller.checkCharEndedAnim();
+
+            if (!_checkCharAnim) {
                 if (!_gameAudioSource.isPlaying) _gameAudioSource.Play();
                 isOpen = true;
                 _curtainAnimator.SetBool("isOpened", isOpen);
                 _interactCounter = _interactCD;
+            } else {
+                if (!mainChar.GetComponent<CharControl>().talking) {
+                    dialogueTrigger.TriggerDialogue();
+                } else {
+                    dialogueTrigger.ContinueDialogue();
+                }
+
             }
+
         }
 
     }

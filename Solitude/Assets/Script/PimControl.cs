@@ -30,6 +30,7 @@ public class PimControl : MonoBehaviour
     public bool _moving;
     public bool _talking;
     public float direction;
+    private bool _isScene7;
 
     // Start is called before the first frame update
     void Start()
@@ -39,12 +40,13 @@ public class PimControl : MonoBehaviour
         _audioSource = GetComponents<AudioSource>();
         _footstep = _audioSource[0];
         _bubbleSpawn = _audioSource[1];
-        _speechBubble = GameObject.Find("SpeechBubble-Pim");
+        // _speechBubble = GameObject.Find("SpeechBubble-Pim");
         _speechBubble.SetActive(false);
         _animator.SetFloat("Horizontal", 0);
         _animator.SetFloat("Vertical", 0);
-        
-        if (SceneManager.GetActiveScene().buildIndex == 8) {
+
+        _isScene7 = SceneManager.GetActiveScene().buildIndex == 8;
+        if (_isScene7) {
             mainChar = GameObject.Find("New Main Char").transform;
         } else {
             mainChar = GameObject.Find("GameChar").transform;
@@ -65,7 +67,7 @@ public class PimControl : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (!_moving) {
+        if (!_moving || _isScene7) {
             return;
         }
 
