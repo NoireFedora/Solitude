@@ -26,6 +26,8 @@ public class CalendarController : MonoBehaviour, ISInteractable
 
     private CharControl _charControl;
 
+    public GameObject[] dayObjects;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,18 +43,15 @@ public class CalendarController : MonoBehaviour, ISInteractable
         _charControl = GameObject.FindObjectOfType<CharControl>();
 
 
+        _dayLimit = dayObjects.Length - 1;
+        _dayCounter = dayObjects.Length - 1;
 
-        if (SceneManager.GetActiveScene().buildIndex == 2) {
-            _dayLimit = 0;
-            _dayCounter = 0;
-        }
-        if (SceneManager.GetActiveScene().buildIndex == 5){
-            _dayLimit = 1;
-            _dayCounter = 1;
+
+        if (SceneManager.GetActiveScene().buildIndex != 2) {
             _nextObject = gameObject.transform.Find("Calendar UI/Calendar Canvas/NextButton").gameObject;
             _previousObject = gameObject.transform.Find("Calendar UI/Calendar Canvas/PreviousButton").gameObject;
         }
-        
+
     }
 
     // Update is called once per frame
@@ -85,19 +84,19 @@ public class CalendarController : MonoBehaviour, ISInteractable
     }
 
     public void NextDay() {
+        dayObjects[_dayCounter].SetActive(false);
         _dayCounter += 1;
+        dayObjects[_dayCounter].SetActive(true);
         _previousObject.SetActive(true);
-        if (_dayCounter == 1) calendarText.text = "DAY 20";
-
-        if (_dayCounter == _dayLimit) _nextObject.SetActive(false); 
+        if (_dayCounter == _dayLimit) _nextObject.SetActive(false);
     }
 
     public void PreviousDay() {
+        dayObjects[_dayCounter].SetActive(false);
         _dayCounter -= 1;
+        dayObjects[_dayCounter].SetActive(true);
         _nextObject.SetActive(true);
-
         if (_dayCounter == 0) {
-            calendarText.text = "DAY 1";
             _previousObject.SetActive(false);
         }
 

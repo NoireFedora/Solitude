@@ -14,6 +14,7 @@ public class LevelLoader : MonoBehaviour
     private Scene4Controller _scene4Controller;
     private Scene5Controller _scene5Controller;
     private DoorController _doorController;
+    private Scene7LaptopController _scene7LaptopController;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,7 @@ public class LevelLoader : MonoBehaviour
         _scene4Controller = GameObject.FindObjectOfType<Scene4Controller>();
         _scene5Controller = GameObject.FindObjectOfType<Scene5Controller>();
         _doorController = GameObject.FindObjectOfType<DoorController>();
+        _scene7LaptopController = GameObject.FindObjectOfType<Scene7LaptopController>();
     }
 
     // Update is called once per frame
@@ -89,6 +91,15 @@ public class LevelLoader : MonoBehaviour
             bool doorOpened = _doorController.checkDoor();
             
             if (doorOpened) {
+                SetTransitionTime(4);
+                LoadNextLevel();
+            }
+        }
+
+        if (SceneManager.GetActiveScene().buildIndex == 8) {
+            bool checkLaptop = _scene7LaptopController.InteractedWithLaptop();
+            
+            if (checkLaptop) {
                 SetTransitionTime(4);
                 LoadNextLevel();
             }

@@ -337,6 +337,12 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 5117043687838638462, guid: 9db6873aeed55b14da11c0d7dcc3e630, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9db6873aeed55b14da11c0d7dcc3e630, type: 3}
+--- !u!1 &104428380 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5061108941834207361, guid: 9db6873aeed55b14da11c0d7dcc3e630,
+    type: 3}
+  m_PrefabInstance: {fileID: 104428379}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &122450084 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6477912503148111806, guid: 57edc34522a12884887a2a28f06293d5,
@@ -863,7 +869,7 @@ MonoBehaviour:
   followDistance: 2
   _animator: {fileID: 0}
   speedMultiplier: 1
-  _speechBubble: {fileID: 0}
+  _speechBubble: {fileID: 104428380}
   speechAnimator: {fileID: 1993864083}
   _moving: 0
   _talking: 0

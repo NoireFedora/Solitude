@@ -11,11 +11,14 @@ public class Scene7LaptopController : MonoBehaviour, ISInteractable
     private CurtainController _curtainController;
     public AudioSource errorSFX;
     
+    private bool _checkLaptop;
+
     // Start is called before the first frame update
     void Start()
     {
         _laptopSFX = GetComponent<AudioSource>();
         _curtainController = GameObject.FindObjectOfType<CurtainController>();
+        _checkLaptop = false;
         
 
     }
@@ -39,6 +42,7 @@ public class Scene7LaptopController : MonoBehaviour, ISInteractable
         if (_interactCounter <= 0 && _checkCurtainsOpen)
         {
             _laptopSFX.Play();
+            _checkLaptop = true;
         }
 
         if (_interactCounter <= 0 && !_checkCurtainsOpen) {
@@ -48,7 +52,7 @@ public class Scene7LaptopController : MonoBehaviour, ISInteractable
         _interactCounter += 1;
     }
 
-    public int InteractedWithLaptop() {
-        return _interactCounter;
+    public bool InteractedWithLaptop() {
+        return _checkLaptop;
     }
 }

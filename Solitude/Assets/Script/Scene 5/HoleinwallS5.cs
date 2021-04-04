@@ -104,6 +104,7 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
         }
         else if (!isTalking && withTorch)
         {   
+            gameChar.GetComponent<Animator>().SetBool("WithTorch", false);
             charPosition.position = Vector3.MoveTowards(charPosition.position, dialoguePosition.position, speed);
             pim.SetActive(true);
             conversationTrigger.TriggerConversation();
