@@ -37,7 +37,11 @@ public class LevelLoader : MonoBehaviour
             // if (hasInteracted > 0) {
             //     LoadNextLevel();
             // }
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
             if (isLaptopOpen) {
                 SetTransitionTime(4);
                 LoadNextLevel();
@@ -46,7 +50,11 @@ public class LevelLoader : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 3) {
             bool goNext = _scene2Controller.CanGoNext();
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
             if (goNext) {
                 SetTransitionTime(2);
                 LoadNextLevel();
@@ -80,7 +88,11 @@ public class LevelLoader : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 6) {
             bool goNext = _scene5Controller.CanGoNext();
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
             if (goNext) {
                 SetTransitionTime(2);
                 LoadNextLevel();
@@ -89,7 +101,11 @@ public class LevelLoader : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 7) {
             bool doorOpened = _doorController.checkDoor();
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
             if (doorOpened) {
                 SetTransitionTime(4);
                 LoadNextLevel();
@@ -98,13 +114,18 @@ public class LevelLoader : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 8) {
             bool checkLaptop = _scene7LaptopController.InteractedWithLaptop();
+<<<<<<< HEAD
 
+=======
+            
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
             if (checkLaptop) {
                 SetTransitionTime(4);
                 LoadNextLevel();
             }
         }
 
+<<<<<<< HEAD
         if (SceneManager.GetActiveScene().buildIndex == 9) {
             SetTransitionTime(10);
             MenuLevel();
@@ -114,14 +135,22 @@ public class LevelLoader : MonoBehaviour
 
     private void SetTransitionTime(int tTime) {
         _transitionTime = tTime;
+=======
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     }
 
     public void LoadNextLevel() {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
+<<<<<<< HEAD
     public void LoadMenuLevel() {
         StartCoroutine(LoadLevel(0));
+=======
+
+    private void SetTransitionTime(int tTime) {
+        _transitionTime = tTime;
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     }
 
     IEnumerator LoadLevel(int levelIndex) {
@@ -129,6 +158,7 @@ public class LevelLoader : MonoBehaviour
         yield return new WaitForSeconds(_transitionTime);
         SceneManager.LoadScene(levelIndex);
     }
+<<<<<<< HEAD
 
     public void MenuLevel() {
         StartCoroutine(LoadMenu());
@@ -138,4 +168,6 @@ public class LevelLoader : MonoBehaviour
         yield return new WaitForSeconds(43);
         LoadMenuLevel();
     }
+=======
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 }

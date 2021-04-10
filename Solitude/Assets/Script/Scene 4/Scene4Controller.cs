@@ -10,7 +10,10 @@ public class Scene4Controller : MonoBehaviour
     public AudioSource laptopSFX;
 
     private Material _objectLight;
+<<<<<<< HEAD
     private Material _interactUI;
+=======
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     private float _threshold;
 
     private Scene4LaptopController _laptopController;
@@ -24,10 +27,19 @@ public class Scene4Controller : MonoBehaviour
         bedAnimator.Play("Base Layer.New BedAnimation", 0, 0);
 
         _objectLight = (Material)Resources.Load("InvertMaterial", typeof(Material));
+<<<<<<< HEAD
         _interactUI = (Material)Resources.Load("UIMaterial", typeof(Material));
         _threshold = 1f;
         _objectLight.SetFloat("_Threshold", _threshold);
         _interactUI.SetFloat("_Threshold", _threshold);
+=======
+        _threshold = _objectLight.GetFloat("_Threshold");
+        _threshold = 1f;
+        _objectLight.SetFloat("_Threshold", _threshold);
+
+        
+
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     }
 
     // Update is called once per frame

@@ -15,9 +15,12 @@ public class LeverController : MonoBehaviour, ISHoldable
     public bool isFix;
     Animator animator;
     AudioSource activeAudio;
+<<<<<<< HEAD
     public AudioSource bridgeExtendingAudio;
     private bool _isBridgeRetracting;
     public AudioSource rockCollidingSFX;
+=======
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     // Start is called before the first frame update
     void Start()
     {
@@ -29,18 +32,24 @@ public class LeverController : MonoBehaviour, ISHoldable
         animator = GetComponent<Animator>();
         animator.SetBool("IsDown", false);
         activeAudio = GetComponent<AudioSource>();
+<<<<<<< HEAD
         _isBridgeRetracting = false;
+=======
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 
     }
 
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
         
         
     }
 
     private void FixedUpdate() {
+=======
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
         if (isFix)
         {
             return;
@@ -53,15 +62,21 @@ public class LeverController : MonoBehaviour, ISHoldable
                 bridge.transform.position += new Vector3(bridgeSpeed, 0, 0);
                 if (fullyExtend())
                 {
+<<<<<<< HEAD
                     bridgeExtendingAudio.Stop();
+=======
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
                     LeverController otherLeverController = otherLever.GetComponent<LeverController>();
                     if (otherLeverController.fullyExtend())
                     {
                         isFix = true;
                         otherLeverController.isFix = true;
                     }
+<<<<<<< HEAD
                 } else {
                     if(!bridgeExtendingAudio.isPlaying) bridgeExtendingAudio.Play();
+=======
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
                 }
             }
         }
@@ -69,6 +84,7 @@ public class LeverController : MonoBehaviour, ISHoldable
         {
             if (_holdcounter > 0)
             {
+<<<<<<< HEAD
                 if(!bridgeExtendingAudio.isPlaying) bridgeExtendingAudio.Play();
                 _isBridgeRetracting = true;
                 _holdcounter -= 1;
@@ -81,6 +97,13 @@ public class LeverController : MonoBehaviour, ISHoldable
                 _isBridgeRetracting = false;
             }
         }
+=======
+                _holdcounter -= 1;
+                bridge.transform.position -= new Vector3(bridgeSpeed, 0, 0);
+            }
+        }
+        
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     }
 
     public bool fullyExtend()

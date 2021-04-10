@@ -9,7 +9,14 @@ public class Scene5Controller : MonoBehaviour
     private Material _wallLight;
     private Material _floorLight;
     private Material _interactUI;
+<<<<<<< HEAD
     private float _threshold;
+=======
+    private float _charThreshold;
+    private float _wallThreshold;
+    private float _floorThreshold;
+    private float _UIThreshold;
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 
     //public TextMeshProUGUI _interactUI;
     private GameObject _gameChar;
@@ -28,11 +35,29 @@ public class Scene5Controller : MonoBehaviour
         _floorLight = (Material)Resources.Load("Hallway Floors", typeof(Material));
         _interactUI = (Material)Resources.Load("UIMaterial", typeof(Material));
 
+<<<<<<< HEAD
         _threshold = 0.0f;
         _charLight.SetFloat("_Threshold", _threshold);
         _wallLight.SetFloat("_Threshold", _threshold);
         _floorLight.SetFloat("_Threshold", _threshold);
         _interactUI.SetFloat("_Threshold", _threshold);
+=======
+        _charThreshold = _charLight.GetFloat("_Threshold");
+        _charThreshold = 0.0f;
+        _charLight.SetFloat("_Threshold", _charThreshold);
+
+        _wallThreshold =  _wallLight.GetFloat("_Threshold");
+        _wallThreshold = 0.0f;
+        _wallLight.SetFloat("_Threshold", _wallThreshold);
+
+        _floorThreshold = _floorLight.GetFloat("_Threshold");
+        _floorThreshold = 0.0f;
+        _floorLight.SetFloat("_Threshold", _floorThreshold);
+
+        _UIThreshold = _interactUI.GetFloat("_Threshold");
+        _UIThreshold = 0.0f;
+        _interactUI.SetFloat("_Threshold", _UIThreshold);
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 
         _gameChar = GameObject.Find("GameChar");
         _gameCharPosition = _gameChar.GetComponent<Transform>().position;
@@ -68,11 +93,25 @@ public class Scene5Controller : MonoBehaviour
 
     void TurnLightOff(){
 
+<<<<<<< HEAD
         _threshold = 1.0f;
         _charLight.SetFloat("_Threshold", _threshold);
         _wallLight.SetFloat("_Threshold", _threshold);
         _floorLight.SetFloat("_Threshold", _threshold);
         _interactUI.SetFloat("_Threshold", _threshold);
+=======
+        _charThreshold = 1.0f;
+        _charLight.SetFloat("_Threshold", _charThreshold);
+
+        _wallThreshold = 1.0f;
+        _wallLight.SetFloat("_Threshold", _wallThreshold);
+
+        _floorThreshold = 1.0f;
+        _floorLight.SetFloat("_Threshold", _floorThreshold);
+
+        _UIThreshold = 1.0f;
+        _interactUI.SetFloat("_Threshold", _UIThreshold);
+>>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
         
         alreadyOff = true;
 
