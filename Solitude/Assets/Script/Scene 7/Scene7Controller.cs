@@ -44,18 +44,10 @@ public class Scene7Controller : MonoBehaviour
         bedAnimator.Play("Base Layer.New BedAnimation", 0, 0);
 
         _objectLight = (Material)Resources.Load("InvertMaterial", typeof(Material));
-<<<<<<< HEAD
         _interactUI = (Material)Resources.Load("UIMaterial", typeof(Material));
 
         _threshold = 1f;
         _objectLight.SetFloat("_Threshold", _threshold);
-=======
-        _threshold = _objectLight.GetFloat("_Threshold");
-        _threshold = 1f;
-        _objectLight.SetFloat("_Threshold", _threshold);
-
-        _interactUI = (Material)Resources.Load("UIMaterial", typeof(Material));
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
         _interactUI.SetFloat("_Threshold", _threshold);
 
         _curtainController = GameObject.FindObjectOfType<CurtainController>();
@@ -84,11 +76,7 @@ public class Scene7Controller : MonoBehaviour
             _pimDialog = gameObject.GetComponent<ConversationTrigger>().ContinueConversation();
 
             if (_pimDialog) {
-<<<<<<< HEAD
                 StartCharEndedAnim();
-=======
-                _hasCharEndedAnim = true;
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
             }
 
             return;
@@ -151,7 +139,6 @@ public class Scene7Controller : MonoBehaviour
 
     }
 
-<<<<<<< HEAD
     public void StartCharEndedAnim() {
         StartCoroutine(CharEndedAnim());
     }
@@ -161,8 +148,6 @@ public class Scene7Controller : MonoBehaviour
         _hasCharEndedAnim = true;
     }
 
-=======
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     public bool checkCharEndedAnim() {
         return _hasCharEndedAnim;
     }

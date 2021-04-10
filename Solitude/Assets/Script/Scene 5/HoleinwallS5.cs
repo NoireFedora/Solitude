@@ -25,10 +25,7 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
 
     public TMP_Text NPCText;
     private AudioSource scrollSFX;
-<<<<<<< HEAD
     private AudioSource pimEmerge;
-=======
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     private AudioClip clip;
 
     public GameObject torch1;
@@ -59,12 +56,8 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
         torch2.SetActive(false);
         torch3.SetActive(false);
 
-<<<<<<< HEAD
         scrollSFX = GetComponents<AudioSource>()[0];
         pimEmerge = GetComponents<AudioSource>()[1];
-=======
-        scrollSFX = GetComponent<AudioSource>();
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
         clip = scrollSFX.clip;
     }
 
@@ -115,14 +108,9 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
         {   
             gameChar.GetComponent<Animator>().SetBool("WithTorch", false);
             charPosition.position = Vector3.MoveTowards(charPosition.position, dialoguePosition.position, speed);
-<<<<<<< HEAD
             pimEmerge.Play();
             StopAllCoroutines();
             StartCoroutine(PimEmerge());
-=======
-            pim.SetActive(true);
-            conversationTrigger.TriggerConversation();
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
             smallDoor.SetActive(true);
             torch1.SetActive(false);
             torch2.SetActive(false);
@@ -165,7 +153,6 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
         StartCoroutine(ScrollText(sentence, textContainer));
     }
 
-<<<<<<< HEAD
     private IEnumerator PimEmerge()
     {   
         gameChar.GetComponent<CharControl>().startListening();
@@ -174,7 +161,5 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
         conversationTrigger.TriggerConversation();
     }
 
-=======
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 
 }

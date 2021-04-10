@@ -1319,7 +1319,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-<<<<<<< HEAD
     - target: {fileID: 1261481802, guid: ef3690bc5d7ed8a498ead241cbe0d668, type: 3}
       propertyPath: sfxSlider
       value: 
@@ -1338,14 +1337,11 @@ PrefabInstance:
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: Play
       objectReference: {fileID: 0}
-=======
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     - target: {fileID: 2873682939958178319, guid: ef3690bc5d7ed8a498ead241cbe0d668,
         type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
       objectReference: {fileID: 0}
-<<<<<<< HEAD
     - target: {fileID: 4727625705415271110, guid: ef3690bc5d7ed8a498ead241cbe0d668,
         type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -1391,8 +1387,6 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: InGameQuit
       objectReference: {fileID: 0}
-=======
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     - target: {fileID: 7545536367362713592, guid: ef3690bc5d7ed8a498ead241cbe0d668,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -1526,7 +1520,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 720921573}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< HEAD
 --- !u!114 &720921575 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7545536367129728455, guid: ef3690bc5d7ed8a498ead241cbe0d668,
@@ -1551,8 +1544,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-=======
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 --- !u!1 &731310045
 GameObject:
   m_ObjectHideFlags: 0
@@ -1678,10 +1669,7 @@ GameObject:
   - component: {fileID: 770793068}
   - component: {fileID: 770793067}
   - component: {fileID: 770793066}
-<<<<<<< HEAD
   - component: {fileID: 770793071}
-=======
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
   m_Layer: 0
   m_Name: Trash Can
   m_TagString: Untagged
@@ -1800,7 +1788,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 26.662, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!82 &770793071
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1898,8 +1885,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-=======
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 --- !u!1 &805877537
 GameObject:
   m_ObjectHideFlags: 0
@@ -2915,7 +2900,6 @@ Transform:
   m_Father: {fileID: 1550405524}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-<<<<<<< HEAD
 --- !u!1 &1041940854
 GameObject:
   m_ObjectHideFlags: 0
@@ -3044,8 +3028,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 --- !u!1001 &1048005380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4126,13 +4108,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
-<<<<<<< HEAD
     - I shouldn't be going to bed right now...
     - It's already morning
-=======
-    - I don't know if I should be going to bed right now...
-    - Maybe I can find that person again, if I play that old game...
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     textContainers:
     - {fileID: 2033914943}
     - {fileID: 2033914943}
@@ -4416,7 +4393,6 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
-<<<<<<< HEAD
 --- !u!1 &1741575771
 GameObject:
   m_ObjectHideFlags: 0
@@ -4462,8 +4438,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-=======
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 --- !u!1 &1745983477
 GameObject:
   m_ObjectHideFlags: 0
@@ -4961,13 +4935,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-<<<<<<< HEAD
   m_Size: {x: 2.114885, y: 0.9475, z: 0.41345024}
   m_Center: {x: -0.021166801, y: 0, z: 0.17650318}
-=======
-  m_Size: {x: 2.114885, y: 0.9475, z: 0.3883934}
-  m_Center: {x: -0.0211668, y: 0, z: 0.1890316}
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 --- !u!212 &1876654390
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5305,14 +5274,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8329225086980124217, guid: 68c6bfda29bad19419e48a662609514d,
         type: 3}
-<<<<<<< HEAD
       propertyPath: m_Volume
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8329225086980124217, guid: 68c6bfda29bad19419e48a662609514d,
         type: 3}
-=======
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
       propertyPath: m_PlayOnAwake
       value: 1
       objectReference: {fileID: 0}
@@ -5781,11 +5747,6 @@ MonoBehaviour:
   closeButtonText: {fileID: 495709967}
   background: {fileID: 566754388}
   closeButton: {fileID: 1765406490}
-<<<<<<< HEAD
-=======
-  backgroundOutline: {fileID: 566754387}
-  buttonOutline: {fileID: 1765406486}
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
   dayObjects:
   - {fileID: 677412897}
   - {fileID: 1535148825}

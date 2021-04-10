@@ -23,11 +23,7 @@ public class LightController : MonoBehaviour, ISInteractable
     private float _UIThreshold;
 
     private playAudio _gameAudio;
-<<<<<<< HEAD
     private AudioSource _lightsOffMusic;
-=======
-    private AudioSource _lightsOffMusic; 
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     private Animator _lightAnimator;
 
     private DialogueTrigger dialogueTrigger;
@@ -41,11 +37,7 @@ public class LightController : MonoBehaviour, ISInteractable
 
         _interactUI = (Material)Resources.Load("UIMaterial", typeof(Material));
         _UIThreshold = _interactUI.GetFloat("_Threshold");
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
         _lightsOffMusic = GetComponent<AudioSource>();
         _gameAudio = GameObject.FindObjectOfType<playAudio>();
 
@@ -71,7 +63,6 @@ public class LightController : MonoBehaviour, ISInteractable
     }
 
     void setMode() {
-<<<<<<< HEAD
 
         if (_isOpen) {
 
@@ -80,20 +71,6 @@ public class LightController : MonoBehaviour, ISInteractable
                 _gameAudio.togglePlay();
             }
             _lightAnimator.SetBool("LightOn", true);
-=======
-        
-        
-        if (_isOpen) {
-
-            if (SceneManager.GetActiveScene().buildIndex == 2) {
-                _lightsOffMusic.Stop(); 
-                _gameAudio.togglePlay();
-            }
-
-            _lightAnimator.SetBool("LightOn", true);
-            //_interactUI.color = Color.black;
-            //_interactUI.faceColor = Color.black;
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 
         } else {
 
@@ -101,14 +78,7 @@ public class LightController : MonoBehaviour, ISInteractable
                 _gameAudio.togglePlay();
                 _lightsOffMusic.Play();
             }
-<<<<<<< HEAD
             _lightAnimator.SetBool("LightOn", false);
-=======
-
-            _lightAnimator.SetBool("LightOn", false);
-            //_interactUI.color = Color.red;
-            //_interactUI.faceColor = Color.red;
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
 
         }
 
@@ -119,11 +89,7 @@ public class LightController : MonoBehaviour, ISInteractable
     public bool CheckLights() {
         return _isOpen;
     }
-<<<<<<< HEAD
 
-=======
-    
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
     public float GetThreshold() {
         return _threshold;
     }
@@ -131,21 +97,12 @@ public class LightController : MonoBehaviour, ISInteractable
     public void SetThreshold(float threshold) {
         _threshold = threshold;
     }
-<<<<<<< HEAD
 
     void ISInteractable.interact()
     {
         if (SceneManager.GetActiveScene().buildIndex != 8) {
             if (_interactCounter <= 0)
             {
-=======
-    
-    void ISInteractable.interact()
-    {   
-        if (SceneManager.GetActiveScene().buildIndex != 8) {
-            if (_interactCounter <= 0)
-            {   
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
                 if (_isOpen) {
                     _threshold = 0.0f;
                     _objectLight.SetFloat("_Threshold", _threshold);
@@ -159,25 +116,15 @@ public class LightController : MonoBehaviour, ISInteractable
                     _UIThreshold = 1.0f;
                     _interactUI.SetFloat("_Threshold", _UIThreshold);
                     setMode();
-<<<<<<< HEAD
                     LightOff.Play();
                 }
 
-=======
-                    LightOff.Play(); 
-                }
-                
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
                 _interactCounter = _interactCD;
             }
         } else {
 
             if (!mainChar.GetComponent<CharControl>().talking)
-<<<<<<< HEAD
             {
-=======
-            {   
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
                 dialogueTrigger.TriggerDialogue();
             }
             else

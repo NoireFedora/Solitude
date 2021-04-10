@@ -143,11 +143,7 @@ public class PimControl : MonoBehaviour
             _animator.SetFloat("LastKey", direction);
         }
         else
-<<<<<<< HEAD
         {
-=======
-        {   
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
             _animator.SetFloat("Horizontal", 0);
             _animator.SetFloat("Vertical", 0);
             _footstep.Pause();
@@ -162,11 +158,7 @@ public class PimControl : MonoBehaviour
         // if (moveEnabled) _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
 
         if (!moveEnabled)
-<<<<<<< HEAD
         {
-=======
-        {   
->>>>>>> a35e160d6f8dec8b418298d0593ab442797338e8
             _rigidbody.velocity = Vector3.zero;
             // _rigidbody.constraints = RigidbodyConstraints.FreezeAll;
             _animator.SetFloat("Horizontal", 0);
