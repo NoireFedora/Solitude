@@ -37,7 +37,7 @@ public class LevelLoader : MonoBehaviour
             // if (hasInteracted > 0) {
             //     LoadNextLevel();
             // }
-    
+
             if (isLaptopOpen) {
                 SetTransitionTime(4);
                 LoadNextLevel();
@@ -46,7 +46,7 @@ public class LevelLoader : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 3) {
             bool goNext = _scene2Controller.CanGoNext();
-            
+
             if (goNext) {
                 SetTransitionTime(2);
                 LoadNextLevel();
@@ -80,7 +80,7 @@ public class LevelLoader : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 6) {
             bool goNext = _scene5Controller.CanGoNext();
-            
+
             if (goNext) {
                 SetTransitionTime(2);
                 LoadNextLevel();
@@ -89,7 +89,7 @@ public class LevelLoader : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 7) {
             bool doorOpened = _doorController.checkDoor();
-            
+
             if (doorOpened) {
                 SetTransitionTime(4);
                 LoadNextLevel();
@@ -98,27 +98,44 @@ public class LevelLoader : MonoBehaviour
 
         if (SceneManager.GetActiveScene().buildIndex == 8) {
             bool checkLaptop = _scene7LaptopController.InteractedWithLaptop();
-            
+
             if (checkLaptop) {
                 SetTransitionTime(4);
                 LoadNextLevel();
             }
         }
 
+        if (SceneManager.GetActiveScene().buildIndex == 9) {
+            SetTransitionTime(10);
+            MenuLevel();
+        }
+
+    }
+
+    private void SetTransitionTime(int tTime) {
+        _transitionTime = tTime;
     }
 
     public void LoadNextLevel() {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
-
-    private void SetTransitionTime(int tTime) {
-        _transitionTime = tTime;
+    public void LoadMenuLevel() {
+        StartCoroutine(LoadLevel(0));
     }
 
     IEnumerator LoadLevel(int levelIndex) {
         transition.SetTrigger("Start");
         yield return new WaitForSeconds(_transitionTime);
         SceneManager.LoadScene(levelIndex);
+    }
+
+    public void MenuLevel() {
+        StartCoroutine(LoadMenu());
+    }
+
+    IEnumerator LoadMenu() {
+        yield return new WaitForSeconds(43);
+        LoadMenuLevel();
     }
 }

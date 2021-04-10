@@ -9,10 +9,7 @@ public class Scene2Controller : MonoBehaviour
     private Material _wallLight;
     private Material _floorLight;
     private Material _interactUI;
-    private float _charThreshold;
-    private float _wallThreshold;
-    private float _floorThreshold;
-    private float _UIThreshold;
+    private float _threshold;
 
     //public TextMeshProUGUI _interactUI;
     private GameObject _gameChar;
@@ -30,22 +27,12 @@ public class Scene2Controller : MonoBehaviour
         _wallLight = (Material)Resources.Load("Hallway Walls", typeof(Material));
         _floorLight = (Material)Resources.Load("Hallway Floors", typeof(Material));
         _interactUI = (Material)Resources.Load("UIMaterial", typeof(Material));
-
-        _charThreshold = _charLight.GetFloat("_Threshold");
-        _charThreshold = 0.0f;
-        _charLight.SetFloat("_Threshold", _charThreshold);
-
-        _wallThreshold =  _wallLight.GetFloat("_Threshold");
-        _wallThreshold = 0.0f;
-        _wallLight.SetFloat("_Threshold", _wallThreshold);
-
-        _floorThreshold = _floorLight.GetFloat("_Threshold");
-        _floorThreshold = 0.0f;
-        _floorLight.SetFloat("_Threshold", _floorThreshold);
-
-        _UIThreshold = _interactUI.GetFloat("_Threshold");
-        _UIThreshold = 0.0f;
-        _interactUI.SetFloat("_Threshold", _UIThreshold);
+        
+        _threshold = 0.0f;
+        _charLight.SetFloat("_Threshold", _threshold);
+        _wallLight.SetFloat("_Threshold", _threshold);
+        _floorLight.SetFloat("_Threshold", _threshold);
+        _interactUI.SetFloat("_Threshold", _threshold);
 
         _gameChar = GameObject.Find("GameChar");
         _gameCharPosition = _gameChar.GetComponent<Transform>().position;
@@ -58,9 +45,9 @@ public class Scene2Controller : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {      
+    {
         _gameCharPosition = _gameChar.GetComponent<Transform>().position;
-        
+
         if (_gameCharPosition.x > -48){
             lightOff = true;
         }
@@ -81,17 +68,11 @@ public class Scene2Controller : MonoBehaviour
 
     void TurnLightOff(){
 
-        _charThreshold = 1.0f;
-        _charLight.SetFloat("_Threshold", _charThreshold);
-
-        _wallThreshold = 1.0f;
-        _wallLight.SetFloat("_Threshold", _wallThreshold);
-
-        _floorThreshold = 1.0f;
-        _floorLight.SetFloat("_Threshold", _floorThreshold);
-
-        _UIThreshold = 1.0f;
-        _interactUI.SetFloat("_Threshold", _UIThreshold);
+        _threshold = 1.0f;
+        _charLight.SetFloat("_Threshold", _threshold);
+        _wallLight.SetFloat("_Threshold", _threshold);
+        _floorLight.SetFloat("_Threshold", _threshold);
+        _interactUI.SetFloat("_Threshold", _threshold);
 
         alreadyOff = true;
 

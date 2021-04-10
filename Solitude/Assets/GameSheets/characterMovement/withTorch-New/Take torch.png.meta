@@ -1,0 +1,575 @@
+fileFormatVersion: 2
+guid: 312debe568fcac04f8f643eca58738fe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2368472671770454909
+    second: Take torch_0
+  - first:
+      213: 6010897759702162971
+    second: Take torch_1
+  - first:
+      213: -705317066409516818
+    second: Take torch_2
+  - first:
+      213: 2054480450087027137
+    second: Take torch_3
+  - first:
+      213: -5499764395681787356
+    second: Take torch_4
+  - first:
+      213: 5799287032552477470
+    second: Take torch_5
+  - first:
+      213: -2868464545129771555
+    second: Take torch_6
+  - first:
+      213: -8317854820458677216
+    second: Take torch_7
+  - first:
+      213: -4925517468965532859
+    second: Take torch_8
+  - first:
+      213: -7803057086876770023
+    second: Take torch_9
+  - first:
+      213: 481088092252365462
+    second: Take torch_10
+  - first:
+      213: -4603479069783305027
+    second: Take torch_11
+  - first:
+      213: -7385922594599556772
+    second: Take torch_12
+  - first:
+      213: 8029757044886971778
+    second: Take torch_13
+  - first:
+      213: -2585358001791473666
+    second: Take torch_14
+  - first:
+      213: -1282687599338136058
+    second: Take torch_15
+  - first:
+      213: -4056855990574588157
+    second: Take torch_16
+  - first:
+      213: 2063067117428007479
+    second: Take torch_17
+  - first:
+      213: 6655387933199905701
+    second: Take torch_18
+  - first:
+      213: -7510464904047703618
+    second: Take torch_19
+  - first:
+      213: 6024886517191976731
+    second: Take torch_20
+  - first:
+      213: 7583502004850236465
+    second: Take torch_21
+  - first:
+      213: -5623737990594588684
+    second: Take torch_22
+  - first:
+      213: 904464906257802633
+    second: Take torch_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Take torch_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7b2915a8518ed020800000000000000
+      internalID: 2368472671770454909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_1
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1e1d345aaffa6350800000000000000
+      internalID: 6010897759702162971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_2
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0e3a27dd53636f0800000000000000
+      internalID: -705317066409516818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_3
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c10c61951bf28c10800000000000000
+      internalID: 2054480450087027137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_4
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422db0fcb69eca3b0800000000000000
+      internalID: -5499764395681787356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_5
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e13d1d584d43b7050800000000000000
+      internalID: 5799287032552477470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_6
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddccb8a1ba2138d0800000000000000
+      internalID: -2868464545129771555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_7
+      rect:
+        serializedVersion: 2
+        x: 2800
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c3a455c1b019c80800000000000000
+      internalID: -8317854820458677216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_8
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b045f55fb05abb0800000000000000
+      internalID: -4925517468965532859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_9
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 911ad9efbe8f5b390800000000000000
+      internalID: -7803057086876770023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_10
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6926f5c221b2da600800000000000000
+      internalID: 481088092252365462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_11
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4de922d282d10c0800000000000000
+      internalID: -4603479069783305027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_12
+      rect:
+        serializedVersion: 2
+        x: 4800
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59ac52588eef7990800000000000000
+      internalID: -7385922594599556772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_13
+      rect:
+        serializedVersion: 2
+        x: 5200
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 285ad252d7d6f6f60800000000000000
+      internalID: 8029757044886971778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_14
+      rect:
+        serializedVersion: 2
+        x: 5600
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7610e5896fe1cd0800000000000000
+      internalID: -2585358001791473666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_15
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ed6a3ac6af23ee0800000000000000
+      internalID: -1282687599338136058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_16
+      rect:
+        serializedVersion: 2
+        x: 6400
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fd2e088f623b7c0800000000000000
+      internalID: -4056855990574588157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_17
+      rect:
+        serializedVersion: 2
+        x: 6800
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732e51adc9c71ac10800000000000000
+      internalID: 2063067117428007479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Take torch_18
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 25
+        width: 400
+        height: 350
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a33dc04010bc5c50800000000000000
+      internalID: 6655387933199905701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2f150281e1583db46931893946dffa41
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

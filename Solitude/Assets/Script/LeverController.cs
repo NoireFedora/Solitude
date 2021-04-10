@@ -15,6 +15,9 @@ public class LeverController : MonoBehaviour, ISHoldable
     public bool isFix;
     Animator animator;
     AudioSource activeAudio;
+    public AudioSource bridgeExtendingAudio;
+    private bool _isBridgeRetracting;
+    public AudioSource rockCollidingSFX;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,12 +29,18 @@ public class LeverController : MonoBehaviour, ISHoldable
         animator = GetComponent<Animator>();
         animator.SetBool("IsDown", false);
         activeAudio = GetComponent<AudioSource>();
+        _isBridgeRetracting = false;
 
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+        
+    }
+
+    private void FixedUpdate() {
         if (isFix)
         {
             return;
@@ -44,12 +53,15 @@ public class LeverController : MonoBehaviour, ISHoldable
                 bridge.transform.position += new Vector3(bridgeSpeed, 0, 0);
                 if (fullyExtend())
                 {
+                    bridgeExtendingAudio.Stop();
                     LeverController otherLeverController = otherLever.GetComponent<LeverController>();
                     if (otherLeverController.fullyExtend())
                     {
                         isFix = true;
                         otherLeverController.isFix = true;
                     }
+                } else {
+                    if(!bridgeExtendingAudio.isPlaying) bridgeExtendingAudio.Play();
                 }
             }
         }
@@ -57,11 +69,18 @@ public class LeverController : MonoBehaviour, ISHoldable
         {
             if (_holdcounter > 0)
             {
+                if(!bridgeExtendingAudio.isPlaying) bridgeExtendingAudio.Play();
+                _isBridgeRetracting = true;
                 _holdcounter -= 1;
                 bridge.transform.position -= new Vector3(bridgeSpeed, 0, 0);
             }
+
+            if (_holdcounter <= 0 && _isBridgeRetracting) {
+                bridgeExtendingAudio.Stop();
+                rockCollidingSFX.Play();
+                _isBridgeRetracting = false;
+            }
         }
-        
     }
 
     public bool fullyExtend()

@@ -53,9 +53,9 @@ public class Scene6PimController : PimControl
                     moveUp = 1;
                 }
 
-                if (transform.position.z >= 4.6 && transform.position.x <= -8.5)
+                if (transform.position.z >= 1 && transform.position.x <= -8.5)
                 {
-                    moveUp = -1;
+                    moveUp = 0;
                     atTargetPosition = true;
                     _footstep.Pause();
                 }

@@ -143,7 +143,7 @@ public class PimControl : MonoBehaviour
             _animator.SetFloat("LastKey", direction);
         }
         else
-        {   
+        {
             _animator.SetFloat("Horizontal", 0);
             _animator.SetFloat("Vertical", 0);
             _footstep.Pause();
@@ -158,7 +158,7 @@ public class PimControl : MonoBehaviour
         // if (moveEnabled) _rigidbody.constraints = RigidbodyConstraints.FreezeRotation;
 
         if (!moveEnabled)
-        {   
+        {
             _rigidbody.velocity = Vector3.zero;
             // _rigidbody.constraints = RigidbodyConstraints.FreezeAll;
             _animator.SetFloat("Horizontal", 0);

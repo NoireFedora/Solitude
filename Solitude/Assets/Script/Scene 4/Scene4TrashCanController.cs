@@ -6,10 +6,12 @@ public class Scene4TrashCanController : MonoBehaviour, ISInteractable
 {
 
     private Animator _trashCanAnimator;
+    private AudioSource _trashCanSFX;
     // Start is called before the first frame update
     void Start()
     {
         _trashCanAnimator = GetComponent<Animator>();
+        _trashCanSFX = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -20,6 +22,7 @@ public class Scene4TrashCanController : MonoBehaviour, ISInteractable
 
     void ISInteractable.interact()
     {   
+        _trashCanSFX.Play();
         _trashCanAnimator.SetBool("HasInteracted", true);
     }
 }
