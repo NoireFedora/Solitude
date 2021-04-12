@@ -31,6 +31,7 @@ public class Torch : MonoBehaviour, ISInteractable
         gameChar.GetComponent<CharControl>()._withTorch = true;
         gameChar.GetComponent<Animator>().SetBool("WithTorch", true);
         gameChar.GetComponent<CharControl>().startListening();
+        gameChar.GetComponent<CharControl>().DisableInteract(true);
         torchRIP.Play();
         StopAllCoroutines();
         StartCoroutine(TakeTorch());
@@ -45,5 +46,6 @@ public class Torch : MonoBehaviour, ISInteractable
         gameObject.GetComponent<Renderer>().enabled = false;
         yield return new WaitForSeconds(0.8f);
         gameChar.GetComponent<CharControl>().endListening();
+        gameChar.GetComponent<CharControl>().DisableInteract(false);
     }
 }

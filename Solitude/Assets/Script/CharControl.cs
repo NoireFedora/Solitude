@@ -295,6 +295,12 @@ public class CharControl : MonoBehaviour
             _animator.SetFloat("Horizontal", 0);
             _animator.SetFloat("Vertical", 0);
             _footstep.Stop();
+            if (_holdingObject)
+            {
+                _holdingObject.GetComponent<HoldController>().holdEnd();
+                inAction = false;
+                _holdingObject = null;
+            }
         }
     }
 

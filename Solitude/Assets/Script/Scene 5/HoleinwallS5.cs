@@ -109,6 +109,7 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
             gameChar.GetComponent<Animator>().SetBool("WithTorch", false);
             charPosition.position = Vector3.MoveTowards(charPosition.position, dialoguePosition.position, speed);
             pimEmerge.Play();
+            gameChar.GetComponent<CharControl>().DisableInteract(true);
             StopAllCoroutines();
             StartCoroutine(PimEmerge());
             smallDoor.SetActive(true);
@@ -158,6 +159,7 @@ public class HoleinwallS5 : MonoBehaviour, ISInteractable
         gameChar.GetComponent<CharControl>().startListening();
         yield return new WaitForSeconds(1.8f);
         pim.SetActive(true);
+        gameChar.GetComponent<CharControl>().DisableInteract(false);
         conversationTrigger.TriggerConversation();
     }
 
